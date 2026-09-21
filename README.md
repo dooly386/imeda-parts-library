@@ -13,6 +13,10 @@ Schematic symbols and PCB footprints for [ImEDA](https://imeda.net), converted f
 
 Source commit: `8b4124061296e84a8680b0974abc0290555b1383` · converted 2026-09-21.
 
+**This repository can change at any time without notice.** It is regenerated whenever the source
+library or the converter changes (for example when a converter defect is fixed and everything is
+converted again), and a regeneration may rename, move or remove files. Pin the commit you depend on.
+
 ## Verify before you use — this is reference data, not a qualified library
 
 Everything here was produced by an **automated format conversion** of a third-party library.
