@@ -13,6 +13,30 @@ Schematic symbols and PCB footprints for [ImEDA](https://imeda.net), converted f
 
 Source commit: `8b4124061296e84a8680b0974abc0290555b1383` · converted 2026-09-21.
 
+## Verify before you use — this is reference data, not a qualified library
+
+Everything here was produced by an **automated format conversion** of a third-party library.
+Nothing was reviewed, measured or tested after conversion. Treat it the way an engineering
+organisation treats any open-source library: as a **starting point** that you verify, correct
+and then manage yourself.
+
+- Symbols: pin numbers, names and electrical types come from the source files as-is. Check them
+  against the manufacturer datasheet before placing a part in a design.
+- Footprints: land patterns are the source library's; confirm pad sizes, courtyard and polarity
+  against the package drawing of the part you are actually buying.
+- Part records: manufacturer and MPN were parsed from the source **file names** (see
+  `manifest.json` → `unkeyed` for names the rule could not split). There is no symbol↔footprint
+  link, no datasheet and no parameters — those live in the source project's hosted database,
+  which is not included.
+- Known conversion limits are listed in `manifest.json`: files that failed, definitions
+  overwritten by duplicate names inside one library, part ids that collided.
+
+The intended workflow in ImEDA: register this repository as a **read-only source** → import the
+parts you need into your **own managed library repository** → run the validators → fix what they
+report in the editors → approve through review → only approved parts enter designs. Fix errors in
+your managed copy (and report source-library errors upstream), not by editing this repository —
+it is regenerated from the source on every update.
+
 ## Layout
 
 - `symbols/<Category>.imslib.src/symbols/*.imsym` — one symbol per file (ImEDA canonical text, plan 214-02)
