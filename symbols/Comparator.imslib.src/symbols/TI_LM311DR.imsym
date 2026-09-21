@@ -1,0 +1,64 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Comparator:TI LM311DR")
+  (name "TI LM311DR")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "931a706e-904e-48ec-b545-06a55c0deda0") (at 0 -152400) (dir 1) (length 81280) (name "VCC+") (number "8") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "ddb392ff-96f3-404a-991d-c29c872e18b4") (at -127000 -50800) (dir 2) (length 76200) (name "IN+") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "efdfbe29-49f1-41d6-94f3-9d9f82bcaa77") (at 0 152400) (dir 3) (length 81280) (name "VCC-") (number "4") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "46acecb3-39ef-46f4-9ccb-982541a8d365") (at 177800 -76200) (dir 1) (length 50800) (name "COLOUT") (number "7") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "8372355f-7329-4e72-add0-f96428cbe704") (at 177800 76200) (dir 3) (length 50800) (name "EMITOUT") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "2e4ea24c-9aa4-419f-b226-e392a8ea698e") (at 25400 -152400) (dir 1) (length 101600) (name "BALANCE") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "b1e83779-4118-4a17-bc43-412a6f19f984") (at 50800 -152400) (dir 1) (length 116840) (name "BAL/STB") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "a2d6beb4-ce4c-4eab-b8c7-68bf2419e253") (at -127000 50800) (dir 2) (length 76200) (name "IN-") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (shape (uuid "25213e31-00d9-43b3-bfa8-d89beb0647b2") (type "segment") (start 177800 -25400) (end 152400 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "2c7341f9-6b8b-4754-99c9-5826a18c2e91") (type "segment") (start 152400 7620) (end 177800 25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "0225d199-bc29-4da4-a01f-42425bc119ef") (type "segment") (start 152400 -22860) (end 152400 22860) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "e3068343-5dd5-4004-b3ad-f0afcb5c100d") (type "poly") (start -50800 -101600) (end -50800 -101600)
+   (pts (xy -50800 -101600) (xy 101600 0) (xy -50800 101600) (xy -50800 -101600)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 11) (altid 1)
+  )
+
+  (shape (uuid "41ec7f47-442e-4e16-963d-12904ec95cdb") (type "poly") (start 177800 25400) (end 177800 25400)
+   (pts (xy 177800 25400) (xy 170180 12700) (xy 162560 22860) (xy 177800 25400)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 12) (altid 1)
+  )
+
+  (shape (uuid "c5905d60-b497-48cd-8194-5329a8837a1e") (type "segment") (start 101600 0) (end 152400 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1))
+
+  (field (uuid "7f56afe7-6de7-485c-b00c-0560502bc6c5") (value "IC?") (at 177800 -101600) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 14) (altid 1))
+
+  (field (uuid "f5956eaa-b2fe-4105-a76c-12e099900748") (value "TI LM311DR") (at 177800 -83820) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 15) (altid 1))
+
+  (field (uuid "13777d43-f316-4cbb-a445-c714ece71e08") (value "") (at 177800 -66040) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 16) (altid 1))
+
+  (field (uuid "2e217aee-49bd-4c92-b8a8-5704723657dd") (value "") (at 177800 -48260) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 17) (altid 1))
+
+  (field (uuid "38466045-3bfd-470a-aedb-9264fb639435") (value "") (at 177800 -30480) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 18) (altid 1))
+ )
+)
+
+  )
+)

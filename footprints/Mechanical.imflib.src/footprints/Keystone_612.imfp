@@ -1,0 +1,80 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Mechanical:Keystone 612")
+  (name "Keystone 612")
+  (type "tht")
+  (description "")
+  (keywords "")
+  (padmap_json "{\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Keystone 612"
+    (side front)
+    (library "Mechanical")
+    (desc "")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at -1.625 -5.485) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "16ca154b-2096-44b6-91ec-b7cb85f2c76b")
+   )
+   (field "{Value}" (value "{Value}") (at -1.625 5.485) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "5f49dfaf-f7ff-4dff-b0b7-032b48300a8f")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "49ee186d-ea2b-45e6-8f80-a31244ab1bc6")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "bbb6443b-c0fb-4de0-a647-ce6b9db9a5ff")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f3233f37-0053-469e-b1f8-7cbc32b860c6")
+   )
+  )
+  (drawings
+   (line 4.25 4.25 4.25 -4.25
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "46a20806-321f-4225-a3b1-77974995a754")
+   )
+   (line -7.5 -4.25 4.25 -4.25
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "5a56cfc8-1b7c-462c-bb88-78927b6b78f2")
+   )
+   (line -7.5 4.25 -7.5 -4.25
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "c027609c-a6fa-4c2e-8aef-3fd99fe06fe3")
+   )
+   (line -7.5 4.25 4.25 4.25
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "54e63fe2-a640-4a1f-a921-abacec9193ce")
+   )
+   (line -1 0 1 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "063afb0e-3d27-49e6-b5b8-a218e52c9d22")
+   )
+   (line 0 1 0 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "618b7eee-da4d-48e1-be2d-0f85ecb2a5e5")
+   )
+   (line -6.4 -3.2 -3.6 -3.2
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "9cee8d65-d0e2-4ad8-bc25-814263c72172")
+   )
+   (line -6.4 3.2 -6.4 -3.2
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "d5378613-2a7d-4278-87e5-81c930439df4")
+   )
+   (line -6.4 3.2 -3.6 3.2
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "f910f47d-ce88-4ec6-99ce-e823e6c6a389")
+   )
+   (line -6.35 3.17496 -6.35 -3.17496
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "d566a502-7001-4fc2-82c6-302024108e35")
+   )
+   (line -6.35 -3.17496 3.18 -3.17496
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "c41b4a2d-82f7-48a6-b292-820c70c060ee")
+   )
+   (line 3.18 3.17496 3.18 -3.17496
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "cf9111a5-de82-4395-90ac-7026aef39655")
+   )
+   (line -6.35 3.17496 3.18 3.17496
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "6ec49244-a1d2-4a0f-accc-cf00acd9fd0f")
+   )
+  )
+  (pads
+   (pad "1" (at 0 0) (type pth) (padmode 0) (layer "CU_FR") (size 6.35 6.35) (shape rect) (offset 0 0) (drshape circle) (drsize 3.3 3.3) (padlayermode keep) (uuid "61a46875-f4f0-43d3-b385-0db8935968b2"))
+  )
+  )
+)
+
+  )
+)

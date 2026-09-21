@@ -1,0 +1,48 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Sensor-Temperature:Analog AD849x")
+  (name "Analog AD849x")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Sensor - Temperature")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "87ccf1c3-bc70-4bb0-91ec-0fd4e27a722a") (at 203200 -25400) (dir 0) (length 76200) (name "-IN") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "3ca60159-8945-421a-b668-dc1bed79f49d") (at -203200 0) (dir 2) (length 76200) (name "REF") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "13cebba9-d396-407a-928c-076ad4e89e59") (at -203200 76200) (dir 2) (length 76200) (name "VSS") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "cf9ae87d-1002-4831-a28d-169ddd0b6332") (at 203200 76200) (dir 0) (length 76200) (name "SENSE") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "cbd879e9-a84d-4c53-9548-72178d7667d3") (at 203200 25400) (dir 0) (length 76200) (name "OUT") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "e6e516ae-6d27-4bab-96cd-14e33d6a5fa0") (at -203200 -50800) (dir 2) (length 76200) (name "VDD") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "aaf000e0-10d2-42b3-a7bd-9f24c2ae3935") (at 203200 -50800) (dir 0) (length 76200) (name "+IN") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (shape (uuid "72d6d74f-b5aa-4990-b63b-a889b19ecd1d") (type "rectangle") (start -127000 101600) (end 127000 -76200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 7) (altid 1))
+
+  (field (uuid "c5a71b00-b1ea-4c0b-a5fa-7ff6c69a4de3") (value "IC?") (at -127000 -85090) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "6071af67-258a-4e7f-bbaf-87fa7df78076") (value "Analog AD849x") (at -127000 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "4d61b0e9-aeb3-4f02-ac7d-b8b174868de1") (value "") (at -127000 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "feebc93a-dcc0-48b1-8bfa-7af529f01245") (value "") (at -127000 146050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "d1f5a466-357f-4625-ac3b-0a09c88e92a9") (value "") (at -127000 163830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

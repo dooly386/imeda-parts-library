@@ -1,0 +1,50 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Power-Switchmode:TI  MC34063A_D_8")
+  (name "TI  MC34063A_D_8")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "89b3b9dc-5315-45bf-843c-bce0c0fe44f5") (at -304800 25400) (dir 2) (length 76200) (name "DRIVERCOLLECTOR") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "426d2f12-95af-4d73-8e93-482076a8a77c") (at -304800 -50800) (dir 2) (length 76200) (name "IPK") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "e57f7cf7-df87-4c3a-8768-13cdba740082") (at -304800 0) (dir 2) (length 76200) (name "SWITCHCOLLECTOR") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "4a4665a7-587e-4e30-8efb-6c2e367c60bc") (at 330200 -101600) (dir 0) (length 76200) (name "SWITCHEMITTER") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "732b88d4-5957-45c2-8e48-360deb2c3788") (at 330200 101600) (dir 0) (length 76200) (name "TIMINGCAPACITOR") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "29e155c0-22b2-4c84-91fb-fa6c696a804f") (at -304800 -101600) (dir 2) (length 76200) (name "VCC") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "98d2f995-e102-4e3a-884f-922513c7b101") (at -304800 101600) (dir 2) (length 76200) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "d8ccd994-0d4e-475a-bde5-c959decf04cb") (at 330200 0) (dir 0) (length 76200) (name "\\COMPARATOR\\") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (shape (uuid "c6ec7274-04e2-4314-a85c-159f75e323aa") (type "rectangle") (start -228600 127000) (end 254000 -127000) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 8) (altid 1))
+
+  (field (uuid "b58c41a8-ce75-4b7d-8783-33bf849b42ff") (value "IC?") (at -228600 -135890) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "aceaa8d1-c2c8-4efc-af67-0eb81f1a8e2a") (value "TI  MC34063A_D_8") (at -228600 135890) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "9b1381b3-bf2b-49df-98ff-28bb567cc6f8") (value "") (at -228600 153670) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "9ea11ba2-7c28-4281-9084-894f341f9872") (value "") (at -228600 171450) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "9e931366-efaa-43be-a5da-c3a3f09404ae") (value "") (at -228600 189230) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 13) (altid 1))
+ )
+)
+
+  )
+)

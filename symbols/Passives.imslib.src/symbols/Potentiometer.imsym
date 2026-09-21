@@ -1,0 +1,66 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:Potentiometer")
+  (name "Potentiometer")
+  (type "normal")
+  (description "Potentiometer")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "f10a58b2-d764-4915-857f-c8c78406c3b2") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "174e3e45-e262-425e-8c82-1e1b89cedde4") (at 0 50800) (dir 3) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "48e2da97-7f4a-4e28-a875-72a62a52d29f") (at 50800 0) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "30536f18-743b-4330-9f85-f810eac3b2eb") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "d087c93a-efea-4c71-aa81-d39574b21b09") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "c55235b3-1342-405d-a05a-fdb640b3e6a2") (type "poly") (start -2540 7620) (end -15240 0) (closed "no")
+   (pts (xy -2540 7620) (xy -7620 -7620) (xy -12700 7620) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "9c992cc3-b929-4843-bb4e-cb76039b4f25") (type "poly") (start -2540 7620) (end 15240 0) (closed "no")
+   (pts (xy -2540 7620) (xy 2540 -7620) (xy 7620 7620) (xy 12700 -7620) (xy 15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "28fe73fe-78de-48e7-9196-1dea1f57042a") (type "poly") (start 0 25400) (end 0 12700) (closed "no")
+   (pts (xy 0 25400) (xy 0 10160) (xy -5080 15240) (xy 5080 15240) (xy 0 10160) (xy -2540 12700) (xy 0 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "f7c2b0fc-4f3a-41c5-b190-ee6149d707b3") (type "poly") (start 2540 15240) (end -2540 12700) (closed "no")
+   (pts (xy 2540 15240) (xy 2540 12700) (xy -2540 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "45699be6-3bcb-4ff5-bde2-5c42df990ffe") (type "poly") (start -12700 -15240) (end 10160 -15240) (closed "no")
+   (pts (xy -12700 -15240) (xy 12700 -15240) (xy 7620 -20320) (xy 7620 -10160) (xy 12700 -15240) (xy 10160 -17780) (xy 10160 -15240)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (shape (uuid "08970a2d-aa6d-452e-9383-ddc11adb8710") (type "poly") (start 7620 -12700) (end 10160 -17780) (closed "no")
+   (pts (xy 7620 -12700) (xy 10160 -12700) (xy 10160 -17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1)
+  )
+
+  (field (uuid "7f292d23-3b80-4937-bfad-15636cad4555") (value "R?") (at -25400 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "dbf46f00-0195-44d1-9165-b29aa42c5d79") (value "Potentiometer") (at -25400 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "1c740fc7-b80d-463c-833b-13a7667db3fa") (value "") (at -25400 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "53803ab9-7093-4ddc-8707-7becd03f2c87") (value "") (at -25400 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "0e8924e2-a6a8-4779-b3a2-a21e7e8135bb") (value "Potentiometer") (at -25400 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

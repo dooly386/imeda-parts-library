@@ -1,0 +1,73 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Potentiometer:POT BOURNS TRIMPOT TC33")
+  (name "POT BOURNS TRIMPOT TC33")
+  (type "smd")
+  (description "Bourns Trimpot TC33X-1 - Open Frame 3mm x 3.8mm x 1.2mm")
+  (keywords "")
+  (padmap_json "{\"3\":\"\",\"2\":\"\",\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "POT BOURNS TRIMPOT TC33"
+    (side front)
+    (library "Potentiometer")
+    (desc "Bourns Trimpot TC33X-1 - Open Frame 3mm x 3.8mm x 1.2mm")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -3.735) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "e08649ba-263b-4f1d-9624-b1bdecf40f06")
+   )
+   (field "{Value}" (value "{Value}") (at 0 3.985) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "9a0c272d-3e58-4c2d-810f-4be1b08b6e95")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ad8f6b35-4029-4589-9892-e2e93e1f11d4")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "366991e7-18f8-49f1-8dbd-01e67668531b")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "96700fb4-e38f-4abd-9e52-5da9d68dbe80")
+   )
+  )
+  (drawings
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "ce1da2e3-29f6-4ffc-84d6-7595e850a1b1")
+   )
+   (line -0.499999 0 0.499999 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "e5d23728-9adc-43b8-b52e-f96e025d6ad0")
+   )
+   (line -2 2.75 2 2.75
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "5fcdc59a-c033-4212-bdda-122cfece4274")
+   )
+   (line 2 2.75 2 -2.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "313b0f88-5f2f-4d67-a7b2-b28567132db1")
+   )
+   (line -2 -2.5 2 -2.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "fa6a8dd6-d7b4-4930-a3bd-ecef813d9b86")
+   )
+   (line -2 2.75 -2 -2.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "9536b728-127f-4816-9d78-9a316afa0afc")
+   )
+   (line 1.25 -1.75 1.5 -1.75
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5a254c08-ea80-46f0-803c-672448738364")
+   )
+   (line 1.5 0.599999 1.5 -1.75
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "f05fb5bd-e875-4966-8d8e-b749cfee4468")
+   )
+   (line -1.5 0.599999 -1.5 -1.75
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "9eaa849b-85bb-4c60-b9f1-24c3fcc28334")
+   )
+   (line -1.5 -1.75 -1.25 -1.75
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "d9fc26be-6f5c-425f-bed7-5711cd35401e")
+   )
+  )
+  (pads
+   (pad "3" (at 1 1.8) (type smd) (padmode 0) (layer "CU_FR") (size 1.2 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "bfeb32b4-87d1-4d8d-a1ba-64d9e8896c8c"))
+   (pad "2" (at 0 -1.45) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.5 1.6) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "ee604d07-69b6-4ca8-a9c2-0a04ca5635f9"))
+   (pad "1" (at -1 1.8) (type smd) (padmode 0) (layer "CU_FR") (size 1.2 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "aa7f5f69-ad4e-4a75-82de-6769dd435e29"))
+  )
+  )
+)
+
+  )
+)

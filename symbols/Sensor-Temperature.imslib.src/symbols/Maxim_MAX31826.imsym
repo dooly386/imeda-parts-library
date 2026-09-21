@@ -1,0 +1,48 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Sensor-Temperature:Maxim MAX31826")
+  (name "Maxim MAX31826")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Sensor - Temperature")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "7af5588e-4297-40af-8895-bc9ab59b69ed") (at -203200 -101600) (dir 2) (length 76200) (name "VDD") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "2a103bbc-6687-4fd6-86fe-1a4de0a927a5") (at 203200 -101600) (dir 0) (length 76200) (name "DQ") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "d02d7880-bc98-473d-b91f-bc957965ad96") (at 203200 -50800) (dir 0) (length 76200) (name "AD0") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "b394642d-fbe6-49f3-8945-0b6400fc99a0") (at 203200 -25400) (dir 0) (length 76200) (name "AD1") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "a7f0fcc3-314a-4f11-a144-80013eb6677a") (at 203200 0) (dir 0) (length 76200) (name "AD2") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "36244f9d-487c-406e-8850-d087cba3171b") (at 203200 25400) (dir 0) (length 76200) (name "AD3") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "7beddd21-59f9-46c0-9303-63c49e35ce79") (at -203200 25400) (dir 2) (length 76200) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (shape (uuid "217be15b-31b1-4ce1-b1cc-6513ef80f504") (type "rectangle") (start -127000 50800) (end 127000 -127000) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 7) (altid 1))
+
+  (field (uuid "5b945cd1-e7e5-44c7-b305-2411f9699fab") (value "IC?") (at -127000 -135890) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "d108b40c-4f72-4ce8-b81a-c9957d8f5f22") (value "Maxim MAX31826") (at -127000 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "ae1320ea-e878-46da-b2e7-62bda59b9566") (value "") (at -127000 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "21db64fd-8abe-4b79-9fd8-fcef5048573b") (value "") (at -127000 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "61c93ec9-5d76-4dd7-9cd4-e2a2508564bc") (value "") (at -127000 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,66 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:Resistor Array (2 circuit)")
+  (name "Resistor Array (2 circuit)")
+  (type "normal")
+  (description "SMT Resistor Array")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "40600708-351f-46b1-a5cb-a8f21b60c063") (at -50800 -25400) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "8dfff075-719c-4905-b395-f538bfe8d8cd") (at -50800 0) (dir 2) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "9e3ee6c3-de7b-4cda-93f8-20fc7360029d") (at 50800 0) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "8d3cbe8f-2876-475c-ad61-2b2c3b91bfed") (at 50800 -25400) (dir 0) (length 25400) (name "4") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "1059cd4a-05e7-4869-9715-f665111dddaf") (type "rectangle") (start -25400 25400) (end 25400 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "ca42a04a-b6a4-4066-aef8-be31dcf2a5b8") (type "segment") (start 25400 -25400) (end 15240 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "17801434-94a6-4878-8ddc-fb15f7049b9d") (type "segment") (start -25400 -25400) (end -15240 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "d1503f49-578a-496d-9314-099d9a0c739e") (type "poly") (start 2540 -17780) (end -15240 -25400) (closed "no")
+   (pts (xy 2540 -17780) (xy -2540 -33020) (xy -7620 -17780) (xy -12700 -33020) (xy -15240 -25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "737a25e3-fc03-4602-9abb-4728b0f78bbd") (type "poly") (start 2540 -17780) (end 15240 -25400) (closed "no")
+   (pts (xy 2540 -17780) (xy 7620 -33020) (xy 12700 -17780) (xy 15240 -25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "3c98c8f8-0357-4500-9033-6e88b69b6a2b") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "9e9b143f-a6d0-44f6-9c3d-c807434f921e") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "f32ef49a-0e9f-4c04-b273-fca984d77942") (type "poly") (start 2540 7620) (end -15240 0) (closed "no")
+   (pts (xy 2540 7620) (xy -2540 -7620) (xy -7620 7620) (xy -12700 -7620) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1)
+  )
+
+  (shape (uuid "29f23dc1-da43-4b6e-8993-2545492f2ffb") (type "poly") (start 2540 7620) (end 15240 0) (closed "no")
+   (pts (xy 2540 7620) (xy 7620 -7620) (xy 12700 7620) (xy 15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1)
+  )
+
+  (field (uuid "1447b86a-0c1a-43c2-9bc8-1a771671bc7f") (value "R?") (at -25400 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "dc0bf94d-061c-4ce0-bc0c-d29ea7b44f7e") (value "Resistor Array (2 circuit)") (at -25400 34290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 14) (altid 1))
+
+  (field (uuid "4cb76e51-afe5-424d-808a-afd696c583b3") (value "") (at -25400 52070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "b1f45024-97dc-43f7-be84-246b2d07c16c") (value "") (at -25400 69850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 16) (altid 1))
+
+  (field (uuid "5ab4712d-4935-4f5d-9fe0-c367b00fecaf") (value "SMT Resistor Array") (at -25400 87630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 17) (altid 1))
+ )
+)
+
+  )
+)

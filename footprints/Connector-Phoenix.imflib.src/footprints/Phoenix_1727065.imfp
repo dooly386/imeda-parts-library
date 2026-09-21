@@ -1,0 +1,83 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-Phoenix:Phoenix 1727065")
+  (name "Phoenix 1727065")
+  (type "tht")
+  (description "Wire to Board Terminal Block Horizontal with Board Through Hole, 7 Position,3.81 mm Pitch, 26.67x7.3 mm Body")
+  (keywords "")
+  (padmap_json "{\"7\":\"\",\"6\":\"\",\"2\":\"\",\"1\":\"\",\"3\":\"\",\"4\":\"\",\"5\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Phoenix 1727065"
+    (side front)
+    (library "Connector-Phoenix")
+    (desc "Wire to Board Terminal Block Horizontal with Board Through Hole, 7 Position,3.81 mm Pitch, 26.67x7.3 mm Body")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0.0125 -5.01) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "bc5176d4-e18a-424a-8877-ebedc28f207c")
+   )
+   (field "{Value}" (value "{Value}") (at 0.0125 5.01) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "aa6cb792-8d8f-4f9f-8722-292edc354707")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "9b1edd1e-d0e6-4e69-8517-6b80612b610a")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "2dd769c8-995a-4cb9-bac4-7e69ec21177f")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "26ea1398-f8ab-4286-b508-a90dd1dbac78")
+   )
+  )
+  (drawings
+   (line -13.335 3.65003 -13.335 -3.65005
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "276a4bdb-976e-452d-bbdb-284de79a5fa2")
+   )
+   (line -13.335 3.65003 13.3349 3.65003
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "67b5fa93-3105-41a3-b01f-10bb212d892b")
+   )
+   (line 13.3349 3.65003 13.3349 -3.65005
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "6c94f823-d90e-47fe-8761-8595fdd5130f")
+   )
+   (line -13.335 -3.65005 13.3349 -3.65005
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "0f8b61f6-3d7d-4020-82f0-f0407ae96e02")
+   )
+   (line -13.335 3.65003 -13.335 -3.65005
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "4a62060f-d08a-478d-8451-fdadd56635af")
+   )
+   (line -13.335 3.65003 13.3349 3.65003
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "b85e0fc1-697e-4087-957e-b001fd9ce986")
+   )
+   (line 13.3349 3.65003 13.3349 -3.65005
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "326eb23b-a470-43ea-aa12-d67a6199e93f")
+   )
+   (line -13.335 -3.65005 13.3349 -3.65005
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5edf6a39-faf9-4c7e-89f3-dd7fd39a9f62")
+   )
+   (line -13.525 3.85 -13.525 -3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "34edc358-d079-4f19-90f1-376fa439a6c3")
+   )
+   (line -13.525 3.85 13.55 3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "0d00b8ce-6cd3-4cdd-a72c-92df233f6363")
+   )
+   (line 13.55 3.85 13.55 -3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6c34c89b-27a1-4c18-a667-7973a38ed354")
+   )
+   (line -13.525 -3.85 13.55 -3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "1d8d3824-ded4-409b-881e-1cdb9f3be412")
+   )
+  )
+  (pads
+   (pad "7" (at 11.43 0) (type pth) (padmode 0) (angle 90) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "be076fa4-6c8f-4e01-b5d7-92f421219c79"))
+   (pad "6" (at 7.62 0) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "f807b12a-9fee-4f99-b89d-c1e19efb7e80"))
+   (pad "2" (at -7.62 0) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "11957a9a-1980-4f89-a7d7-e1d6387738c3"))
+   (pad "1" (at -11.43 0) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "abdb33ca-a3bb-425c-8a08-0c8843995db4"))
+   (pad "3" (at -3.81 0) (type pth) (padmode 0) (angle 90) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "2a747f42-bc4d-4895-b276-24b333d0e442"))
+   (pad "4" (at 0 0) (type pth) (padmode 0) (angle 90) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "e9435d3e-cedf-4d2c-81ca-ecac293ecb5e"))
+   (pad "5" (at 3.81 0) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "6a90f9e2-a630-476d-822b-aef84b48a802"))
+  )
+  )
+)
+
+  )
+)

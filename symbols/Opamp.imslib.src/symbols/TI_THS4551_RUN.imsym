@@ -1,0 +1,50 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Opamp:TI THS4551 RUN")
+  (name "TI THS4551 RUN")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Opamp")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "9cb8d658-4ddb-47bf-b1c8-c75e71a74660") (at -177800 50800) (dir 2) (length 76200) (name "IN-") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "1b0e2b20-7926-48d1-a1d1-ad2eb98a2939") (at -177800 0) (dir 2) (length 76200) (name "VOCM") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "db2a6445-06f3-4b2f-aa60-69d38ee9a469") (at -177800 -152400) (dir 2) (length 76200) (name "VS+") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "98230f42-f3d4-4ab5-b63c-3d77a7739799") (at 177800 50800) (dir 0) (length 76200) (name "OUT+") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "33a70e9b-8993-4315-b919-e829fbba2060") (at 177800 -50800) (dir 0) (length 76200) (name "OUT-") (number "1") (elec 4) (shape 65536) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "845e49fa-760e-4d6a-a831-19aa22e4b6ce") (at -177800 127000) (dir 2) (length 76200) (name "VS-") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "91a67a31-d6cc-4f12-b54c-53d4a18c40df") (at -177800 -127000) (dir 2) (length 76200) (name "\\PD\\") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "1061e362-5335-4482-a2d4-e18343a4e5b9") (at -177800 -50800) (dir 2) (length 76200) (name "IN+") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (shape (uuid "ac2f0adb-7c4e-48d8-a69b-ce52c81bdd32") (type "rectangle") (start -101600 152400) (end 101600 -177800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 8) (altid 1))
+
+  (field (uuid "56312f2d-3643-4d24-b8ff-07c6134dc3c8") (value "IC?") (at -101600 -186690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "732117c5-871b-4b08-afb9-f0e834732cf2") (value "TI THS4551 RUN") (at -101600 161290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "6ac5e97f-c9ff-4632-8ee6-a3c355eabe21") (value "") (at -101600 179070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "d574c886-f00e-41e3-be7c-4e32901b640f") (value "") (at -101600 196850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "08da8c33-8c1a-4db1-b2c4-1a16c8fe323a") (value "") (at -101600 214630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 13) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Power_Inductors:WURTH WE-LQS 6045")
+  (name "WURTH WE-LQS 6045")
+  (type "smd")
+  (description "SMD Power Inductor, 2-Leads, body 6x6mm")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "WURTH WE-LQS 6045"
+    (side front)
+    (library "Power_Inductors")
+    (desc "SMD Power Inductor, 2-Leads, body 6x6mm")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -4.36) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "5b0d2174-ad0d-4d0f-8ed3-9c20aeabf216")
+   )
+   (field "{Value}" (value "{Value}") (at 0 4.36) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "64927c0b-d821-406b-a60d-ed81ab64cba6")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "0f366d3e-10e7-46a2-9fa2-75d4016225df")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "83d44919-7065-4f61-999b-e02ca5902d05")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "69a47660-a904-43cf-9970-dad14be8be3a")
+   )
+  )
+  (drawings
+   (line -1.1 3 1.1 3
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "552349b9-cb32-4c06-87a7-caf6087bd654")
+   )
+   (line -1.1 -3 1.1 -3
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "4e74e359-fd53-495c-8fdb-67f775948903")
+   )
+   (line -3.4 3.2 -3.4 -3.2
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "76d38a85-b466-4bf5-aadc-a5bcc5c946d3")
+   )
+   (line -3.4 3.2 3.4 3.2
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "a535c5c8-1168-46a8-9c88-32872d814dbc")
+   )
+   (line 3.4 3.2 3.4 -3.2
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "9ee6b0a4-c066-43ce-9d77-e4bcf22fe4ac")
+   )
+   (line -3.4 -3.2 3.4 -3.2
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "f5b817d7-ae6d-4db2-9828-582399893334")
+   )
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "89f800ff-19fa-48ee-a1c3-434f0678b4ed")
+   )
+   (line -0.499999 0 0.499999 0
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "ef41f5d9-9887-438b-9be3-5888068be010")
+   )
+   (line -3 3 -3 -3
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "b410b00e-1510-4cb1-af3f-3abd6fd10019")
+   )
+   (line -3 3 3 3
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "9e163eed-52b6-4f80-b0b3-738c4086c6ee")
+   )
+   (line 3 3 3 -3
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "ce278010-f2df-4f29-8419-e2dc37dc5d39")
+   )
+   (line -3 -3 3 -3
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "a4c7b0b3-81ee-4669-af79-4618fed4b700")
+   )
+  )
+  (pads
+   (pad "1" (at -2.3 0) (type smd) (padmode 0) (layer "CU_FR") (size 1.8 5.7) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "79ba09eb-a310-4a35-a7e4-f91a31b8b913"))
+   (pad "2" (at 2.3 0) (type smd) (padmode 0) (layer "CU_FR") (size 1.8 5.7) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "82f67403-2952-4695-9109-842d9eba24e4"))
+  )
+  )
+)
+
+  )
+)

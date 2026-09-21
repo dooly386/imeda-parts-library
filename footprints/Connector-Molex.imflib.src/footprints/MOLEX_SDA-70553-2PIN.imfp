@@ -1,0 +1,81 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-Molex:MOLEX SDA-70553-2PIN")
+  (name "MOLEX SDA-70553-2PIN")
+  (type "tht")
+  (description "SL Right angle header with latch, 0.100 centres, SDA-70553")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "MOLEX SDA-70553-2PIN"
+    (side front)
+    (library "Connector-Molex")
+    (desc "SL Right angle header with latch, 0.100 centres, SDA-70553")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -8.601) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "07cc5652-0b94-4d0d-b189-763e22153d85")
+   )
+   (field "{Value}" (value "{Value}") (at 0 8.474) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d5d37d72-f2f1-49e6-a40a-db152000c2b6")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "77b874bf-f35e-47d4-ae80-2576ede3db2f")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "8de2a431-131d-4aba-8441-efd3d2c87e1b")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "24a88979-d807-4c9d-aec8-0dd41e7a2b19")
+   )
+  )
+  (drawings
+   (line -3.683 4.719 -3.683 -6.858
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5145094a-14be-475c-bf78-b0999401686c")
+   )
+   (line -3.683 -6.858 3.683 -6.858
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "1907cd61-6ea3-487d-86b9-aa940b29a54c")
+   )
+   (line 3.683 4.719 3.683 -6.858
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "8dcd4d4c-c334-460e-b72a-20302c590337")
+   )
+   (line -3.627 -3.765 3.683 -3.765
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "2ac610fe-fa36-4faa-8e62-fea7c97bc49a")
+   )
+   (line 1.905 2.219 1.905 -3.765
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "b53d3747-3306-47ab-965e-dc5da7db2f39")
+   )
+   (line -1.905 2.219 1.905 2.219
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "36fbfad5-0415-4706-88e4-84e244972930")
+   )
+   (line -1.905 2.219 -1.905 -3.765
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "0caaa387-5e5e-4265-9b4f-7d69e13ae74a")
+   )
+   (line -4.191 7.239 4.191 7.239
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "811de05b-d29b-4b21-9f00-4e2f518490ad")
+   )
+   (line 4.191 7.239 4.191 -7.366
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "037ef4ab-3ad6-4e66-863f-0bb38da0f6ea")
+   )
+   (line -4.191 -7.366 4.191 -7.366
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "b2b827c6-4866-4ce0-8e41-af610b5c22f7")
+   )
+   (line -4.191 7.239 -4.191 -7.366
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "477ab537-59cc-4519-a962-b37843871b77")
+   )
+   (line 0 0.635 0 -0.635
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "2737008e-fb42-4834-b91f-a35e37781fcf")
+   )
+   (line -0.635 0 0.635 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "b00b6d88-15af-46e3-ae9e-679c916e1e8e")
+   )
+  )
+  (pads
+   (pad "1" (at -1.27 5.969) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.8 1.8) (shape circle) (offset 0 0) (drshape circle) (drsize 1.09 1.09) (padlayermode keep) (uuid "694c1b4d-3fdc-4203-a336-4dcf0229f910"))
+   (pad "2" (at 1.27 5.969) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.8 1.8) (shape circle) (offset 0 0) (drshape circle) (drsize 1.09 1.09) (padlayermode keep) (uuid "bb17cff9-2ee7-4cfd-8fd3-26e12d59c961"))
+  )
+  )
+)
+
+  )
+)

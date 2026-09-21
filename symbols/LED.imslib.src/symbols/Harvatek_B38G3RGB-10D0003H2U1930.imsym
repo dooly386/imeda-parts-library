@@ -1,0 +1,86 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "LED:Harvatek B38G3RGB-10D0003H2U1930")
+  (name "Harvatek B38G3RGB-10D0003H2U1930")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "LED")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "1a19a5dc-3553-47cb-99ec-eefd8c109c7a") (at 76200 0) (dir 0) (length 50800) (name "BLUE") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "93042d06-c319-43e3-8112-d3bde7c7bfc2") (at -76200 25400) (dir 2) (length 50800) (name "ANODE") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "ab070fda-5f6f-4a0e-bc60-3a8fc9549ec4") (at 76200 25400) (dir 0) (length 50800) (name "GREEN") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "4ffd9f79-a84b-45ac-be35-5e013d4adad9") (at 76200 50800) (dir 0) (length 50800) (name "RED") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "19d9fcd6-7c54-46f2-87da-b8ebc39196ad") (type "rectangle") (start -25400 76200) (end 25400 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "1455a74d-f7f2-4ac3-a561-2e732f6e6427") (type "poly") (start -25400 25400) (end -5080 0) (closed "no")
+   (pts (xy -25400 25400) (xy -25400 0) (xy -5080 0) (xy -5080 7620) (xy 7620 0) (xy -5080 -7620) (xy -5080 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "1bd41515-4140-4d47-87b6-9831dc6f63a5") (type "poly") (start -25400 25400) (end -5080 17780) (closed "no")
+   (pts (xy -25400 25400) (xy -5080 25400) (xy -5080 17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "daf64d02-4ea8-4bcb-a9f5-d0e56ca33ce7") (type "poly") (start -5080 25400) (end -5080 17780) (closed "no")
+   (pts (xy -5080 25400) (xy -5080 33020) (xy 7620 25400) (xy -5080 17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "3766da9b-fea7-44f2-a2be-aa6d7d849297") (type "segment") (start 7620 25400) (end 25400 25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "0ea9e4de-36df-4261-ae0b-1e97f13119ef") (type "segment") (start 7620 0) (end 25400 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "38dedde4-6708-4795-9949-7c169d36e7d2") (type "segment") (start 7620 17780) (end 7620 33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "de4f6b0d-bf95-423c-9bc9-9ce24b5b20aa") (type "segment") (start 7620 7620) (end 7620 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "85b7c069-0313-44c4-bb2e-aafa8c974ffb") (type "segment") (start 5080 12700) (end 2540 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (shape (uuid "69cf1461-7cb5-440a-939b-0b89137e2d28") (type "segment") (start 0 10160) (end -2540 12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1))
+
+  (shape (uuid "09ac7186-3f2d-4364-a311-71c0d9812d80") (type "segment") (start 5080 -12700) (end 2540 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1))
+
+  (shape (uuid "e1efaf9c-1fce-46eb-9ab8-db613f1753f4") (type "segment") (start 0 -15240) (end -2540 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1))
+
+  (shape (uuid "5e4e8aee-3e3c-4e55-8637-5c214bfc3154") (type "poly") (start -25400 25400) (end -5080 43180) (closed "no")
+   (pts (xy -25400 25400) (xy -25400 50800) (xy -5080 50800) (xy -5080 43180)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (altid 1)
+  )
+
+  (shape (uuid "dc1ab01e-6f7d-4260-837c-f8b7ac970158") (type "poly") (start -5080 50800) (end -5080 43180) (closed "no")
+   (pts (xy -5080 50800) (xy -5080 58420) (xy 7620 50800) (xy -5080 43180)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (altid 1)
+  )
+
+  (shape (uuid "897b8aff-90cb-4e36-a6d5-09922fb01473") (type "segment") (start 7620 50800) (end 25400 50800) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (altid 1))
+
+  (shape (uuid "18c97e28-3569-40ed-ab4d-b1204097f36a") (type "segment") (start 7620 43180) (end 7620 58420) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (altid 1))
+
+  (shape (uuid "ffbc8365-47dd-4148-bdc7-8e0c12b0f560") (type "segment") (start 5080 38100) (end 2540 40640) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 20) (altid 1))
+
+  (shape (uuid "4a2b4b97-0e2a-4668-a4bc-5d98896b59f4") (type "segment") (start 0 35560) (end -2540 38100) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 21) (altid 1))
+
+  (field (uuid "1b714a82-165a-45fd-bae4-ac3df2f781d6") (value "D?") (at -25400 -34290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 22) (altid 1))
+
+  (field (uuid "3fc83735-1c90-4211-9b98-989e3acd0b36") (value "Harvatek B38G3RGB-10D0003H2U1930") (at -25400 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 23) (altid 1))
+
+  (field (uuid "617ba78a-c6af-4b9c-8ae7-8ff93f4c6af7") (value "") (at -25400 102870) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 24) (altid 1))
+
+  (field (uuid "40d56fd7-7108-4c2e-a32b-886805422e95") (value "") (at -25400 120650) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 25) (altid 1))
+
+  (field (uuid "74d6630f-9f53-4d6d-aa57-1c8da0e3198d") (value "") (at -25400 138430) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 26) (altid 1))
+ )
+)
+
+  )
+)

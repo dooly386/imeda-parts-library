@@ -1,0 +1,58 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Filter:TDK DEA25 4 Pad Filter")
+  (name "TDK DEA25 4 Pad Filter")
+  (type "normal")
+  (description "Multilayer chip band pass filter")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "RF - Filter")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "1cd7bbdd-1a38-4505-bbdc-16bfefc75bad") (at -127000 50800) (dir 2) (length 76200) (name "GND") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "b5d65263-b835-48c0-bb6a-79ddccf8a522") (at -127000 25400) (dir 2) (length 76200) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "2af01526-7070-40b9-ad7e-554859bedebc") (at -127000 -25400) (dir 2) (length 76200) (name "IN") (number "1") (elec 0) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "b9eab652-093e-43fd-887e-41255b98f5b4") (at 127000 -25400) (dir 0) (length 76200) (name "OUT") (number "2") (elec 1) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "981d709d-9062-4ed5-8788-53eb3f85b4be") (type "rectangle") (start -50800 76200) (end 50800 -76200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "764802aa-d52c-4970-8115-e48f7c59d621") (type "segment") (start -10160 -45720) (end 0 -55880) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "64a180cf-14d0-4e48-a35e-79b0386358d5") (type "segment") (start -12700 -10160) (end -2540 -20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "fc585663-1348-4fd7-9463-c4b94b6f11c7") (type "bezier") (start -38100 -53340) (end -2540 -45720) (ctrl1 -25400 -78740) (ctrl2 -7620 -53340) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "84e88ab1-00de-43aa-8cda-8f10417c825f") (type "bezier") (start 33020 -38100) (end -2540 -45720) (ctrl1 20320 -12700) (ctrl2 2540 -38100) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "f2892931-2b2d-4c2f-b02e-7c23f502d164") (type "bezier") (start -35560 -33020) (end 0 -25400) (ctrl1 -22860 -58420) (ctrl2 -5080 -33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "01faf837-c64d-4cea-b51a-8814115a6801") (type "bezier") (start 35560 -17780) (end 0 -25400) (ctrl1 22860 7620) (ctrl2 5080 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "8f881c05-92ef-4a7b-b1a0-a33b10c02e6b") (type "bezier") (start -35560 -12700) (end 0 -5080) (ctrl1 -22860 -38100) (ctrl2 -5080 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "84c47711-41ed-438f-bde9-9bf688d3fc0e") (type "bezier") (start 35560 2540) (end 0 -5080) (ctrl1 22860 27940) (ctrl2 5080 2540) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (field (uuid "cd346a3f-80a4-42b3-9482-3478380fc0f5") (value "IC?") (at -50800 -85090) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "15943601-3a68-4873-94c4-7bbb6a315fdb") (value "TDK DEA25 4 Pad Filter") (at -50800 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 14) (altid 1))
+
+  (field (uuid "1e9327e9-e26d-4377-96a8-fe74e00cfd49") (value "") (at -50800 102870) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "f1fc59bd-5f73-419e-85d2-86945b0866c2") (value "") (at -50800 120650) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 16) (altid 1))
+
+  (field (uuid "df5eabf8-628d-427c-998c-985c73177102") (value "Multilayer chip band pass filter") (at -50800 138430) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 17) (altid 1))
+ )
+)
+
+  )
+)

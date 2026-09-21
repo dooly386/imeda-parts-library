@@ -1,0 +1,86 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "FET-N-CH:INFINEON MOSFET N-CH SOT-23-3 GDS")
+  (name "INFINEON MOSFET N-CH SOT-23-3 GDS")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "FET - N-CH")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "0ce75588-2915-40fe-8b35-929ff8c49781") (at -50800 25400) (dir 2) (length 40640) (name "G") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "442e7d92-fc37-482a-8544-5fbc012792ec") (at 25400 76200) (dir 3) (length 50800) (name "S") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "ec837351-92d0-42c3-80bd-6e66bcfacb8d") (at 25400 -76200) (dir 1) (length 50800) (name "D") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "b9b63bd3-fec3-4ac6-b840-15be7daf95cc") (type "arc") (start 69674 23618) (mid -18526 -24260) (end 68968 24896) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "db8d274c-b9cd-4c93-9657-b376d824f045") (type "poly") (start 5080 0) (end 5080 0)
+   (pts (xy 5080 0) (xy 15240 -5080) (xy 15240 5080) (xy 5080 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "5dd7db34-19e5-4c19-8dca-293eea842149") (type "poly") (start 38100 10160) (end 38100 10160)
+   (pts (xy 38100 10160) (xy 63500 10160) (xy 50800 -10160) (xy 38100 10160)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "21f08d3e-405c-4dce-b07f-deddd1d849e0") (type "segment") (start -10160 25400) (end -10160 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "0b81203a-e200-49b3-8cc2-2ba6d6d2fb74") (type "segment") (start 0 25400) (end 25400 25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "b690e78e-120f-4fbb-b4f5-25445e1a7e23") (type "poly") (start 0 0) (end 25400 25400) (closed "no")
+   (pts (xy 0 0) (xy 25400 0) (xy 25400 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "da288bfe-1179-4211-a73e-86a49b9e4205") (type "segment") (start 0 -25400) (end 25400 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "f642cc39-d8ff-44e8-aa94-9e978a199fff") (type "segment") (start 50800 25400) (end 50800 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "21140aa5-47af-4126-9b7c-cab5e70acf93") (type "segment") (start 50800 -10160) (end 38100 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "65b00f57-b12f-4261-a05a-90fe14468027") (type "poly") (start 50800 -10160) (end 50800 10160) (closed "no")
+   (pts (xy 50800 -10160) (xy 38100 10160) (xy 50800 10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1)
+  )
+
+  (shape (uuid "0cf536ed-1b1a-47ae-b3e1-5e9fc95c80ac") (type "segment") (start 50800 -10160) (end 63500 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1))
+
+  (shape (uuid "70d2bbb7-3a9f-4dde-8e31-8ebdab8d110e") (type "poly") (start 50800 -10160) (end 50800 10160) (closed "no")
+   (pts (xy 50800 -10160) (xy 63500 10160) (xy 50800 10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1)
+  )
+
+  (shape (uuid "13fbe975-6d00-4dac-adc7-89f08864e623") (type "segment") (start 0 33020) (end 0 17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1))
+
+  (shape (uuid "b94e543a-0467-4f24-8d96-604f29079ab4") (type "segment") (start 0 7620) (end 0 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (altid 1))
+
+  (shape (uuid "dfefa997-b542-4216-bcfe-be0cd2ee5a4c") (type "segment") (start 0 -17780) (end 0 -33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (altid 1))
+
+  (shape (uuid "eb5a88da-ee6e-4ea5-a502-16b2e26cbd74") (type "segment") (start 25400 35560) (end 50800 35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (altid 1))
+
+  (shape (uuid "cb966a7a-a57c-4101-9c58-6f72be65b1d7") (type "segment") (start 50800 25400) (end 50800 35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (altid 1))
+
+  (shape (uuid "430b7d76-ef52-4993-b37d-a078a1ce214c") (type "segment") (start 25400 -35560) (end 50800 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 20) (altid 1))
+
+  (shape (uuid "738d5b32-55f5-4e40-a36e-0d53a22c1ea1") (type "segment") (start 50800 -25400) (end 50800 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 21) (altid 1))
+
+  (field (uuid "5aa26e32-6f80-4e8f-8172-04431e678e19") (value "IC?") (at 75582 -50184) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 22) (altid 1))
+
+  (field (uuid "a5d3d0dc-6df3-4a70-96a9-103c3dde4119") (value "INFINEON MOSFET N-CH SOT-23-3 GDS") (at 75582 -32404) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 23) (altid 1))
+
+  (field (uuid "1f584187-a77d-4637-ab7e-a89567c6aa60") (value "") (at 75582 -14624) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 24) (altid 1))
+
+  (field (uuid "bc093587-4c49-4630-89c4-0cb0095f9a9e") (value "") (at 75582 3156) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 25) (altid 1))
+
+  (field (uuid "4732878e-0263-4d5c-8cea-1a639db54afd") (value "") (at 75582 20936) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 26) (altid 1))
+ )
+)
+
+  )
+)

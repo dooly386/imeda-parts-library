@@ -1,0 +1,59 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Spring_Probe:Mill-Max 0985-0-15-20-71-14-11-0")
+  (name "Mill-Max 0985-0-15-20-71-14-11-0")
+  (type "tht")
+  (description "")
+  (keywords "")
+  (padmap_json "{\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Mill-Max 0985-0-15-20-71-14-11-0"
+    (side front)
+    (library "Spring_Probe")
+    (desc "")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.235) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "30cac768-2d82-4a16-95f4-eed9bc3489a3")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.235) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "006e583c-94c1-439e-8619-c8a9a19905ca")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "5ce721c5-e25e-4a31-afcd-2144d8e397d2")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "c5972ca6-b33d-4423-9dc2-237e981d2bb5")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ec7ca1d0-cd06-4600-800c-f82cf693ab6a")
+   )
+  )
+  (drawings
+   (line -1 1 -1 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "3eb08046-f25a-4a4a-a221-8f524b03065f")
+   )
+   (line -1 1 1 1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "da5c36e4-e612-496b-936e-ff0cd8085ef3")
+   )
+   (line 1 1 1 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "d94ea46a-9c54-48c0-991b-01d48b1ac755")
+   )
+   (line -1 -1 1 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "c02ab857-2889-49a5-8627-c66ef1dd7ed4")
+   )
+   (line -0.508 0 0.508 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "df3a7095-d892-4c57-b24c-9cc52ad1bef3")
+   )
+   (line 0 0.508 0 -0.508
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "f9fc4396-cd68-4704-8db2-4bf38a25d19b")
+   )
+  )
+  (pads
+   (pad "1" (at 0 0) (type pth) (padmode 0) (layer "CU_FR") (size 1 1) (shape circle) (offset 0 0) (drshape circle) (drsize 0.499999 0.499999) (padlayermode keep) (uuid "c3e20a52-8e05-4418-b42c-4c0906974029"))
+  )
+  )
+)
+
+  )
+)

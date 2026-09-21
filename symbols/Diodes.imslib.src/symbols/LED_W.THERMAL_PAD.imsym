@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:LED W.THERMAL PAD")
+  (name "LED W.THERMAL PAD")
+  (type "normal")
+  (description "Chip LED")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "7d118691-2906-4acc-a7ce-5067ed832016") (at 50800 0) (dir 0) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "d7b8f264-9840-4365-8bc1-cd9116c8b57a") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "6ed9722d-af82-4f78-96fe-9e23e819c520") (at -50800 25400) (dir 2) (length 25400) (name "THERM") (number "0") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "e97170b7-5b2f-4017-99ae-b37fdc33ca30") (type "poly") (start 10160 0) (end 10160 0)
+   (pts (xy 10160 0) (xy -10160 -15240) (xy -10160 15240) (xy 10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "e8d756f8-de38-4f66-957b-8012c52f068c") (type "poly") (start 27940 -40640) (end 27940 -40640)
+   (pts (xy 27940 -40640) (xy 17780 -35560) (xy 22860 -30480) (xy 27940 -40640)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "fb2a7e5e-6bf2-43cb-bdd8-771552f5eb30") (type "poly") (start 38100 -30480) (end 38100 -30480)
+   (pts (xy 38100 -30480) (xy 27940 -25400) (xy 33020 -20320) (xy 38100 -30480)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "4b2c567f-60e1-4506-9f42-392c6be013cb") (type "segment") (start 10160 -15240) (end 10160 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "6e051a7b-95e3-454a-b67c-16df424ba001") (type "segment") (start 10160 -22860) (end 22860 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "741f98ad-a90b-4f1b-8da8-7daa9e0b4ee7") (type "segment") (start 20320 -12700) (end 35560 -27940) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (field (uuid "c601f08f-f0f0-436e-bf77-36c17f2f670c") (value "D?") (at -10160 -49530) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "bfdd8fa4-e587-4b9d-927b-e9f6d9dece61") (value "LED W.THERMAL PAD") (at -10160 34290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "4ae865f6-40e1-40e2-811b-b1c8505b609e") (value "") (at -10160 52070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "ef24db85-3b2c-45f7-ae4e-bebc2c3cb2d6") (value "") (at -10160 69850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "243ebc04-45eb-437d-af75-71ac638211a1") (value "Chip LED") (at -10160 87630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 13) (altid 1))
+ )
+)
+
+  )
+)

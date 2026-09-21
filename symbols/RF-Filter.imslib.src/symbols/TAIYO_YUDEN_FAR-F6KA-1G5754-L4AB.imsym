@@ -1,0 +1,58 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Filter:TAIYO YUDEN FAR-F6KA-1G5754-L4AB")
+  (name "TAIYO YUDEN FAR-F6KA-1G5754-L4AB")
+  (type "normal")
+  (description "GPS SAW Filter Taiyo Yuden")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "RF - Filter")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "08c9e9e6-9302-4242-a98a-822c24c1601c") (at 25400 127000) (dir 3) (length 76200) (name "GND") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "93b7e5bb-77c6-4b41-b965-ce9ce1eae301") (at -127000 0) (dir 2) (length 76200) (name "IN") (number "1") (elec 2) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "ba9d4bd4-fe82-4cde-a38d-cd6ea1e67d41") (at 127000 0) (dir 0) (length 76200) (name "OUT") (number "4") (elec 2) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "a138492a-08a8-41c1-acab-c7e550b7b49a") (at 0 127000) (dir 3) (length 76200) (name "GND") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "7e3a137f-7e47-4ee9-8838-5e005a1a0b1b") (at -25400 127000) (dir 3) (length 76200) (name "GND") (number "5") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (shape (uuid "ec50015a-d4f3-42db-ae8b-3ffb8a91fae7") (type "rectangle") (start -50800 50800) (end 50800 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "7380b269-5646-4c5d-9d82-8e82249fa0db") (type "segment") (start -10160 -20320) (end 0 -30480) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "bbd89750-f827-4003-9bd7-5942b40c59c2") (type "poly") (start 15240 7620) (end 15240 27940) (closed "no")
+   (pts (xy 15240 7620) (xy -25400 7620) (xy -25400 27940) (xy 15240 27940)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "166c2348-ec55-440b-acd8-a7313b7d0cfc") (type "poly") (start -15240 17780) (end -15240 38100) (closed "no")
+   (pts (xy -15240 17780) (xy 25400 17780) (xy 25400 38100) (xy -15240 38100)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "89491d68-1103-4706-b804-36f419c5822a") (type "bezier") (start -38100 -27940) (end -2540 -20320) (ctrl1 -25400 -53340) (ctrl2 -7620 -27940) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "afb6de01-1b84-46f9-93c5-cbea6aec70d0") (type "bezier") (start 33020 -12700) (end -2540 -20320) (ctrl1 20320 12700) (ctrl2 2540 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "b760b3b0-acc1-4faa-a3b3-05f366aee948") (value "IC?") (at -50800 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "fa04d18f-6331-4f70-a26a-789b78aea03d") (value "TAIYO YUDEN FAR-F6KA-1G5754-L4AB") (at -50800 135890) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "9e33f24c-6528-4564-80dc-1285d1c8f681") (value "") (at -50800 153670) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "9da40a55-0017-4d72-8deb-e90676713b8b") (value "") (at -50800 171450) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "cc72804c-4927-4abb-9ee7-0c81352cf7f1") (value "GPS SAW Filter Taiyo Yuden") (at -50800 189230) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

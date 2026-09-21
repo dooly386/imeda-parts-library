@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Power-Switchmode:TI TPS6123x")
+  (name "TI TPS6123x")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Power - Switchmode")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "e885a21e-cefe-4c7c-95b3-79f8e8d60ef7") (at 203200 -76200) (dir 0) (length 76200) (name "SW") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "ce6b2671-7ab6-48ff-bda2-2d4dbbcb695c") (at 203200 -50800) (dir 0) (length 76200) (name "SW") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "5aacf4ee-ee24-41a7-9498-314ec32e690c") (at 203200 0) (dir 0) (length 76200) (name "VOUT") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "9b920d84-8ae1-4ff5-b758-8c408dea9747") (at 203200 25400) (dir 0) (length 76200) (name "VOUT") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "f368827c-90ee-471d-8484-efbd1b1ec8ee") (at -203200 25400) (dir 2) (length 76200) (name "PG") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "36bb1242-5af6-4b3d-93da-307bd1949780") (at -203200 76200) (dir 2) (length 76200) (name "SS") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "f60536c6-87fb-424c-9d6f-0347e41ba7c8") (at 203200 76200) (dir 0) (length 76200) (name "FB") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "a2680446-ad48-448e-a4b9-01d328fdaa8c") (at 203200 127000) (dir 0) (length 76200) (name "HYS") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "02847d19-ae42-4d85-8b37-54ec570a599e") (at -203200 -25400) (dir 2) (length 76200) (name "EN") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "82da483c-6184-477c-9bb8-9bc43e187031") (at -203200 -76200) (dir 2) (length 76200) (name "VIN") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (pin (uuid "96b8652e-2161-4aef-868d-bc068e920f33") (at -203200 127000) (dir 2) (length 76200) (name "GND") (number "11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 10))
+
+  (shape (uuid "51c6d098-817a-4741-80c3-534ff724fdd1") (type "rectangle") (start -127000 152400) (end 127000 -101600) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 11) (altid 1))
+
+  (field (uuid "0ea06a71-4ea7-43be-b9ca-07af996c6ee6") (value "IC?") (at -127000 -110490) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "b9dc356d-6e90-48a7-852e-a0af9fdd1dad") (value "TI TPS6123x") (at -127000 161290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "cc1ace78-131e-4059-a4ce-6daa8612f768") (value "") (at -127000 179070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "52ac1426-b717-4b86-a0f9-af00dfb614cd") (value "") (at -127000 196850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "c3019659-33ed-4ee4-bd8e-d370a94db553") (value "") (at -127000 214630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 16) (altid 1))
+ )
+)
+
+  )
+)

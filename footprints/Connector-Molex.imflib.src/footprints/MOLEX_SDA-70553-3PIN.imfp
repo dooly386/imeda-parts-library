@@ -1,0 +1,91 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-Molex:MOLEX SDA-70553-3PIN")
+  (name "MOLEX SDA-70553-3PIN")
+  (type "tht")
+  (description "SL Right Angle Header W/LAtch & Trip-Pegs 2.54mm Centres")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\",\"3\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "MOLEX SDA-70553-3PIN"
+    (side front)
+    (library "Connector-Molex")
+    (desc "SL Right Angle Header W/LAtch & Trip-Pegs 2.54mm Centres")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -8.347) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "300a8d0b-c675-4fa1-88f2-c62ca544dc12")
+   )
+   (field "{Value}" (value "{Value}") (at 0 8.728) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "51180bf7-1894-4324-9f5c-433fc57af850")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "50cdb651-0662-49fd-bf5d-afa8443625e8")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "00b09128-cf75-4218-9ff9-a05e460c33e8")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f7576d00-baee-4001-aabb-5076d85b4108")
+   )
+  )
+  (drawings
+   (line -5.08 -4.019 5.08 -4.019
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "a9b655f0-943b-4d3c-a30c-9c8f111ea5bc")
+   )
+   (line 1.905 2.219 1.905 -4.019
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "8ba8eec1-6bb6-4398-81b2-6c7450ef22db")
+   )
+   (line -1.905 2.219 1.905 2.219
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "1b959f21-21a5-4929-9fa0-c34fa69a16a7")
+   )
+   (line -1.905 2.219 -1.905 -4.019
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "71bb4a8f-57d6-4f82-a053-76a4051d4a30")
+   )
+   (line 3.81 5.08 5.08 5.08
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "318bec92-35b4-4d8a-a8d8-4343964f4816")
+   )
+   (line 5.08 5.08 5.08 -6.604
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "30fa831d-d831-40e9-ac1e-44411621f93c")
+   )
+   (line -5.08 -6.604 5.08 -6.604
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "d8da89dd-79e3-41c2-9dd3-49f3c0569d61")
+   )
+   (line -5.08 5.08 -5.08 -6.604
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "234fc54f-5716-476b-85cc-2e0cbd229e37")
+   )
+   (line -5.08 5.08 -3.81 5.08
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "0b67884a-26ad-4bbe-aeea-9379a96c1e38")
+   )
+   (line -0.635 0 0.635 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "f206d641-5d45-4bd9-9bba-d6fa0f0a58b3")
+   )
+   (line 0 0.635 0 -0.635
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "e8c5f8ef-d7ee-41ab-bdae-0d3928087e90")
+   )
+   (line -5.588 -7.112 5.588 -7.112
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "802e6a72-a83a-4556-a18b-51c3783bb3db")
+   )
+   (line 5.588 7.493 5.588 -7.112
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "45973505-f218-47bd-ac9f-65bb09a32839")
+   )
+   (line -4.953 7.493 5.588 7.493
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "4d9a0f91-e275-4ed8-a31b-0a1ad57ed393")
+   )
+   (line -5.588 7.493 -4.953 7.493
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "31513e2d-9b69-41f9-af71-dcab727b65b6")
+   )
+   (line -5.588 7.493 -5.588 -7.112
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "37d23843-f550-4949-a792-3a2144df1b24")
+   )
+  )
+  (pads
+   (pad "1" (at -2.54 6.223) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.73 1.73) (shape circle) (offset 0 0) (drshape circle) (drsize 1.13 1.13) (padlayermode keep) (uuid "f5458d53-23fc-4850-aa01-c55a77a9ec22"))
+   (pad "2" (at 0 6.223) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.73 1.73) (shape circle) (offset 0 0) (drshape circle) (drsize 1.13 1.13) (padlayermode keep) (uuid "733185ea-4745-425f-ad64-e025e25c9b43"))
+   (pad "3" (at 2.54 6.223) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.73 1.73) (shape circle) (offset 0 0) (drshape circle) (drsize 1.13 1.13) (padlayermode keep) (uuid "3a7e2d0f-6bbc-4d09-825e-db28abc428fe"))
+  )
+  )
+)
+
+  )
+)

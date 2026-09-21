@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Capacitor-Aluminium:CAP AL TH D16 L7.5 H27")
+  (name "CAP AL TH D16 L7.5 H27")
+  (type "tht")
+  (description "16MM Diameter, 7.5MM Lead Spacing Aluminium Capacitor")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "CAP AL TH D16 L7.5 H27"
+    (side front)
+    (library "Capacitor-Aluminium")
+    (desc "16MM Diameter, 7.5MM Lead Spacing Aluminium Capacitor")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -9.735) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "489879de-e7b8-491a-a202-51db84f1ca35")
+   )
+   (field "{Value}" (value "{Value}") (at 0 9.735) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "269b1376-8719-49b1-bee4-85f343ebe8de")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "2d2b8e49-78a3-4c03-bfb4-f1a9afb37058")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "a80bc930-76e4-4aad-8dc8-17e167d1a8af")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "a2caceb0-7ba2-4b9f-ab57-4e5a8ce2574c")
+   )
+  )
+  (drawings
+   (line 6.75 4.25 6.75 -4.25
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "51cacba1-dca3-4924-bb80-6c4bd1b7fdda")
+   )
+   (line -8.5 8.5 -8.5 -8.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "3e8c3295-4134-47e7-abd1-9e00d518dea3")
+   )
+   (line -8.5 8.5 8.5 8.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "02b22f40-47b6-4c5b-b35e-8d442b4320b9")
+   )
+   (line 8.5 8.5 8.5 -8.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "a5e5fd8e-765b-46f3-8937-ca3887458a58")
+   )
+   (line -8.5 -8.5 8.5 -8.5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "53bc147a-a9be-49ca-b475-9dd53ff4585f")
+   )
+   (line 0 1.25 0 -1.25
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "5eeb5297-c83f-4664-8566-afe0b061c4fe")
+   )
+   (line -1.25 0 1.25 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "c21ccc71-cbe7-4658-94b9-65c9d3069fbf")
+   )
+   (line 6.75 4.25 6.75 -4.25
+    (stroke (width 0.2) (type "solid")) (layer "USER_11") (uuid "e29976a8-ce45-4c81-8525-5149ba036446")
+   )
+   (circle 0 0 8 0
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "cf9258e2-b12e-474a-a613-6750f481be86")
+   )
+   (circle 0 0 8 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_11") (uuid "325e0544-0631-464b-9fa5-8283feb22c85")
+   )
+   (poly (npts 8 6.75 4.25 6.75 -4.25 7.5 -2.75 8 -1 8 0 7.75 1.75 7.5 2.75 6.75 4.25)
+    (stroke (width 0) (type "solid")) (filled) (layer "SILK_FR") (uuid "61df08f9-6e62-4f67-85ef-1024cbea2879")
+   )
+   (text (at -3 -1.25) (value "+") (angle 360) (layer "SILK_FR")
+    (font (name "Default") (size 2 2) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0.254)) (uuid "056b919e-b1e9-4760-be13-5edf1d8abef0")
+   )
+  )
+  (pads
+   (pad "1" (at -3.75 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2 3) (shape oval) (offset 0 0) (drshape circle) (drsize 1 1) (padlayermode keep) (uuid "733adc11-0a1d-4464-833a-739bc6a74183"))
+   (pad "2" (at 3.75 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2 3) (shape oval) (offset 0 0) (drshape circle) (drsize 1 1) (padlayermode keep) (uuid "cdb9b0e4-7202-444e-ba08-7ff4297b696c"))
+  )
+  )
+)
+
+  )
+)

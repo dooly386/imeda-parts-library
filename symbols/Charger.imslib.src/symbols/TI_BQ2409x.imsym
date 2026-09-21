@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Charger:TI BQ2409x")
+  (name "TI BQ2409x")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Charger")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "38df780f-c840-4d7e-8a20-88d44c22b4e8") (at -177800 -127000) (dir 2) (length 76200) (name "VIN") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "e5c46ccf-9774-4431-804e-153c6001364b") (at 177800 127000) (dir 0) (length 76200) (name "ISET") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "836792ad-f8d2-4986-852a-90fb49277205") (at 177800 101600) (dir 0) (length 76200) (name "ISET2") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "48ed21a4-f5fb-496d-be82-8d9ac92fb486") (at -177800 127000) (dir 2) (length 76200) (name "GND") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "34719832-fd73-4d4d-81c2-fc2c06f461fb") (at -177800 101600) (dir 2) (length 76200) (name "GND") (number "11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "618a2b6a-a9a6-4b4f-b0a2-fdceff856cb6") (at 177800 50800) (dir 0) (length 76200) (name "TERM") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "8e12f849-2dbe-4b10-9c25-8f13a0161c79") (at -177800 50800) (dir 2) (length 76200) (name "\\PG\\") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "42122fc1-94a7-4be2-a8a7-c84fe65fc3ee") (at -177800 0) (dir 2) (length 76200) (name "\\CHG\\") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "78517358-9e93-44fe-b2b6-402a2aea34ea") (at 177800 -76200) (dir 0) (length 76200) (name "TS") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "f14f0252-589f-4492-98f9-cddf0a4f0a2f") (at 177800 -127000) (dir 0) (length 76200) (name "OUT") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (shape (uuid "f50be400-fb19-4e72-86da-ff5ed4eca58c") (type "rectangle") (start -101600 152400) (end 101600 -152400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "f01b8ac7-b739-4740-85f3-abfaeb19207f") (value "IC?") (at -101600 -161290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "e0a2969c-faca-4da8-91bb-e1f3e2c28c5d") (value "TI BQ2409x") (at -101600 161290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "5c2b1014-c4f8-4a19-9dcf-752185dad6a4") (value "") (at -101600 179070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "d5b7b07b-cb16-4af0-a844-9c07a7034a7b") (value "") (at -101600 196850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "7b502cf3-e10d-41f3-b10d-693c038cb7b6") (value "") (at -101600 214630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

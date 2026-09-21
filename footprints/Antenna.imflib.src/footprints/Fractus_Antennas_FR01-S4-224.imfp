@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Antenna:Fractus Antennas FR01-S4-224")
+  (name "Fractus Antennas FR01-S4-224")
+  (type "smd")
+  (description "")
+  (keywords "")
+  (padmap_json "{\"G\":\"\",\"S\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Fractus Antennas FR01-S4-224"
+    (side front)
+    (library "Antenna")
+    (desc "")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -3.06) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "cf18821f-0caa-4734-8182-30e19499c607")
+   )
+   (field "{Value}" (value "{Value}") (at 0 3.06) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "3f6da3b5-d137-425d-8636-3c81249f4706")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "3fb9742e-c77e-4e7e-9b17-9acff4703972")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b16d95e2-8a72-43a3-aeeb-1fb85c1cd556")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6be2c105-68d2-4050-a5fa-b2df8c3a3a2b")
+   )
+  )
+  (drawings
+   (line -3.5 -1.5 3.5 -1.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "e55de526-91f2-48f8-841d-64d1c17e2c27")
+   )
+   (line -3.5 1.5 3.5 1.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "62cb8450-2539-429d-8b75-60a59ca189fe")
+   )
+   (line -1 0 1 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "c03a3e69-3a94-4e6a-8ce4-bd60b5f6a4b6")
+   )
+   (line 0 1 0 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "35fa0e04-7021-4488-8ff3-87ddf592ef38")
+   )
+   (line -6.4 -1.9 6.4 -1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "59c79b50-e188-4109-a7d0-5d2cbfdeff23")
+   )
+   (line -6.4 1.9 -6.4 -1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "f2c14e70-87d2-4b3d-8a9d-595e6f3196a3")
+   )
+   (line -6.4 1.9 6.4 1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "47774c18-f49a-4a37-9c68-e09ac7c0633a")
+   )
+   (line 6.4 1.9 6.4 -1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "3f11dfc5-0f0e-4f94-a81f-63fedca68685")
+   )
+   (line 6 1.5 6 -1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "07831780-2705-40ee-b893-5933700c722b")
+   )
+   (line -6 1.5 -6 -1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "18043acc-f69f-494e-8ff2-c04d1e5ca370")
+   )
+   (line -6 1.5 6 1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "fedb1edf-8a5e-4f5b-96a6-746bafd85b83")
+   )
+   (line -6 -1.5 6 -1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "188b312d-4659-4f48-8828-b492aee814a3")
+   )
+  )
+  (pads
+   (pad "G" (at 5 0) (type smd) (padmode 0) (layer "CU_FR") (size 2.2 3.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "647fd289-5620-47ac-9130-dcf024665730"))
+   (pad "S" (at -5 0) (type smd) (padmode 0) (layer "CU_FR") (size 2.2 3.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "dedd78a8-abac-411e-96ec-169c441f0634"))
+  )
+  )
+)
+
+  )
+)

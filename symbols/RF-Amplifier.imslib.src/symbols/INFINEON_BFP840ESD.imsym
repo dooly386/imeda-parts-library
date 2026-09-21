@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Amplifier:INFINEON BFP840ESD")
+  (name "INFINEON BFP840ESD")
+  (type "normal")
+  (description "NPN Silicon Germanium RF Transistor")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "RF - Amplifier")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "ae62d42f-4880-4f14-b419-4a077b8ab70d") (at -25400 0) (dir 2) (length 25400) (name "B") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "1b29c33f-76ce-442b-8cc5-f7633a0d8ca3") (at 25400 50800) (dir 3) (length 25400) (name "E") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "651e167f-4a85-4206-8156-49be1321a341") (at 25400 -50800) (dir 1) (length 25400) (name "C") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "1aaa48e7-83cf-4314-b07c-4a5cd92958fe") (at 25400 50800) (dir 3) (length 25400) (name "E") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "1248e1e0-2ed4-4ac5-83ac-7777bf1792ab") (type "poly") (start 7620 17780) (end 7620 17780)
+   (pts (xy 7620 17780) (xy 12700 7620) (xy 20320 17780) (xy 7620 17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "9d0988fb-7b6f-498d-9043-f9f402a3cab6") (type "segment") (start 0 -20320) (end 0 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "40c66cf5-f0fc-4eed-98f8-8bb7c8406009") (type "poly") (start 0 -7620) (end 25400 -25400) (closed "no")
+   (pts (xy 0 -7620) (xy 25400 -20320) (xy 25400 -25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "a42abdff-1c6a-4464-ac41-a301d8696b01") (type "poly") (start 0 7620) (end 25400 25400) (closed "no")
+   (pts (xy 0 7620) (xy 25400 20320) (xy 25400 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (field (uuid "f5a0cae6-ffb8-4355-a646-81bb422e3432") (value "IC?") (at 25400 -25400) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "6ce3110d-9a08-48a9-8bb5-ebda69f63e44") (value "INFINEON BFP840ESD") (at 25400 -7620) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "cd47d9f3-0f31-4d49-8e26-4ae69d42a0a6") (value "") (at 25400 10160) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "9155ddc2-6dfa-46b8-9a7f-b96c71c2845a") (value "") (at 25400 27940) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "1ec5c126-208b-4d11-bffb-ff32aa1a7f98") (value "NPN Silicon Germanium RF Transistor") (at 25400 45720) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

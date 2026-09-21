@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Crystals:NDK Crystal NX3225GA")
+  (name "NDK Crystal NX3225GA")
+  (type "normal")
+  (description "SMT Crystal")
+  (footprint "")
+  (datasheet "")
+  (reference "Y?")
+  (keywords "Crystals")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "ac416e7d-fc9f-4ce0-90d8-f9ce49376946") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "6f536e97-3646-45c4-b766-4f84ff7eff42") (at 50800 0) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "3510dc9e-6bfa-41de-a205-09dfaa2e4691") (at 50800 50800) (dir 0) (length 25400) (name "GND") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "900f21c1-ed30-4db4-9efd-971adb2ec23a") (at -50800 50800) (dir 2) (length 25400) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "2058f64c-1651-4f8a-be7f-d4e28597c27a") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "011c227b-580d-4793-998f-c90473ebce44") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "7fb2efe0-d378-4425-a281-820a2caa9aa3") (type "segment") (start 15240 -20320) (end 15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "e13a368b-2cae-4712-945d-973ccc013f82") (type "segment") (start -15240 -20320) (end -15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "37885a98-a036-4b2a-ba34-5bd70c96738d") (type "poly") (start -7620 -20320) (end -7620 20320) (closed "no")
+   (pts (xy -7620 -20320) (xy 7620 -20320) (xy 7620 20320) (xy -7620 20320)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "43a292ca-dabd-4ddb-8a9a-850db8d943ad") (type "segment") (start -7620 -20320) (end -7620 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (text (uuid "7c41cfa3-45db-4d3d-9b97-1a74da4f4212") (value "GND") (at -25400 53340) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "823debec-bf01-4f85-ac20-13c9f7ba54fd") (value "Y?") (at -25400 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "6edccd83-d2e7-45a9-a66d-ea0ac6025306") (value "NDK Crystal NX3225GA") (at -25400 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "8719ad12-4eef-44ef-b508-4096af053420") (value "") (at -25400 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "adb6be62-23fe-4063-bf51-bc2add8ad3b9") (value "") (at -25400 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "f6a1d3ac-e33e-41ea-b805-204f76648b0f") (value "SMT Crystal") (at -25400 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

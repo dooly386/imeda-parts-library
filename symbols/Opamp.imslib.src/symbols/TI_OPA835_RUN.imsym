@@ -1,0 +1,102 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Opamp:TI OPA835 RUN")
+  (name "TI OPA835 RUN")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Opamp")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "92487e14-3677-49fe-a5e3-f3951b1a1d8f") (at 203200 -50800) (dir 0) (length 76200) (name "VOUT") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "b2d60733-315b-462f-8ab6-30dcbff5eed9") (at -203200 -76200) (dir 2) (length 76200) (name "VIN-") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "ce82b4c5-d709-458e-8f58-a3adb87ece6d") (at -203200 -25400) (dir 2) (length 76200) (name "VIN+") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "f78ac916-ecaf-4f08-b6e4-1002b3e85bd7") (at -203200 76200) (dir 2) (length 76200) (name "\\PD\\") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "95472d35-8f67-49cd-a4b8-3cec6dcbc173") (at -203200 152400) (dir 2) (length 76200) (name "VS-") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "5f656ebe-6c67-45f6-8ce2-2cfbd07f0d24") (at -203200 -127000) (dir 2) (length 76200) (name "VS+") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "bb4f2d59-ab34-4cc4-bd92-b6cfbf589963") (at 203200 152400) (dir 0) (length 76200) (name "FB4") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "305596de-dc16-423c-bbf8-75be16bfb593") (at 203200 101600) (dir 0) (length 76200) (name "FB3") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "a06734b0-d21b-46f1-a05a-f64225e6627f") (at 203200 50800) (dir 0) (length 76200) (name "FB2") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "257aa2e9-90c2-47b1-9546-8a481fb1042a") (at 203200 0) (dir 0) (length 76200) (name "FB1") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (shape (uuid "2d36e985-dd06-4b14-ab8c-d1acd79f97c5") (type "rectangle") (start -127000 177800) (end 127000 -152400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "48439536-b605-49d0-b02d-5f05a424304d") (type "poly") (start -25400 -76200) (end -25400 -76200)
+   (pts (xy -25400 -76200) (xy 25400 -50800) (xy -25400 -25400) (xy -25400 -76200)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1)
+  )
+
+  (shape (uuid "b9372ced-7928-4ae8-8ecb-09e6ca3120e8") (type "poly") (start 63500 0) (end 50800 7620) (closed "no")
+   (pts (xy 63500 0) (xy 50800 0) (xy 50800 7620)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1)
+  )
+
+  (shape (uuid "f45d3c70-a4dd-4d96-8da7-a02fd599a85b") (type "poly") (start 63500 50800) (end 50800 43180) (closed "no")
+   (pts (xy 63500 50800) (xy 50800 50800) (xy 50800 43180)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1)
+  )
+
+  (shape (uuid "c66363c5-9c1f-4123-909d-6ec57191cc3a") (type "segment") (start 50800 50800) (end 50800 58420) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1))
+
+  (shape (uuid "c6d18379-1cdd-4455-b3e0-89ae634f1ac9") (type "poly") (start 63500 101600) (end 50800 93980) (closed "no")
+   (pts (xy 63500 101600) (xy 50800 101600) (xy 50800 93980)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1)
+  )
+
+  (shape (uuid "f62185aa-3e20-4b75-8e4d-5400ac18a590") (type "segment") (start 50800 101600) (end 50800 109220) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (altid 1))
+
+  (shape (uuid "4609c248-d2fc-4433-9d43-389c21287c6a") (type "poly") (start 63500 152400) (end 50800 144780) (closed "no")
+   (pts (xy 63500 152400) (xy 50800 152400) (xy 50800 144780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (altid 1)
+  )
+
+  (shape (uuid "7c527e3b-917c-43eb-b2ac-2afdf8a75fae") (type "poly") (start 50800 109220) (end 50800 144780) (closed "no")
+   (pts (xy 50800 109220) (xy 58420 111760) (xy 43180 116840) (xy 58420 121920) (xy 43180 127000) (xy 58420 132080) (xy 43180 137160) (xy 50800 139700) (xy 50800 144780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (altid 1)
+  )
+
+  (shape (uuid "b3f7d5b2-1141-4686-8453-a288ab5c63eb") (type "poly") (start 50800 58420) (end 50800 93980) (closed "no")
+   (pts (xy 50800 58420) (xy 58420 60960) (xy 43180 66040) (xy 58420 71120) (xy 43180 76200) (xy 58420 81280) (xy 43180 86360) (xy 50800 88900) (xy 50800 93980)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (altid 1)
+  )
+
+  (shape (uuid "ccba5e1a-34ee-46ad-9f8a-de7767dec119") (type "poly") (start 50800 7620) (end 50800 43180) (closed "no")
+   (pts (xy 50800 7620) (xy 58420 10160) (xy 43180 15240) (xy 58420 20320) (xy 43180 25400) (xy 58420 30480) (xy 43180 35560) (xy 50800 38100) (xy 50800 43180)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 20) (altid 1)
+  )
+
+  (shape (uuid "1d78e530-541c-4bda-befc-a5cd1ce5b601") (type "segment") (start 25400 -50800) (end 38100 -50800) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 21) (altid 1))
+
+  (shape (uuid "e281a59c-aa69-40bf-a2ac-e9594b93cb44") (type "segment") (start -25400 -68580) (end -40640 -68580) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 22) (altid 1))
+
+  (shape (uuid "ad8490bd-00c8-48d7-9f0f-79e12b6cbb62") (type "segment") (start -25400 -33020) (end -40640 -33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 23) (altid 1))
+
+  (text (uuid "bcaad1f8-8016-478e-b1a4-e4c03c8a33a1") (value "2k4") (at 40640 45720) (size 12700 12700) (halign -1) (valign 1) (angle 90) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 24) (altid 1))
+
+  (text (uuid "0dd7a071-9e13-4aac-b657-d6d327821689") (value "1k8") (at 40640 96520) (size 12700 12700) (halign -1) (valign 1) (angle 90) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 25) (altid 1))
+
+  (text (uuid "82728357-7588-43af-a4d9-369cd11afb1b") (value "600") (at 40640 147320) (size 12700 12700) (halign -1) (valign 1) (angle 90) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 26) (altid 1))
+
+  (field (uuid "f5e5c484-e8a9-4c6e-91ca-233fd41bbb96") (value "IC?") (at -127000 -161290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 27) (altid 1))
+
+  (field (uuid "1227174a-0592-43b5-b1b3-9c417302598e") (value "TI OPA835 RUN") (at -127000 186690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 28) (altid 1))
+
+  (field (uuid "07b99eec-5214-4e72-a664-97b4639974b8") (value "") (at -127000 204470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 29) (altid 1))
+
+  (field (uuid "3522d0ba-4b0b-47ea-997a-f1529619f40d") (value "") (at -127000 222250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 30) (altid 1))
+
+  (field (uuid "f54dcab3-8414-4a1d-b76d-16cf3f26b12c") (value "") (at -127000 240030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 31) (altid 1))
+ )
+)
+
+  )
+)

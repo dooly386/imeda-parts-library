@@ -1,0 +1,52 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Driver-LED:TI LM3404MR")
+  (name "TI LM3404MR")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Driver - LED")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "38518c7f-b1fd-48b5-a755-21682f9374a3") (at 203200 0) (dir 0) (length 76200) (name "SW") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "62b1d107-54bc-4069-ba61-98fd7dcaacc8") (at 203200 50800) (dir 0) (length 76200) (name "BOOT") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "bcbfd046-8572-4165-b1f8-8ca312c384ee") (at 203200 101600) (dir 0) (length 76200) (name "DIM") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "59338c9c-c867-4b67-900d-3387d5232b48") (at 203200 152400) (dir 0) (length 76200) (name "RON") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "e948511e-f1b7-416d-8a0a-2def3ea9eec6") (at -203200 127000) (dir 2) (length 76200) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "fd1e756a-eeac-42c9-9db9-733c66492b78") (at -203200 152400) (dir 2) (length 76200) (name "DAP") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "b4a256b2-b601-46cc-9d8c-bee7c4aa86ee") (at -203200 76200) (dir 2) (length 76200) (name "CS") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "13f3fd6d-1373-4d0b-a614-34c319015857") (at -203200 0) (dir 2) (length 76200) (name "VIN") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "3ceff91e-b4ec-40bc-bc67-02156b5e0cb7") (at -203200 25400) (dir 2) (length 76200) (name "VCC") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (shape (uuid "3f540a9d-7eb5-4ed0-b90d-9e3770f39bda") (type "rectangle") (start -127000 177800) (end 127000 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 9) (altid 1))
+
+  (field (uuid "91bc9c19-4911-4cb5-9795-9b464588f0cd") (value "IC?") (at -127000 -34290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "addb35fc-64ec-4c01-b668-d53c97876708") (value "TI LM3404MR") (at -127000 186690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "1c564137-b5fa-436b-9b9e-75f0cee1d953") (value "") (at -127000 204470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "52dde494-9b62-4a4d-81a4-38ac6844d4eb") (value "") (at -127000 222250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "4d594f5c-90be-4582-bb15-a59cc430dd67") (value "") (at -127000 240030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,52 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Power-Switchmode:TI TPS61235/6")
+  (name "TI TPS61235/6")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "*")
+  (keywords "")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "d849ba4b-787a-4626-8ef3-acfa4f3d98f7") (at -203200 101600) (dir 2) (length 76200) (name "PGND") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "1560f799-3ab4-4756-b1cc-e418409f7d9f") (at 203200 -76200) (dir 0) (length 76200) (name "SW") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "a43e555d-adb4-41b2-94d8-3a4c15a4d2af") (at -203200 -76200) (dir 2) (length 76200) (name "VIN") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "dff8a938-efa0-4119-972f-946d4daf073d") (at -203200 25400) (dir 2) (length 76200) (name "CC") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "2df5791c-bb4c-4453-bf7b-47d4ba83f1e8") (at -203200 76200) (dir 2) (length 76200) (name "AGND") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "97489779-6b11-44a7-9785-10541f1263e7") (at 203200 25400) (dir 0) (length 76200) (name "FB") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "a09ef161-5fc2-47e9-9180-f17a9399822d") (at -203200 -25400) (dir 2) (length 76200) (name "EN") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "d2718fba-21fe-4e90-b1d1-814642e358e6") (at 203200 101600) (dir 0) (length 76200) (name "INACT") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "3f04140c-0cfe-4e77-babb-324c28324ef8") (at 203200 -25400) (dir 0) (length 76200) (name "VOUT") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (shape (uuid "ee874606-5ae9-4a22-b907-3d0c325cf0fb") (type "rectangle") (start -127000 127000) (end 127000 -101600) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 9) (altid 1))
+
+  (field (uuid "1b196665-dab6-46c1-80fc-27e22e058373") (value "*") (at -127000 -110490) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "e48f3f4f-0742-42fa-b2fc-d921e71acc2a") (value "TI TPS61235/6") (at -127000 135890) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "e42a73dd-5c9b-4f7e-8f7c-7081b9136041") (value "") (at -127000 153670) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "febc46cd-2f42-4020-91bc-d7c54e54ebb9") (value "") (at -127000 171450) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "4fdd11a7-c01d-4f25-935d-fce244a9001a") (value "") (at -127000 189230) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

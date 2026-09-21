@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:PHOTODIODE IPC")
+  (name "PHOTODIODE IPC")
+  (type "normal")
+  (description "Photodiode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "69282d8c-0f51-44b0-9d84-5d5f4b8a6da7") (at 50800 0) (dir 0) (length 40640) (name "Cathode") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "e4b26636-fde2-442b-a70d-2e43a0ca7092") (at -50800 0) (dir 2) (length 40640) (name "Anode") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "6ba1539c-15ad-4622-9795-26e009f76c3a") (type "poly") (start 10160 0) (end 10160 0)
+   (pts (xy 10160 0) (xy -10160 -15240) (xy -10160 15240) (xy 10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "83b34796-f98f-4f0f-a252-f07b0b2e552e") (type "poly") (start 17780 -12700) (end 17780 -12700)
+   (pts (xy 17780 -12700) (xy 27940 -17780) (xy 22860 -22860) (xy 17780 -12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "cd0a45c1-3874-44ad-987a-e4a203fccfcc") (type "poly") (start 7620 -22860) (end 7620 -22860)
+   (pts (xy 7620 -22860) (xy 17780 -27940) (xy 12700 -33020) (xy 7620 -22860)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "b3abf36e-d3dc-49aa-81c1-40be6dece722") (type "segment") (start 10160 -15240) (end 10160 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "f7dd31ed-7ec2-4c07-b1af-0cc2b6910015") (type "segment") (start 35560 -30480) (end 22860 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "7cd4b8d7-6bf8-455b-bee8-f8ded7bb6f30") (type "segment") (start 25400 -40640) (end 10160 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (field (uuid "77046ed9-ef62-40a0-8b6b-0caf5381ed95") (value "D?") (at -10160 -49530) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "98f314ed-c9f5-43ad-afc4-cf71180494a3") (value "PHOTODIODE IPC") (at -10160 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "d3ecf8cd-94d9-4404-be2c-6a4f4650e03f") (value "") (at -10160 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "531419f7-7031-41b5-89fe-695e94e3dcf1") (value "") (at -10160 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "2c7a19b8-356a-4eed-b393-ad56153d3266") (value "Photodiode") (at -10160 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,50 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:Thermistor PTC")
+  (name "Thermistor PTC")
+  (type "normal")
+  (description "SMT Resistor")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "5c3c1317-840d-44fb-9e29-acf1ae5ee3ac") (at 50800 0) (dir 0) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "2a2d001a-10ca-4239-a1b8-4dd664704a25") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "4787e39f-5db0-4d05-a8a8-b6a9ae8b3cc8") (type "poly") (start -22860 17780) (end 22860 -17780) (closed "no")
+   (pts (xy -22860 17780) (xy -12700 17780) (xy 22860 -17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "7cc7f42f-b54a-4f28-ba5b-e8a276d8bb22") (type "poly") (start -25400 0) (end -22860 0) (closed "no")
+   (pts (xy -25400 0) (xy -22860 0) (xy -22860 -10160) (xy 22860 -10160) (xy 22860 10160) (xy -22860 10160) (xy -22860 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "3e3eeb4d-bb79-4115-ab32-e4f5ae45506c") (type "segment") (start 25400 0) (end 22860 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "f45e08bd-7ba5-4494-8dfd-fa3a36a7b1e7") (type "segment") (start -2540 17780) (end 7620 17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "bab01f5c-75eb-479e-99e2-3f89378f2850") (type "segment") (start 2540 12700) (end 2540 22860) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (field (uuid "8b124d38-1a7c-46d0-9fb1-e04708233343") (value "R?") (at -25400 -26670) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 7) (altid 1))
+
+  (field (uuid "cfa87864-f690-4f68-b4e8-5e509c77fd0c") (value "Thermistor PTC") (at -25400 31750) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "21fffe6f-71b0-4490-b7ce-439145331f32") (value "") (at -25400 49530) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 9) (altid 1))
+
+  (field (uuid "d7269352-5916-493a-94ab-4bd409aeb966") (value "") (at -25400 67310) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "02b28a7e-338f-4c51-9c1c-e9bff4390815") (value "SMT Resistor") (at -25400 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 11) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,101 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Power_Module:MEANWELL IRM-10")
+  (name "MEANWELL IRM-10")
+  (type "tht")
+  (description "10W AC-DC PCB-Mount Green Power Module")
+  (keywords "")
+  (padmap_json "{\"2\":\"\",\"3\":\"\",\"1\":\"\",\"4\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "MEANWELL IRM-10"
+    (side front)
+    (library "Power_Module")
+    (desc "10W AC-DC PCB-Mount Green Power Module")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -14.335) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "1e6b0d07-df51-4690-8a60-8f0f00295e4a")
+   )
+   (field "{Value}" (value "{Value}") (at 0 14.335) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "37a4019a-60dd-42a6-bbe8-c53679a4f93f")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "7d83a8d0-12db-422c-a83c-b92ad378bc65")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ffda43d2-b77b-4717-8568-d4ada3ae87f6")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "161fa8e4-7a47-4ce9-be79-2d2c0fad9fc9")
+   )
+  )
+  (drawings
+   (line -22.8 12.7 22.8 12.7
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "73e54bd8-c9a8-4f6d-9e4b-94fc61f9f66d")
+   )
+   (line 22.8 12.7 22.8 -12.7
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "a96f4ef9-7c10-4e2f-bf38-34d2d605a415")
+   )
+   (line -22.8 -12.7 22.8 -12.7
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "9329d22f-d480-4418-abde-ba6703642551")
+   )
+   (line -22.8 12.7 -22.8 -12.7
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "7ab400d3-a11d-4ca8-8033-099fa609baa4")
+   )
+   (line -22.8 12.7 22.8 12.7
+    (stroke (width 0.2) (type "solid")) (layer "USER_3") (uuid "32a1d2e8-ddc2-4d9c-ac9a-8d8dffa8dae0")
+   )
+   (line 22.8 12.7 22.8 -12.7
+    (stroke (width 0.2) (type "solid")) (layer "USER_3") (uuid "15227b9e-a73b-4325-989e-0af90231b920")
+   )
+   (line -22.8 -12.7 22.8 -12.7
+    (stroke (width 0.2) (type "solid")) (layer "USER_3") (uuid "761c4209-b848-48ce-af2d-fc5d0182498f")
+   )
+   (line -22.8 12.7 -22.8 -12.7
+    (stroke (width 0.2) (type "solid")) (layer "USER_3") (uuid "09441c38-4ac1-433a-bbeb-5604ffa1a453")
+   )
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.2) (type "solid")) (layer "USER_1") (uuid "fb246e9b-f4e0-4af8-ae9c-9f086af7cbb5")
+   )
+   (line -0.499999 0 0.499999 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_1") (uuid "1250b353-b2bb-46e9-b085-da3836e9a99e")
+   )
+   (line -23.2 13.1 23.2 13.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "83162f6f-2dba-4e6c-a7dc-7400a66c3393")
+   )
+   (line 23.2 13.1 23.2 -13.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "68b4a204-e5d8-42fd-91ee-81301aadb82e")
+   )
+   (line -23.2 -13.1 23.2 -13.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "da3e31e1-a208-4b6d-8546-7dfe5ec62ecd")
+   )
+   (line -23.2 13.1 -23.2 -13.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "2f785b42-c031-4e04-bad0-edf26785c41a")
+   )
+   (circle -19.25 -9.25 -17.768 -9.25
+    (stroke (width 0.15) (type "solid")) (layer "SILK_FR") (uuid "05508690-3367-4583-99c9-cc9b79f84580")
+   )
+   (text (at 9.66503 2.49968) (value "AC/N") (layer "SILK_FR")
+    (font (name "Default") (size 2 2) (linespacing 1) (bold true) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0.254)) (uuid "ca885575-7d4e-4b4e-bb98-59c82718a830")
+   )
+   (text (at 9.66503 -8.25032) (value "AC/L") (layer "SILK_FR")
+    (font (name "Default") (size 2 2) (linespacing 1) (bold true) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0.254)) (uuid "7ce70198-d48a-4b2e-b488-62e054709421")
+   )
+   (text (at -16.996 -0.250322) (value "V+") (layer "SILK_FR")
+    (font (name "Default") (size 2 2) (linespacing 1) (bold true) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0.254)) (uuid "2fb69b75-36ad-4dae-99f2-4032c83580dc")
+   )
+   (text (at -16.996 -8.25032) (value "V-") (layer "SILK_FR")
+    (font (name "Default") (size 2 2) (linespacing 1) (bold true) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0.254)) (uuid "f3aadf66-f868-490f-9dfb-685d011e55a1")
+   )
+  )
+  (pads
+   (pad "2" (at -19.25 -1.25) (type pth) (padmode 0) (layer "CU_FR") (size 2.5 2.5) (shape circle) (offset 0 0) (drshape circle) (drsize 1.5 1.5) (padlayermode keep) (uuid "9366e8e4-56ff-4490-af10-9ff0f4c883fc"))
+   (pad "3" (at 19.25 1.5) (type pth) (padmode 0) (layer "CU_FR") (size 2.5 2.5) (shape circle) (offset 0 0) (drshape circle) (drsize 1.5 1.5) (padlayermode keep) (uuid "42201c71-a898-44e7-8310-11df2cf1ac56"))
+   (pad "1" (at -19.25 -9.25) (type pth) (padmode 0) (layer "CU_FR") (size 2.5 2.5) (shape circle) (offset 0 0) (drshape circle) (drsize 1.5 1.5) (padlayermode keep) (uuid "cb9c636c-5777-45dd-b58d-89e0ed455598"))
+   (pad "4" (at 19.25 -9.25) (type pth) (padmode 0) (layer "CU_FR") (size 2.5 2.5) (shape circle) (offset 0 0) (drshape circle) (drsize 1.5 1.5) (padlayermode keep) (uuid "479b7652-79b7-432b-aef2-a36361dea4de"))
+  )
+  )
+)
+
+  )
+)

@@ -1,0 +1,73 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Potentiometer:POT PANASONIC EVM2W")
+  (name "POT PANASONIC EVM2W")
+  (type "smd")
+  (description "Panasonic EVM2W 2.75mm x 2.20mm x 1.05mm")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\",\"3\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "POT PANASONIC EVM2W"
+    (side front)
+    (library "Potentiometer")
+    (desc "Panasonic EVM2W 2.75mm x 2.20mm x 1.05mm")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -3.335) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "e9700c1f-6cc0-40c7-89d7-ebabf99592df")
+   )
+   (field "{Value}" (value "{Value}") (at 0 3.335) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "eac9d1b1-c2c3-4032-9570-c4fbb3637b0c")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b328f0a2-8957-4d14-bf69-e1842ee1eb75")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f5957f2f-e4a2-4ec7-8ba4-8b8993c8f7a6")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "112268b8-1da6-4731-86fa-33cc9d7f02fa")
+   )
+  )
+  (drawings
+   (line -1.4 2.1 -1.4 -2.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "6a48ec28-d1b7-4497-8d1d-69207c4e055d")
+   )
+   (line -1.4 -2.1 1.4 -2.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "f430da17-962e-4a60-bdc4-53f19cfe75ab")
+   )
+   (line 1.4 2.1 1.4 -2.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "62604fcc-5c22-4b3b-8c73-ed8c488d0593")
+   )
+   (line -1.4 2.1 1.4 2.1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "d34e4b93-de7b-4043-86b7-80ee574aa885")
+   )
+   (line -0.499999 0 0.499999 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "9951ea4d-9a3a-4808-a1bc-e8f898c968ff")
+   )
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "943c719f-e103-4f60-bee1-9ccdbe156605")
+   )
+   (line -1.1 -1.4 -0.900001 -1.4
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "f6fbcc17-2bcf-459c-a37a-93f74105a970")
+   )
+   (line -1.1 0.599999 -1.1 -1.4
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "87a47b18-d687-4b0e-880f-4cf0b1fd0ee6")
+   )
+   (line 1.1 0.599999 1.1 -1.4
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "c7836b00-8105-41a2-bcd5-b126392bad8f")
+   )
+   (line 0.900001 -1.4 1.1 -1.4
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "40adab0e-447f-4bc2-ae7e-2f9c9c5c8fcd")
+   )
+  )
+  (pads
+   (pad "1" (at -0.662501 1.3) (type smd) (padmode 0) (layer "CU_FR") (size 0.575 0.800001) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "05edfca9-0d04-4c99-8705-76924466f30e"))
+   (pad "2" (at 0 -1.2) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.1 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "787f2a05-474d-4f11-947a-3c0959420079"))
+   (pad "3" (at 0.662501 1.3) (type smd) (padmode 0) (layer "CU_FR") (size 0.575 0.800001) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "3a191778-8fde-47f9-b05d-ba20869602b6"))
+  )
+  )
+)
+
+  )
+)

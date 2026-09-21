@@ -1,0 +1,48 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:DIODE TVS UNI IPC")
+  (name "DIODE TVS UNI IPC")
+  (type "normal")
+  (description "Rectifier Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "37f1e88b-6039-44e8-869e-ecefa191e05e") (at 50800 0) (dir 0) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "fc010134-67e2-44f8-a3e4-b993ab70262e") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "8d256371-3b12-4e09-a641-d6b482f065df") (type "poly") (start -10160 0) (end -10160 0)
+   (pts (xy -10160 0) (xy 10160 15240) (xy 10160 -15240) (xy -10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "7c1f5354-bf9e-4368-84c3-80c268352a7a") (type "segment") (start -10160 -15240) (end -10160 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "221faf5f-fb63-4977-a28a-22e3351e5326") (type "segment") (start -10160 15240) (end -5080 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "3e6d2296-ca5e-4ba8-a355-cc783e84a11b") (type "segment") (start -10160 -15240) (end -15240 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "3f0c79a6-4f59-4fb6-96fb-c7dbf23b3132") (type "segment") (start -10160 15240) (end -5080 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (field (uuid "79b69fc3-5bfe-430e-b939-af7097c45802") (value "D?") (at -15240 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 7) (altid 1))
+
+  (field (uuid "4428c769-bbfc-4746-bf3f-dba235beb888") (value "DIODE TVS UNI IPC") (at -15240 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "25762a1e-94aa-4c3e-8847-aade71acfae1") (value "") (at -15240 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 9) (altid 1))
+
+  (field (uuid "e67fd6b4-29bc-4c7e-8879-7e0e904f9497") (value "") (at -15240 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "cf7c0f77-7c84-4d4e-a233-454d8e19b78a") (value "Rectifier Diode") (at -15240 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 11) (altid 1))
+ )
+)
+
+  )
+)

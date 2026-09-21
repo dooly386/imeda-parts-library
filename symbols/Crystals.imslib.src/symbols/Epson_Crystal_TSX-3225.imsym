@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Crystals:Epson Crystal TSX-3225")
+  (name "Epson Crystal TSX-3225")
+  (type "normal")
+  (description "SMT Crystal")
+  (footprint "")
+  (datasheet "")
+  (reference "Y?")
+  (keywords "Crystals")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "ebaac472-70f8-43b1-bc44-8203d0227b04") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "15f9d1ad-43f5-46bd-a498-41e00d0bb683") (at 50800 0) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "e2b6287f-316d-41af-9701-5eedaf3e0324") (at 50800 50800) (dir 0) (length 25400) (name "GND") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "ebc75867-31e9-4d4e-ac94-7fa69e4bb1c6") (at -50800 50800) (dir 2) (length 25400) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "f9350664-dd93-4cff-8cb5-b2e9b7b1c593") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "53c514c7-9af3-462d-931f-4b8b3110120c") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "f0863558-cba5-4765-994f-68e5ac4e488c") (type "segment") (start 15240 -20320) (end 15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "735656c7-342f-4519-bc72-305394527b29") (type "segment") (start -15240 -20320) (end -15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "f3a2ed53-394f-495b-af8d-d9535b8963b3") (type "poly") (start -7620 -20320) (end -7620 20320) (closed "no")
+   (pts (xy -7620 -20320) (xy 7620 -20320) (xy 7620 20320) (xy -7620 20320)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "9bdb97f4-65ed-400a-9654-5d997861af19") (type "segment") (start -7620 -20320) (end -7620 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (text (uuid "a38eb73a-9f21-412d-8af0-ad20ce9837c8") (value "GND") (at -25400 53340) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "c00a0af6-e602-4652-a192-90d80e2eb447") (value "Y?") (at -25400 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "b0f509a7-b36d-4a98-8ccf-69f539508370") (value "Epson Crystal TSX-3225") (at -25400 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "a5924935-4df3-46b7-ad6a-0a663d48393e") (value "") (at -25400 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "7006ee51-d8e9-4423-9233-bfcefd56df3f") (value "") (at -25400 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "65ce0ecb-9191-4290-af54-29d2432c0794") (value "SMT Crystal") (at -25400 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

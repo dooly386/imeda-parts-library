@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Crystals:MURATA XRCGB")
+  (name "MURATA XRCGB")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "Y?")
+  (keywords "Crystals")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "63b230a8-5085-4f24-842b-b026ccb97c02") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "34960766-53c5-401d-8b41-3483dd91214a") (at 50800 0) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "c93cda1c-327e-4b7a-ad76-7883f015ae09") (at 50800 50800) (dir 0) (length 25400) (name "GND") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "14ece447-5352-40f8-b126-1fcffd755268") (at -50800 50800) (dir 2) (length 25400) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "b01d6184-9dff-4163-99d0-e893a9138054") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "0f926e7b-a20a-4538-903e-5a6c365821ee") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "b7038cbb-c069-48af-9c7b-b5e1336be566") (type "segment") (start 15240 -20320) (end 15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "ab61fcfe-f90e-48d3-b69a-9efa92f5631c") (type "segment") (start -15240 -20320) (end -15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "59b5350a-5cea-4656-9f20-0d7a76d3755a") (type "poly") (start -7620 -20320) (end -7620 20320) (closed "no")
+   (pts (xy -7620 -20320) (xy 7620 -20320) (xy 7620 20320) (xy -7620 20320)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "08435fe9-7836-4d63-bc8c-e9d7c5a704a2") (type "segment") (start -7620 -20320) (end -7620 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (text (uuid "1ad9a03a-50ab-4fbe-8f6a-37afda8cb8dc") (value "GND") (at -25400 53340) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "5dad047c-d30c-42a4-9d4b-1f4c3dae2fcc") (value "Y?") (at -25400 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "406682bd-ef51-4616-bde0-3a0eb7fc380e") (value "MURATA XRCGB") (at -25400 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "8929250a-ac24-4871-b55e-0b8c7f6aca41") (value "") (at -25400 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "574785cd-c1c2-4201-889c-4b7a1c0748b4") (value "") (at -25400 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "210958a6-e8b1-48ad-9ab7-6b4a0845525f") (value "") (at -25400 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,62 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Relay:PANASONIC APAN31NN PA-N")
+  (name "PANASONIC APAN31NN PA-N")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "RL?")
+  (keywords "Relay")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "9ba8df86-8c06-4386-b567-40b95cb6e9ce") (at -127000 -25400) (dir 2) (length 76200) (name "COIL1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "d0db17c2-f0a6-4303-91f3-9a4ff426a70c") (at -127000 25400) (dir 2) (length 76200) (name "COIL2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "3993e8d2-8dd8-4725-af49-6faa42f9538a") (at 127000 25400) (dir 0) (length 76200) (name "TERM1") (number "5") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "de57d48d-b058-4d94-aa5a-5021c43f0828") (at 127000 -25400) (dir 0) (length 76200) (name "TERM2") (number "6") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "9bf5f9ea-d7f1-4086-854e-78f3ca199b18") (type "rectangle") (start -50800 50800) (end 50800 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "0c24fdc2-1901-4d71-9cc6-b932086c985a") (type "poly") (start -50800 -25400) (end -25400 -12700) (closed "no")
+   (pts (xy -50800 -25400) (xy -25400 -25400) (xy -25400 -12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "d0c677c7-bcd9-428c-b795-842efa981ada") (type "poly") (start -38100 -12700) (end -38100 -12700)
+   (pts (xy -38100 -12700) (xy -12700 -12700) (xy -12700 12700) (xy -38100 12700) (xy -38100 -12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "e945ca1d-e440-4c1c-aa74-f943227c2abd") (type "poly") (start -50800 25400) (end -25400 12700) (closed "no")
+   (pts (xy -50800 25400) (xy -25400 25400) (xy -25400 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "4667a776-f9d2-4002-a7e7-38756cb4d15a") (type "poly") (start 50800 -25400) (end 12700 12700) (closed "no")
+   (pts (xy 50800 -25400) (xy 25400 -25400) (xy 25400 -12700) (xy 12700 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "5455c23c-6881-4618-b9e3-e0a8af43f540") (type "poly") (start 50800 25400) (end 25400 12700) (closed "no")
+   (pts (xy 50800 25400) (xy 25400 25400) (xy 25400 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (field (uuid "9634bb07-bbb6-4660-a281-08d159ab9d36") (value "RL?") (at -50800 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "f384bfcf-078e-4ab2-97a1-1ad1090bba4d") (value "PANASONIC APAN31NN PA-N") (at -50800 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "eec6effa-b219-4107-9fad-d7bb7a6a6f50") (value "") (at -50800 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "a27de981-148c-48c4-982a-ddd358ecab87") (value "") (at -50800 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "043427f2-5056-40a4-93f5-20860b44cd24") (value "") (at -50800 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

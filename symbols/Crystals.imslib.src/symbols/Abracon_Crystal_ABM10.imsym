@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Crystals:Abracon Crystal ABM10")
+  (name "Abracon Crystal ABM10")
+  (type "normal")
+  (description "SMT Crystal")
+  (footprint "")
+  (datasheet "")
+  (reference "Y?")
+  (keywords "Crystals")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "f4aa3850-4b47-4b2f-9217-81e42539df78") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "31da67ba-e4ce-4d1a-aa08-9390f569e6a4") (at 50800 0) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "e1d5828d-84a3-4c33-8f90-1074338fc0a2") (at 50800 50800) (dir 0) (length 25400) (name "GND") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "f113c7d6-666c-4d8f-bb8b-ac131a57cce5") (at -50800 50800) (dir 2) (length 25400) (name "GND") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "d9b6c504-5bfa-465d-9efe-e228bd62ad46") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "26a7dc83-9185-42db-a648-4a3dc83244f2") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "61361945-e22e-41ed-994f-ff51a52f38ca") (type "segment") (start 15240 -20320) (end 15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "ef63a90c-247a-4df6-a12d-14888cd4404c") (type "segment") (start -15240 -20320) (end -15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "c1d48d46-a430-4db3-9c50-fe0e7e6f10b4") (type "poly") (start -7620 -20320) (end -7620 20320) (closed "no")
+   (pts (xy -7620 -20320) (xy 7620 -20320) (xy 7620 20320) (xy -7620 20320)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "e7efc7a8-ab8f-43c0-b39b-2184560f4659") (type "segment") (start -7620 -20320) (end -7620 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (text (uuid "b01d9933-2516-4a5e-879c-75d54126a7af") (value "GND") (at -25400 53340) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[PART_TEXT]") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "8d3db4ca-eb3a-4595-97d5-c2a78e1c9d8c") (value "Y?") (at -25400 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "8abe911b-f19d-4185-aa71-3d0a575cd1a0") (value "Abracon Crystal ABM10") (at -25400 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "d8fa77d1-646a-47b8-87e4-dbd6e548a774") (value "") (at -25400 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "f8b9f40e-8aec-440f-aa63-2ba4c52fe418") (value "") (at -25400 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "f9a19c07-2106-43f9-b76c-ad8051610858") (value "SMT Crystal") (at -25400 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

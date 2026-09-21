@@ -1,0 +1,95 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-TE:TE 282837-7")
+  (name "TE 282837-7")
+  (type "tht")
+  (description "Wire to Board Terminal Block Horizontal with Board, 7 Postions, Body 36.16x8.2mm, Pitch 5.08mm")
+  (keywords "")
+  (padmap_json "{\"5\":\"\",\"6\":\"\",\"3\":\"\",\"2\":\"\",\"1\":\"\",\"4\":\"\",\"7\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "TE 282837-7"
+    (side front)
+    (library "Connector-TE")
+    (desc "Wire to Board Terminal Block Horizontal with Board, 7 Postions, Body 36.16x8.2mm, Pitch 5.08mm")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0.3 -5.46) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "9b38cb32-e734-4dc6-8e22-06d04276b342")
+   )
+   (field "{Value}" (value "{Value}") (at 0.3 5.46) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "fb46292d-dff0-4b82-b657-64d2e6226a0b")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6f26a13b-0b27-41f1-9b66-990fcf1730d6")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "934ca8f0-ed7a-414e-8466-ef8273475331")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "604d3483-f189-42a9-81d1-6dae4fc3d9e2")
+   )
+  )
+  (drawings
+   (line 0 0.508 0 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "29613771-1cf3-4c25-948d-4ba5b1bc5658")
+   )
+   (line -0.508 0 0 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "bfa8c3d1-e08d-4f42-a380-fbef8b007490")
+   )
+   (line 0 0 0.508 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "a86e92ab-c1f5-46a8-85b9-dfe28d69cd55")
+   )
+   (line 0 0 0 -0.508
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "3c907fb1-93c8-420d-b54c-cff4bc900409")
+   )
+   (line 18.58 4.3 18.58 -4.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6652d06d-36c9-41bb-9f28-ef602b73a117")
+   )
+   (line -17.98 4.3 18.58 4.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6874ec4f-5385-4c71-8cb0-010aacd35924")
+   )
+   (line -17.98 4.3 -17.98 -4.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "28fd7378-de91-477a-843c-b95bc0716cfb")
+   )
+   (line -17.98 -4.3 18.58 -4.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "4cfd793d-b728-48da-b165-ed18a623d898")
+   )
+   (line -17.7801 -4.10013 18.3798 -4.10013
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "03d8bc1a-5120-451b-98b1-a154b74f598a")
+   )
+   (line -17.7801 4.09988 -17.7801 -4.10013
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "42939c0d-7ee6-4914-9ada-b4f7fe219d93")
+   )
+   (line 18.3798 4.09988 18.3798 -4.10013
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "e021ef2a-5efa-4a2f-a57e-6d0d6233adc0")
+   )
+   (line -17.7801 4.09988 18.3798 4.09988
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "cff8e45f-0a70-47f5-9767-02d460837512")
+   )
+   (line 18.3798 4.09984 18.3798 -4.10018
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "ea178214-03b5-4837-b0a6-f48d65e690f5")
+   )
+   (line -17.7802 -4.10018 18.3798 -4.10018
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "64fb641c-4998-4f83-bf4f-a8e17b18d295")
+   )
+   (line -17.7802 4.09984 -17.7802 -4.10018
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "3346fcb6-c174-49a3-9db0-0e33fba32714")
+   )
+   (line -17.7802 4.09984 18.3798 4.09984
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "f564fb3a-3a8a-4a08-8fd9-f72fb87a545b")
+   )
+  )
+  (pads
+   (pad "5" (at 5.08 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "8ec78140-1d2a-463b-bb7d-562f83c35cdc"))
+   (pad "6" (at 10.16 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "c16ad8a0-c372-4302-99db-e3a6a0edb187"))
+   (pad "3" (at -5.08 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "20f7b571-a91c-4746-8374-e23613bdafc4"))
+   (pad "2" (at -10.16 0) (type pth) (padmode 0) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "0b35afee-10f7-4ea8-b163-1d08969b0be4"))
+   (pad "1" (at -15.24 0) (type pth) (padmode 0) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "4003699e-8ed4-4892-8a47-9898911f805c"))
+   (pad "4" (at 0 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "df848771-54ea-47a9-8c6e-91be3c786f2f"))
+   (pad "7" (at 15.24 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 2.2 2.2) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "97006661-c938-42af-8139-94f9a6c0596f"))
+  )
+  )
+)
+
+  )
+)

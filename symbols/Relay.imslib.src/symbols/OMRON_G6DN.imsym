@@ -1,0 +1,62 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Relay:OMRON G6DN")
+  (name "OMRON G6DN")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "RL?")
+  (keywords "Relay")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "15cfefd5-9137-44d1-9c30-ab412cbc23a7") (at -127000 -25400) (dir 2) (length 76200) (name "COIL1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "b4661d22-9190-494f-86d1-aa5b4bcbd9de") (at -127000 25400) (dir 2) (length 76200) (name "COIL2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "1feffde3-c503-45c3-bf21-888363df72ad") (at 127000 25400) (dir 0) (length 76200) (name "TERM1") (number "5") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "a087db6f-7baa-48cd-8081-a53d27bcb9e3") (at 127000 -25400) (dir 0) (length 76200) (name "TERM2") (number "8") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "ec2f9270-025e-44cb-9af4-60948d7a8e76") (type "rectangle") (start -50800 50800) (end 50800 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "bbd5bd41-40e2-4c9e-b9a6-33d7b497751a") (type "poly") (start -50800 -25400) (end -25400 -12700) (closed "no")
+   (pts (xy -50800 -25400) (xy -25400 -25400) (xy -25400 -12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "e7b79c9e-0020-46ea-928c-139a3a3cf73f") (type "poly") (start -38100 -12700) (end -38100 -12700)
+   (pts (xy -38100 -12700) (xy -12700 -12700) (xy -12700 12700) (xy -38100 12700) (xy -38100 -12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "9bd08462-1a63-449f-8da0-2ee54c261537") (type "poly") (start -50800 25400) (end -25400 12700) (closed "no")
+   (pts (xy -50800 25400) (xy -25400 25400) (xy -25400 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "30f80788-37ec-4b7a-9c19-1fdcd9a658e6") (type "poly") (start 50800 -25400) (end 12700 12700) (closed "no")
+   (pts (xy 50800 -25400) (xy 25400 -25400) (xy 25400 -12700) (xy 12700 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "01e40596-0f61-407b-955f-45553f076bb7") (type "poly") (start 50800 25400) (end 25400 12700) (closed "no")
+   (pts (xy 50800 25400) (xy 25400 25400) (xy 25400 12700)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (field (uuid "a8901a83-b3fd-4d8d-9065-408829f4f09e") (value "RL?") (at -50800 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "a7b05394-84ca-4cb3-b7ed-67f86c670096") (value "OMRON G6DN") (at -50800 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "4b4f01e0-cd18-4f0f-9fd6-b147277eaf19") (value "") (at -50800 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "f5319aca-e907-4a30-a5da-f02746b3142a") (value "") (at -50800 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "03496d0b-123c-46f6-8273-c0730c52f812") (value "") (at -50800 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

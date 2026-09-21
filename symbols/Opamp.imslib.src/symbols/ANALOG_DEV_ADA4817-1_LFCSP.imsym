@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Opamp:ANALOG DEV ADA4817-1 LFCSP")
+  (name "ANALOG DEV ADA4817-1 LFCSP")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Opamp")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "6d36b642-d997-4cdd-a018-bd4f9584399f") (at 0 -152400) (dir 1) (length 83820) (name "+VS") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "4bd94c56-b297-45bf-8f4a-88dfc5186317") (at -127000 50800) (dir 2) (length 76200) (name "-") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "b2b52617-cab3-4472-b69b-09b0992ef963") (at -127000 -50800) (dir 2) (length 76200) (name "+") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "e5b7e79b-44c9-4a6f-8bf2-cffac1c6d965") (at 50800 -152400) (dir 1) (length 116840) (name "\\PD\\") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "269aa3fc-881c-47c3-b2e3-fecaec09cafa") (at 0 152400) (dir 3) (length 83820) (name "-VS") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "f072dee2-8ba6-4fd0-84ce-054a20df7acc") (at 50800 152400) (dir 3) (length 116840) (name "EPAD") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "a4543634-bf56-4e29-b5a5-71fc97edc631") (at 177800 0) (dir 0) (length 76200) (name "OUT") (number "7") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "d0d5d823-a060-4eeb-96af-99970ac43697") (at -127000 0) (dir 2) (length 76200) (name "FB") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (shape (uuid "5bc552ea-29c0-4477-886f-abfca1ae3fb3") (type "poly") (start -50800 -101600) (end -50800 -101600)
+   (pts (xy -50800 -101600) (xy 101600 0) (xy -50800 101600) (xy -50800 -101600)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "55bfa3f8-13bb-45ac-82b8-e4e04f6674f7") (type "poly") (start 101600 0) (end 101600 0)
+   (pts (xy 101600 0) (xy -50800 -101600) (xy -50800 101600) (xy 101600 0)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (field (uuid "9a38db62-47b8-4ad9-8a2b-0f7010ec174a") (value "IC?") (at 177800 -101600) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "1e50f84f-7c41-4f55-a80e-9464da073cfc") (value "ANALOG DEV ADA4817-1 LFCSP") (at 177800 -83820) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "84dd5af6-3592-454d-9b87-f35cb972abca") (value "") (at 177800 -66040) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "2351cdc9-6089-4ac4-ae9b-aaf340f5af23") (value "") (at 177800 -48260) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "c3588340-88d0-4e0d-972f-685411127221") (value "") (at 177800 -30480) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

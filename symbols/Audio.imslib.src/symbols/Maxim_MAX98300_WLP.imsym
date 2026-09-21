@@ -1,0 +1,50 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Audio:Maxim MAX98300 WLP")
+  (name "Maxim MAX98300 WLP")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Audio")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "e07dd7ea-d17d-438d-89cf-d4c8789fe943") (at 203200 -50800) (dir 0) (length 76200) (name "IN+") (number "A3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "455c0f9d-663c-4497-acac-ca427394dc0e") (at 203200 -25400) (dir 0) (length 76200) (name "IN-") (number "B3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "a7d5eeb1-31fc-4579-be56-b6d9ed4b2604") (at -203200 0) (dir 2) (length 76200) (name "\\SHDN\\") (number "C2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "912ea759-9b9c-441d-8c5e-a0f2642e1f9f") (at 203200 25400) (dir 0) (length 76200) (name "GAIN") (number "C3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "93b2f35a-33d2-4d3c-97d0-535fa8a52878") (at -203200 101600) (dir 2) (length 76200) (name "GND") (number "A2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "75bbb1d7-cd4d-48d2-99bd-130a1a1c4174") (at 203200 101600) (dir 0) (length 76200) (name "OUT-") (number "C1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "6d09ad7a-8631-4737-b72b-582ea56ac782") (at 203200 76200) (dir 0) (length 76200) (name "OUT+") (number "B1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "2b4b7210-ee64-4cda-817e-d19d5f7d555a") (at -203200 -50800) (dir 2) (length 76200) (name "VDD") (number "A1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (shape (uuid "e62ff8c2-5623-4d23-be57-1cc4f9e5be8e") (type "rectangle") (start -127000 127000) (end 127000 -76200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 8) (altid 1))
+
+  (field (uuid "133240d6-89f7-432d-9b0c-f363406f8d34") (value "IC?") (at -127000 -85090) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "bb203dff-0b9a-4787-9026-259c938a9b25") (value "Maxim MAX98300 WLP") (at -127000 135890) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "d8cbde67-7f20-4fcf-841e-cfa5f9452a32") (value "") (at -127000 153670) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "6a5655fe-9d5d-4a23-867c-9752726cd3fd") (value "") (at -127000 171450) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "177a727c-a98e-4cbe-b22a-e93e16a00a6f") (value "") (at -127000 189230) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 13) (altid 1))
+ )
+)
+
+  )
+)

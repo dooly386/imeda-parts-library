@@ -1,0 +1,75 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Power_Inductors:BEL FUSE F1C1-252012")
+  (name "BEL FUSE F1C1-252012")
+  (type "smd")
+  (description "Inductor, 2-Leads, Body 2.50x2.00mm")
+  (keywords "")
+  (padmap_json "{\"2\":\"\",\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "BEL FUSE F1C1-252012"
+    (side front)
+    (library "Power_Inductors")
+    (desc "Inductor, 2-Leads, Body 2.50x2.00mm")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.46) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "34ff765d-936f-4b58-93af-0e2bf95301f3")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.46) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "8eee2eb5-6392-4798-8afa-c18372715c5e")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d8716115-cd43-48ef-82f9-b522ec6a1fca")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f67f7fd7-ccc4-45a6-9515-6a0654a1be6a")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "c2ded2b0-785a-4518-9d4b-457150bb4ab4")
+   )
+  )
+  (drawings
+   (line 0 0.499999 0 -0.500002
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "605dfec7-1c3d-489b-999f-1727b5bcc4af")
+   )
+   (line -0.500002 0 0.499999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "85d798a3-8f88-4082-b0db-a0ac11475df4")
+   )
+   (line -1.5 1.3 1.5 1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "fa0d0e5c-c41a-4b4e-96b5-9209dcd74c6a")
+   )
+   (line -1.5 -1.3 1.5 -1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "e22ece9d-4f89-40b3-84f4-e2df88b44fe6")
+   )
+   (line 1.5 1.3 1.5 -1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "c56947b3-15a0-4845-8661-d7b009d93840")
+   )
+   (line -1.5 1.3 -1.5 -1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "181c3c50-5380-411c-86fb-0b953366574c")
+   )
+   (line -1.25 1 1.25 1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "e09ad79e-0392-4acf-a048-c64d19322b9f")
+   )
+   (line 1.25 1 1.25 -1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "f78e2482-a68c-4215-ae3c-bc402673e5e8")
+   )
+   (line -1.25 -1 1.25 -1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "8a905cc2-b9d4-450c-8ca3-9dfc56948927")
+   )
+   (line -1.25 1 -1.25 -1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "db46b27d-bf9f-46fd-917d-60dfc8710738")
+   )
+   (line 0 1 0 -1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "ab0cf698-e817-4ede-88e8-ae3ab58dad13")
+   )
+  )
+  (pads
+   (pad "2" (at 0.825 0) (type smd) (padmode 0) (layer "CU_FR") (size 0.950001 2.1) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "8abfe735-7690-4b14-b4d7-9a74b64f5c72"))
+   (pad "1" (at -0.825 0) (type smd) (padmode 0) (layer "CU_FR") (size 0.950001 2.1) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "5320c06e-550f-4c05-9e81-668928c704d8"))
+  )
+  )
+)
+
+  )
+)

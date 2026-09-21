@@ -1,0 +1,50 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Filter:RF HIGHPASS IN OUT G")
+  (name "RF HIGHPASS IN OUT G")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "F?")
+  (keywords "RF - Filter")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "2b8ba5b1-3e86-482a-8ca2-5b09a95fa38b") (at -127000 25400) (dir 2) (length 76200) (name "GND") (number "G") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "b9b846c4-b460-4b22-968d-f69c38b902a9") (at -127000 -25400) (dir 2) (length 76200) (name "RFIN") (number "IN") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "b8d2aa4e-4979-4fb3-a10f-c4c42c2c2ed5") (at 127000 -25400) (dir 0) (length 76200) (name "RFOUT") (number "OUT") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "286ae9d9-a848-4aa0-ac48-23a56ba68904") (type "rectangle") (start -50800 50800) (end 50800 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "79ba368d-dab0-4285-bce2-fe2211ef31d0") (type "arc") (start -181 -23388) (mid -15420 -33848) (end -30421 -23049) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "84b32bc8-d416-4bf7-8b1b-24039d1eb278") (type "arc") (start 59 -22671) (mid 15060 -11872) (end 30299 -22332) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "3c97f323-291b-4121-8683-e720a56a23ca") (type "arc") (start -181 -528) (mid -15420 -10988) (end -30421 -189) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "dd1c20c2-e30c-4316-9303-be92837088a8") (type "arc") (start 59 189) (mid 15060 10988) (end 30299 528) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "0f77f8af-4f5c-4aec-a0e8-d2657f31d8d8") (type "segment") (start -10160 2540) (end 5080 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (field (uuid "972f20bc-383f-4dce-9ec0-f4a3096945d8") (value "F?") (at -50800 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "532618eb-fa11-4e7b-b639-c189b094890c") (value "RF HIGHPASS IN OUT G") (at -50800 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "8669377f-d1a2-4a98-963b-460652937864") (value "") (at -50800 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "0f725a86-5b6c-4e5d-8039-e0fc189d2b17") (value "") (at -50800 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "34f09281-43b7-470d-88b9-52999c6a3b92") (value "") (at -50800 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 13) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,76 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Switch:Skyworks SKY13355-374LF")
+  (name "Skyworks SKY13355-374LF")
+  (type "normal")
+  (description "0.1-6.0 GHz DPDT Switch")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "RF - Switch")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "4a05f467-fd89-40e0-bd3e-a8d6172e9817") (at -177800 -25400) (dir 2) (length 76200) (name "ANT2") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "8a77de0f-f0e9-44ad-b8d6-d75c1d88d531") (at -177800 -127000) (dir 2) (length 76200) (name "ANT1") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "5efb085f-e588-45ce-83c4-41443705eed5") (at 177800 50800) (dir 0) (length 76200) (name "V2") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "bb8a7f55-212b-4dc8-95d9-a1d23fe91f63") (at 177800 -127000) (dir 0) (length 76200) (name "RX") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "9e5c44f5-425b-42b4-a618-626210c3e7c8") (at 177800 -25400) (dir 0) (length 76200) (name "TX") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "dd4f65f1-b64e-44fe-918e-68b4b753d730") (at 177800 25400) (dir 0) (length 76200) (name "V1") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "12268a1c-1bdf-4c11-862e-78ffee53d22a") (at -177800 50800) (dir 2) (length 76200) (name "GND") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (shape (uuid "14f1e9ec-b76d-468c-81c0-f2e2e92f25df") (type "rectangle") (start -101600 76200) (end 101600 -152400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "28be55d5-fe37-416c-843f-1dcead4802b5") (type "arc") (start 32488 -53537) (mid 36290 -57940) (end 37627 -63602) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "2c069aac-b524-49b8-9cdc-23fd899044e3") (type "arc") (start 37627 -88798) (mid 36290 -94460) (end 32488 -98863) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "5efe8ee9-593b-47de-b958-f7fe1f3d1463") (type "poly") (start 25400 -114300) (end 25400 -114300)
+   (pts (xy 25400 -114300) (xy 38100 -114300) (xy 38100 -101600) (xy 25400 -114300)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 10) (altid 1)
+  )
+
+  (shape (uuid "324fde62-0033-47b2-8d18-52bf09f50b33") (type "poly") (start 38100 -50800) (end 38100 -50800)
+   (pts (xy 38100 -50800) (xy 38100 -38100) (xy 25400 -38100) (xy 38100 -50800)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 11) (altid 1)
+  )
+
+  (shape (uuid "ca4a0f23-ab0d-426e-94fa-2c042c5e2eab") (type "poly") (start -25400 -38100) (end 38100 -114300) (closed "no")
+   (pts (xy -25400 -38100) (xy 38100 -114300) (xy 25400 -114300) (xy 38100 -101600) (xy 38100 -114300)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1)
+  )
+
+  (shape (uuid "f25d2723-24b5-40b7-89a2-2cd2960924f8") (type "poly") (start -25400 -114300) (end 38100 -38100) (closed "no")
+   (pts (xy -25400 -114300) (xy 38100 -38100) (xy 25400 -38100) (xy 38100 -50800) (xy 38100 -38100)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1)
+  )
+
+  (shape (uuid "e20a7841-44c7-44ff-98cb-0e15899c7ed5") (type "poly") (start 38100 -66040) (end 38100 -66040)
+   (pts (xy 38100 -66040) (xy 35560 -63500) (xy 40640 -63500) (xy 38100 -66040)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1)
+  )
+
+  (shape (uuid "b9e4aaae-03f8-421b-8dc6-b112e36d9df3") (type "poly") (start 38100 -86360) (end 38100 -86360)
+   (pts (xy 38100 -86360) (xy 35560 -88900) (xy 40640 -88900) (xy 38100 -86360)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1)
+  )
+
+  (field (uuid "fa521882-bb48-4ffd-aed9-f0dce6ec50f3") (value "IC?") (at -101600 -161290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 16) (altid 1))
+
+  (field (uuid "75c8dff3-aaff-46a1-8972-0891c1a1a6bd") (value "Skyworks SKY13355-374LF") (at -101600 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 17) (altid 1))
+
+  (field (uuid "b6bfe52e-d939-4881-8c1e-e374eccf4862") (value "") (at -101600 102870) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 18) (altid 1))
+
+  (field (uuid "c2c8ceb5-c0f2-4cb1-b5a5-7009feab60e9") (value "") (at -101600 120650) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 19) (altid 1))
+
+  (field (uuid "cd7daeb2-f126-4444-a783-de3ecfa1efb5") (value "0.1-6.0 GHz DPDT Switch") (at -101600 138430) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 20) (altid 1))
+ )
+)
+
+  )
+)

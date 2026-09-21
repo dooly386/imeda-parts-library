@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "LCD:Newhaven NHD-C12864A1Z")
+  (name "Newhaven NHD-C12864A1Z")
+  (type "normal")
+  (description "COG (Chip-On-Glass) Liquid Crystal Display Module")
+  (footprint "")
+  (datasheet "")
+  (reference "DS?")
+  (keywords "LCD")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "fd70fa76-714f-4939-8989-6a1839dc0b25") (at 203200 -152400) (dir 0) (length 76200) (name "SCL") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "3a5df402-17d9-473b-8bb5-8abedbb2682e") (at 203200 -127000) (dir 0) (length 76200) (name "MOSI") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "5ed160fa-65d5-4655-906c-ac759c2ec8de") (at -203200 -177800) (dir 2) (length 76200) (name "VDD") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "2b460d0b-37a1-4464-986f-3e3f2988085e") (at 203200 -76200) (dir 0) (length 76200) (name "A0") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "ea9d9c4c-3ab4-4a0b-b23a-e976cb2f8fe4") (at -203200 -152400) (dir 2) (length 76200) (name "\\RESET\\") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "6c4e00d0-bcb1-4688-94b0-82e7ea3a3f64") (at 203200 -177800) (dir 0) (length 76200) (name "\\CS\\") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "864f36b7-b037-4735-912d-45198a0d05ef") (at -203200 76200) (dir 2) (length 76200) (name "GND") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "806671d5-f498-4633-a958-4e48616e3972") (at -203200 0) (dir 2) (length 76200) (name "H-") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "b3f17274-76c1-406d-87a5-8e3a0148aa57") (at -203200 -25400) (dir 2) (length 76200) (name "H+") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "350f7172-8559-4e1c-9d58-e007ac7dd5e9") (at 203200 76200) (dir 0) (length 76200) (name "LED-") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (pin (uuid "6467aa47-28ab-48ae-8006-1c530985efb4") (at 203200 0) (dir 0) (length 76200) (name "LED+") (number "11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 10))
+
+  (shape (uuid "de780840-e28e-4fa0-a4e8-89aad8a1dfa6") (type "rectangle") (start -127000 101600) (end 127000 -203200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 11) (altid 1))
+
+  (field (uuid "18f673d5-fc7d-4883-8410-1c906041dec5") (value "DS?") (at -127000 -212090) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "9707e287-8f4b-496a-8da0-3b6720a80311") (value "Newhaven NHD-C12864A1Z") (at -127000 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "0f9a1701-5cf2-497d-baac-f29ff7a81aa4") (value "") (at -127000 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "7c03ee52-607b-4670-a87d-7b8cf5cbc19f") (value "") (at -127000 146050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "9b3bfd5b-ff8f-4d40-80ef-054642bbc0ec") (value "COG (Chip-On-Glass) Liquid Crystal Display Module") (at -127000 163830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 16) (altid 1))
+ )
+)
+
+  )
+)

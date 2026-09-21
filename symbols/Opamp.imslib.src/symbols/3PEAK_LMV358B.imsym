@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Opamp:3PEAK LMV358B")
+  (name "3PEAK LMV358B")
+  (type "normal")
+  (description "1MHz, 80�A, RRIO, Op Amps")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Opamp")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "4b770f4d-cd5a-492f-aeda-e948eae0f031") (at 0 -152400) (dir 1) (length 83820) (name "V+") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0) (unit 1))
+
+  (pin (uuid "1478103a-824e-4f0d-9391-f46393979d64") (at -127000 50800) (dir 2) (length 76200) (name "-") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1) (unit 1))
+
+  (pin (uuid "3cd6fe45-d773-4a9e-9dc1-114399fb3159") (at -127000 -50800) (dir 2) (length 76200) (name "+") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2) (unit 1))
+
+  (pin (uuid "e47eb675-0a10-487f-b506-2422514105d1") (at 0 152400) (dir 3) (length 83820) (name "V-") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3) (unit 1))
+
+  (pin (uuid "54829898-75f2-4a7c-bb4b-9fed845275b7") (at 177800 0) (dir 0) (length 76200) (name "OUT") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4) (unit 1))
+
+  (shape (uuid "943c07c9-f57d-4c06-a353-1bd0d1e7ab27") (type "poly") (start -50800 -101600) (end -50800 -101600)
+   (pts (xy -50800 -101600) (xy 101600 0) (xy -50800 101600) (xy -50800 -101600)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (unit 1) (altid 1)
+  )
+
+  (pin (uuid "4d499d70-a200-428d-b8d7-4122d128f44a") (at -152400 50800) (dir 2) (length 76200) (name "-") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6) (unit 2))
+
+  (pin (uuid "890044f2-3e1e-4b44-a1d3-653d209d5089") (at -152400 -50800) (dir 2) (length 76200) (name "+") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7) (unit 2))
+
+  (pin (uuid "0a49f1ad-4c40-43db-b322-738cc7b97485") (at 152400 0) (dir 0) (length 76200) (name "OUT") (number "7") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8) (unit 2))
+
+  (shape (uuid "64fc4351-0aeb-4a13-84d8-29cfe15bc20c") (type "poly") (start -76200 -101600) (end -76200 -101600)
+   (pts (xy -76200 -101600) (xy 76200 0) (xy -76200 101600) (xy -76200 -101600)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 9) (unit 2) (altid 1)
+  )
+
+  (field (uuid "1bc40a20-339a-4d5f-9fe3-ddac572e4e21") (value "IC?") (at 177800 -101600) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "af692b4c-5246-4916-91ef-88ac9d16cde6") (value "3PEAK LMV358B") (at 177800 -83820) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "59c7fd4c-cd46-44fe-b5b8-582d028dc975") (value "") (at 177800 -66040) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "898a5c8f-e199-4a38-9365-114bf0c24dc0") (value "") (at 177800 -48260) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "d787fce6-00b0-40ca-9aa7-0ab53bcd253e") (value "1MHz, 80�A, RRIO, Op Amps") (at 177800 -30480) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

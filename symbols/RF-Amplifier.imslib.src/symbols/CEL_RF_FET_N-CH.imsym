@@ -1,0 +1,62 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Amplifier:CEL RF FET N-CH")
+  (name "CEL RF FET N-CH")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "RF - Amplifier")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "466443fb-b8f2-468f-931a-24169587ae85") (at -50800 25400) (dir 2) (length 40640) (name "G") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "264f0682-d7de-4ff0-ba99-847ba393a15e") (at 25400 76200) (dir 3) (length 50800) (name "S") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "709ab259-dc4b-40b0-84c0-ed96dab818bd") (at 76200 -25400) (dir 0) (length 50800) (name "D") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "42a43d80-df81-486a-810f-7b07ed0a421e") (at 25400 76200) (dir 3) (length 50800) (name "S") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "23f3c887-c794-4dbe-ac06-9cd576119157") (type "arc") (start 56974 23618) (mid -31226 -24260) (end 56268 24896) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "55da7fb7-8212-4d71-9f53-2812c59ac098") (type "poly") (start 5080 0) (end 5080 0)
+   (pts (xy 5080 0) (xy 15240 -5080) (xy 15240 5080) (xy 5080 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "ffe8bec5-c504-45f3-97f2-17704b7306eb") (type "segment") (start -10160 25400) (end -10160 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "6c4b057b-5970-4b3b-87ed-d8ec38f5ebc4") (type "segment") (start 0 25400) (end 25400 25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "af6bbb09-91bb-4cbb-8ecb-bd3d8e4ca00a") (type "poly") (start 0 0) (end 25400 25400) (closed "no")
+   (pts (xy 0 0) (xy 25400 0) (xy 25400 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "a2c274d4-8424-45d0-8bf6-099a2072c4a7") (type "segment") (start 0 -25400) (end 25400 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "e7ab7a5c-9578-46e1-aeb8-9b0409ee607e") (type "segment") (start 0 33020) (end 0 17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "776aa704-e777-48dc-a992-047249814f19") (type "segment") (start 0 7620) (end 0 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "eacb8f85-d3c1-4b89-8d2e-f0deb7c61cd1") (type "segment") (start 0 -17780) (end 0 -33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (field (uuid "bfc3871f-23d1-4b13-a253-f69c3c97a919") (value "IC?") (at -37478 -59074) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "711af4a3-8908-446b-9701-8e8b9ef69a5e") (value "CEL RF FET N-CH") (at -37478 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 14) (altid 1))
+
+  (field (uuid "833631d4-d787-4dd4-8a69-ee52ed097f61") (value "") (at -37478 102870) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "709a0161-7d3b-4d6a-a04d-45871ce71c1c") (value "") (at -37478 120650) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 16) (altid 1))
+
+  (field (uuid "1164817f-7343-4060-b475-10db69d9d13a") (value "") (at -37478 138430) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 17) (altid 1))
+ )
+)
+
+  )
+)

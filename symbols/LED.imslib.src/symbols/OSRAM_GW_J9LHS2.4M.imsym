@@ -1,0 +1,106 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "LED:OSRAM GW J9LHS2.4M")
+  (name "OSRAM GW J9LHS2.4M")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "LED")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "e45dc2ac-f7f4-4dc5-bdbc-3490018ca27d") (at -101600 -25400) (dir 2) (length 76200) (name "R-A") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "b3edbc5d-fcc1-424e-847a-6bb8b11ab69c") (at -101600 0) (dir 2) (length 76200) (name "G-A") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "efadc6e0-f9ed-4bb6-964f-6963bebe238d") (at -101600 25400) (dir 2) (length 76200) (name "B-A") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "042e53cb-0277-4d52-9032-7613f86b0906") (at -101600 50800) (dir 2) (length 76200) (name "W-A") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "31ad30ce-cdf1-4f64-bc2c-bf7fe42f35fc") (at 101600 50800) (dir 0) (length 76200) (name "W-C") (number "5") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "fb3bae89-88b0-47d2-8479-be3a91a48f88") (at 101600 25400) (dir 0) (length 76200) (name "B-C") (number "6") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "b7e8674c-358d-4a7f-b7c3-bb1c1431ea90") (at 101600 0) (dir 0) (length 76200) (name "G-C") (number "7") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "49dd3bf7-e502-474d-a626-71cde491c20b") (at 101600 -25400) (dir 0) (length 76200) (name "R-C") (number "8") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (shape (uuid "93b8348b-d7b5-403e-bbab-aa13cb2fcf92") (type "rectangle") (start -25400 76200) (end 25400 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "167d4b73-57d5-45dd-b6aa-f83cbc1e6e7d") (type "poly") (start -25400 25400) (end -5080 25400) (closed "no")
+   (pts (xy -25400 25400) (xy -5080 25400) (xy -5080 33020) (xy 7620 25400) (xy -5080 17780) (xy -5080 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (shape (uuid "55c642e5-4620-4e28-8f51-d32e754eceac") (type "poly") (start -25400 0) (end -5080 -7620) (closed "no")
+   (pts (xy -25400 0) (xy -5080 0) (xy -5080 -7620)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1)
+  )
+
+  (shape (uuid "df289171-db32-4f8c-91d6-c556db5e1e56") (type "poly") (start -5080 0) (end -5080 -7620) (closed "no")
+   (pts (xy -5080 0) (xy -5080 7620) (xy 7620 0) (xy -5080 -7620)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1)
+  )
+
+  (shape (uuid "e5780375-8700-4034-acc0-98967819a558") (type "segment") (start 7620 0) (end 25400 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (shape (uuid "5a77cad4-6483-4e71-acf0-f238a877bec1") (type "segment") (start 7620 25400) (end 25400 25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1))
+
+  (shape (uuid "715c88dd-55b6-4bfc-b2e9-e4b44b0898cf") (type "segment") (start 7620 -7620) (end 7620 7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1))
+
+  (shape (uuid "cc46b6a4-4a55-4034-a9ce-513316112307") (type "segment") (start 7620 33020) (end 7620 17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1))
+
+  (shape (uuid "d50922d0-8790-450e-a294-dcbcdd8d8fc1") (type "segment") (start 5080 -12700) (end 2540 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (altid 1))
+
+  (shape (uuid "47d4eb9d-09a2-4ce6-abb6-3e5c04504fa7") (type "segment") (start 0 -15240) (end -2540 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (altid 1))
+
+  (shape (uuid "63ca8b13-332d-49e5-8786-3c4bed38f892") (type "segment") (start 5080 12700) (end 2540 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (altid 1))
+
+  (shape (uuid "e105d74d-c82a-410b-9293-803d7a0a7589") (type "segment") (start 0 10160) (end -2540 12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (altid 1))
+
+  (shape (uuid "2c7e18a8-fcb4-42eb-9cfc-c4ca7290c33a") (type "poly") (start -25400 -25400) (end -5080 -33020) (closed "no")
+   (pts (xy -25400 -25400) (xy -5080 -25400) (xy -5080 -33020)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 20) (altid 1)
+  )
+
+  (shape (uuid "5ed8f974-37f2-4b10-be05-b5d69d12c4eb") (type "poly") (start -5080 -25400) (end -5080 -33020) (closed "no")
+   (pts (xy -5080 -25400) (xy -5080 -17780) (xy 7620 -25400) (xy -5080 -33020)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 21) (altid 1)
+  )
+
+  (shape (uuid "d1e6a245-3a0f-4602-8913-5965c38f83f7") (type "segment") (start 7620 -25400) (end 25400 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 22) (altid 1))
+
+  (shape (uuid "6ec6534d-9a1f-461f-9618-0ca5fa1c2811") (type "segment") (start 7620 -33020) (end 7620 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 23) (altid 1))
+
+  (shape (uuid "df867265-b125-4ee3-a2bc-5a79c2fb3010") (type "segment") (start 5080 -38100) (end 2540 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 24) (altid 1))
+
+  (shape (uuid "2ef3efa8-847e-47c4-8789-c005e7df3c59") (type "segment") (start 0 -40640) (end -2540 -38100) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 25) (altid 1))
+
+  (shape (uuid "14ab0d5a-5cfa-4ebf-bf90-a35bf6af8905") (type "poly") (start -25400 50800) (end -5080 50800) (closed "no")
+   (pts (xy -25400 50800) (xy -5080 50800) (xy -5080 58420) (xy 7620 50800) (xy -5080 43180) (xy -5080 50800)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 26) (altid 1)
+  )
+
+  (shape (uuid "d0a9d02c-04a3-4cd7-a592-eb540c096120") (type "segment") (start 7620 50800) (end 25400 50800) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 27) (altid 1))
+
+  (shape (uuid "5ebe62fb-bb0d-46b0-95e5-402395ded224") (type "segment") (start 7620 58420) (end 7620 43180) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 28) (altid 1))
+
+  (shape (uuid "acd750bf-bf82-431a-8672-67cc44de035e") (type "segment") (start 5080 38100) (end 2540 40640) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 29) (altid 1))
+
+  (shape (uuid "6d340ce9-5f01-470e-9e57-a9e32845257c") (type "segment") (start 0 35560) (end -2540 38100) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 30) (altid 1))
+
+  (field (uuid "defa05ae-8f1d-4a08-bc7e-8115502778ca") (value "D?") (at -25400 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 31) (altid 1))
+
+  (field (uuid "9b0dd0ab-1829-4640-a41e-2d6ec57477c8") (value "OSRAM GW J9LHS2.4M") (at -25400 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 32) (altid 1))
+
+  (field (uuid "6c9323dd-15fb-4afb-a035-6b6619f5d1ba") (value "") (at -25400 102870) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 33) (altid 1))
+
+  (field (uuid "1c9f8d50-ea54-40fa-9f10-e9c5f34df630") (value "") (at -25400 120650) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 34) (altid 1))
+
+  (field (uuid "6b1eaf4d-be9a-444c-b9b3-a04def3a13f2") (value "") (at -25400 138430) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 35) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,58 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Sensor-Temperature:DIODES INC ZNI1000")
+  (name "DIODES INC ZNI1000")
+  (type "normal")
+  (description "SMT Resistor")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Sensor - Temperature")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "b1533c01-c830-43b3-af01-2e86c5225bb2") (at 50800 0) (dir 0) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "dc1d778e-d2ed-4173-b95a-233360e4df72") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "bded66ee-0218-4b7d-86a5-182b2e07a7df") (at -50800 25400) (dir 2) (length 25400) (name "TS") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "f8f05775-4ada-4042-8719-71db6b2fcf31") (type "rectangle") (start -25400 50800) (end 25400 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "c9625855-b705-4fbd-894e-b737a526038a") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "c6cee0b8-bec5-4e29-a24f-eca72cecaece") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "4b9e0702-6c8e-408b-b39b-b9b5414b84bf") (type "poly") (start -2540 -7620) (end 15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy 2540 7620) (xy 7620 -7620) (xy 12700 7620) (xy 15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "d4905ca3-5aa9-483c-bcde-c91b3148eb5c") (type "poly") (start -2540 -7620) (end -15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy -7620 7620) (xy -12700 -7620) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "ea4e7993-0932-453d-88ba-79bef3f6a03d") (type "segment") (start -15240 12700) (end 10160 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "ba1c3c28-45cc-4eb2-a9c5-e2e1b3888f64") (type "poly") (start 10160 -17780) (end 10160 -17780)
+   (pts (xy 10160 -17780) (xy 4572 -16002) (xy 9398 -11938) (xy 10160 -17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (field (uuid "101793e9-c9c1-4b36-be77-2b5135af7813") (value "R?") (at -25400 -34290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "fb798619-ec5a-499d-b712-81930e86ba76") (value "DIODES INC ZNI1000") (at -25400 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "276b047d-bc74-4aae-91e8-a5be5ef951f3") (value "") (at -25400 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "40b95329-029d-43d3-a735-2a9e09cf3e14") (value "") (at -25400 95250) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "8fabab99-45e6-4c6b-a734-0501776aeed4") (value "SMT Resistor") (at -25400 113030) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 14) (altid 1))
+ )
+)
+
+  )
+)

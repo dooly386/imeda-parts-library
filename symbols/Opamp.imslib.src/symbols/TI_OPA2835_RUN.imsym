@@ -1,0 +1,76 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Opamp:TI OPA2835 RUN")
+  (name "TI OPA2835 RUN")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Opamp")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "7928789c-05f0-4c88-a1f7-8f08f62325cc") (at 203200 -50800) (dir 0) (length 76200) (name "VOUT1") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0) (unit 1))
+
+  (pin (uuid "26281d01-b6ee-4f38-89ef-2c4f74bacf52") (at -203200 -76200) (dir 2) (length 76200) (name "VIN1-") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1) (unit 1))
+
+  (pin (uuid "8b8c2842-ee5b-4cf1-8238-0b5e272e5f3f") (at -203200 -25400) (dir 2) (length 76200) (name "VIN1+") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2) (unit 1))
+
+  (pin (uuid "b5363fd6-8ef3-4d53-a8e4-be9bba9476fd") (at -203200 25400) (dir 2) (length 76200) (name "\\PD1\\") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3) (unit 1))
+
+  (pin (uuid "d6568cca-d182-425b-ab9d-6f2cfad8227a") (at -203200 76200) (dir 2) (length 76200) (name "VS-") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4) (unit 1))
+
+  (pin (uuid "f45ce3e1-6e4e-4c96-97ad-dcd5cfc7a638") (at -203200 -127000) (dir 2) (length 76200) (name "VS+") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5) (unit 1))
+
+  (shape (uuid "72721dd6-84ba-40db-a64a-7bc3fffa5951") (type "rectangle") (start -127000 101600) (end 127000 -152400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 6) (unit 1) (altid 1))
+
+  (shape (uuid "f6d77431-cae9-4fdc-ae35-45518634be9e") (type "poly") (start -25400 -76200) (end -25400 -76200)
+   (pts (xy -25400 -76200) (xy 25400 -50800) (xy -25400 -25400) (xy -25400 -76200)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (unit 1) (altid 1)
+  )
+
+  (shape (uuid "93f40773-c3f1-4ff8-bee4-95d0f87d3b6d") (type "segment") (start 25400 -50800) (end 38100 -50800) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (unit 1) (altid 1))
+
+  (shape (uuid "f7cdd708-e435-4123-ad3f-c6efcefa1258") (type "segment") (start -25400 -68580) (end -40640 -68580) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (unit 1) (altid 1))
+
+  (shape (uuid "e0fd6976-5610-4d54-aed1-dc4cccf2a16e") (type "segment") (start -25400 -33020) (end -40640 -33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (unit 1) (altid 1))
+
+  (pin (uuid "c73655a2-1292-41c1-8b5a-6f2718521cc6") (at -203200 76200) (dir 2) (length 76200) (name "\\PD2\\") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 11) (unit 2))
+
+  (pin (uuid "03ad3274-8d94-4a22-9a21-b888c37d64b3") (at -203200 0) (dir 2) (length 76200) (name "VIN2+") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 12) (unit 2))
+
+  (pin (uuid "e26a21ac-4ddf-412f-8b8e-7313dd5bd5e7") (at -203200 -50800) (dir 2) (length 76200) (name "VIN2-") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 13) (unit 2))
+
+  (pin (uuid "0c1690b1-6d21-4f1d-a91d-0812905f2724") (at 203200 -25400) (dir 0) (length 76200) (name "VOUT2") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 14) (unit 2))
+
+  (shape (uuid "b552ae3b-519d-4a56-8171-eab623f7e39c") (type "rectangle") (start -127000 101600) (end 127000 -76200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 15) (unit 2) (altid 1))
+
+  (shape (uuid "4b423108-396d-4d33-88aa-193815189e2f") (type "poly") (start -25400 -50800) (end -25400 -50800)
+   (pts (xy -25400 -50800) (xy 25400 -25400) (xy -25400 0) (xy -25400 -50800)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (unit 2) (altid 1)
+  )
+
+  (shape (uuid "a8df43ae-eeb7-4fb4-95d2-57034bce28f2") (type "segment") (start 25400 -25400) (end 38100 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (unit 2) (altid 1))
+
+  (shape (uuid "f9ebc17d-5c5d-4f01-b95b-e3c6dad3369f") (type "segment") (start -25400 -43180) (end -40640 -43180) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (unit 2) (altid 1))
+
+  (shape (uuid "96b5b80b-78f5-419e-a5db-5bb08c6e310a") (type "segment") (start -25400 -7620) (end -40640 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (unit 2) (altid 1))
+
+  (field (uuid "fcdde4f8-5494-4d0c-bd7a-7813a329946d") (value "IC?") (at -127000 -161290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 20) (altid 1))
+
+  (field (uuid "1915c1cd-b6ce-4c75-a98a-38741131287b") (value "TI OPA2835 RUN") (at -127000 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 21) (altid 1))
+
+  (field (uuid "7377eefe-c335-4716-a597-9282cba42037") (value "") (at -127000 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 22) (altid 1))
+
+  (field (uuid "950e20fe-ab8e-4571-8d29-863b75fbf6dd") (value "") (at -127000 146050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 23) (altid 1))
+
+  (field (uuid "c28203e1-dff6-4114-9a26-0c9c66594f5a") (value "") (at -127000 163830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 24) (altid 1))
+ )
+)
+
+  )
+)

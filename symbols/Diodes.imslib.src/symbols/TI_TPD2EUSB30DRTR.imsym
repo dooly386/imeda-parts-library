@@ -1,0 +1,84 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:TI TPD2EUSB30DRTR")
+  (name "TI TPD2EUSB30DRTR")
+  (type "normal")
+  (description "Rectifier Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "5bf70f07-d235-4296-bf98-d4e27b285495") (at 101600 0) (dir 0) (length 40640) (name "D+") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "d420a691-63e2-47c6-beae-94bec88177f1") (at -101600 0) (dir 2) (length 40640) (name "D-") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "db9c24fa-a265-450e-8a9d-50f298cea5a2") (at 0 101600) (dir 3) (length 40640) (name "GND") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "7b609952-b642-4bcb-a9be-402784de8ded") (type "poly") (start 0 -10160) (end 0 -10160)
+   (pts (xy 0 -10160) (xy -15240 10160) (xy 15240 10160) (xy 0 -10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "9a832071-f8c3-4a6d-a89c-f681c7bb9b61") (type "poly") (start -50800 15240) (end -50800 15240)
+   (pts (xy -50800 15240) (xy -66040 35560) (xy -35560 35560) (xy -50800 15240)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "23373c83-3bb2-4217-80b3-467eec9d0953") (type "poly") (start -50800 -35560) (end -50800 -35560)
+   (pts (xy -50800 -35560) (xy -66040 -15240) (xy -35560 -15240) (xy -50800 -35560)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "489e65d6-3e90-4859-8930-ffefa9dabde6") (type "poly") (start 50800 15240) (end 50800 15240)
+   (pts (xy 50800 15240) (xy 35560 35560) (xy 66040 35560) (xy 50800 15240)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "0f053146-0336-4736-9e6a-dd0e478f7866") (type "poly") (start 50800 -35560) (end 50800 -35560)
+   (pts (xy 50800 -35560) (xy 35560 -15240) (xy 66040 -15240) (xy 50800 -35560)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "9d1f7bd0-59d8-485f-a573-d3bd37a09bbe") (type "poly") (start -50800 -25400) (end -50800 -25400)
+   (pts (xy -50800 -25400) (xy -50800 50800) (xy 50800 50800) (xy 50800 -50800) (xy -50800 -50800) (xy -50800 -25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "405216cb-eac7-49b0-830d-1938a1ca6cac") (type "segment") (start 0 -50800) (end 0 50800) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "44ea7ab7-a203-48ef-b714-f8194d5a22e9") (type "segment") (start -15240 -10160) (end 15240 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "abcce4b6-8abd-4660-b086-a79a04729048") (type "segment") (start -15240 -10160) (end -20320 -5080) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "ee10e5c1-a72f-4a1a-a7da-3997e099ec9c") (type "segment") (start 15240 -10160) (end 20320 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (shape (uuid "1fd13b7b-7e5f-41f5-8a9f-ec53b1dbeaa2") (type "segment") (start -66040 15240) (end -35560 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1))
+
+  (shape (uuid "92338cc2-275e-43e3-a588-2c738bec5d0a") (type "segment") (start -66040 -35560) (end -35560 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1))
+
+  (shape (uuid "40228f2a-2485-420d-b02e-4b18dcc3255c") (type "segment") (start 35560 15240) (end 66040 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1))
+
+  (shape (uuid "12e582ed-3baf-470b-a590-83e94e333eca") (type "segment") (start 35560 -35560) (end 66040 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (altid 1))
+
+  (shape (uuid "4e8b3a85-760d-47f8-abc8-8cc800ce45ef") (type "segment") (start -50800 0) (end -76200 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (altid 1))
+
+  (shape (uuid "c6750f20-6f55-4a39-a515-71b587dca158") (type "segment") (start 50800 0) (end 76200 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (altid 1))
+
+  (shape (uuid "3fa2cd4d-6660-4d30-b5df-113e082174cf") (type "segment") (start 0 50800) (end 0 76200) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (altid 1))
+
+  (field (uuid "8606e927-377f-416e-a412-818dedbd5433") (value "D?") (at -76200 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 20) (altid 1))
+
+  (field (uuid "4f99d340-c44b-44c9-a238-5dce3284bc33") (value "TI TPD2EUSB30DRTR") (at -76200 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 21) (altid 1))
+
+  (field (uuid "9b304852-9903-45c1-8a1b-2293e48144fa") (value "") (at -76200 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 22) (altid 1))
+
+  (field (uuid "4a7bbef8-03e8-4c99-ac02-c5aad2d9a564") (value "") (at -76200 146050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 23) (altid 1))
+
+  (field (uuid "92993877-3875-4383-b057-f3a0dd7a0221") (value "Rectifier Diode") (at -76200 163830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 24) (altid 1))
+ )
+)
+
+  )
+)

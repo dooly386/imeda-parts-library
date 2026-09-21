@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Power-Switchmode:TI LM3481")
+  (name "TI LM3481")
+  (type "normal")
+  (description "Boost, Flyback, SEPIC Regulator Positive Output Step-Up, Step-Up/Step-Down DC-DC Controller IC 10-VSSOP")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Power - Switchmode")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "c19536c6-528d-4677-a1e5-4397ff2fd1c6") (at -203200 50800) (dir 2) (length 76200) (name "VCC") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "695434f9-1ee6-43b5-813b-e726f3640b33") (at -203200 -101600) (dir 2) (length 76200) (name "VIN") (number "10") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "0a00f833-fc4c-4297-9e6b-d4d2bc2fe915") (at -203200 -50800) (dir 2) (length 76200) (name "UVLO") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "033477d8-99b2-4458-b7f1-4d2e3048aee4") (at -203200 0) (dir 2) (length 76200) (name "FA/SYNC/SD") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "4db4d7d0-b654-4d48-9426-62ea2bacde6d") (at 203200 50800) (dir 0) (length 76200) (name "ISEN") (number "1") (elec 9) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "73c722c8-5d14-4d6a-9c8d-5c5eec0c8c5e") (at 203200 -25400) (dir 0) (length 76200) (name "FB") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "b01ebcce-cb25-4341-9f03-1feb9280b664") (at 203200 127000) (dir 0) (length 76200) (name "COMP") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "db9e544d-5946-44f2-8fd6-03f2432f3e53") (at -203200 127000) (dir 2) (length 76200) (name "PGND") (number "7") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "8bedfa63-c40f-4891-a3f7-437f05088f46") (at 203200 -101600) (dir 0) (length 76200) (name "DR") (number "8") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "dcda37c6-f592-4445-ad37-201fd238adeb") (at -203200 101600) (dir 2) (length 76200) (name "AGND") (number "5") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (shape (uuid "ef3e29e9-6116-4230-9e32-9b92f9b2c0d1") (type "rectangle") (start -127000 152400) (end 127000 -127000) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "a73fbdbe-cb20-4e0e-8771-5977ddac63a1") (value "IC?") (at -127000 -135890) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "07378b9f-d4ce-4c07-9047-1db2fce2dedf") (value "TI LM3481") (at -127000 161290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "3580aa2b-3304-413d-89ac-97c7a1811e87") (value "") (at -127000 179070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "8bd67e19-9fcb-4e5b-94e4-f39821559a7e") (value "") (at -127000 196850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "89fbf393-17e2-4a43-9f62-9c09daa16b28") (value "Boost, Flyback, SEPIC Regulator Positive Output Step-Up, Step-Up/Step-Down DC-DC Controller IC 10-VSSOP") (at -127000 214630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

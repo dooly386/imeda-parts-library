@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:RTD")
+  (name "RTD")
+  (type "normal")
+  (description "SMT Resistor")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "ee054dbc-1128-4343-82f3-91faffe04a5d") (at 50800 0) (dir 0) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "4f3ed550-0f38-4ed8-bd72-dbdba71689ac") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "7cac035b-94d0-4cf4-a153-df51ff9f1d1e") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 2) (altid 1))
+
+  (shape (uuid "d16a4aae-d05f-465d-8b1d-637e837b1215") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "c2608d28-c66c-4a9d-881b-b0a07ad00a80") (type "poly") (start -2540 -7620) (end 15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy 2540 7620) (xy 7620 -7620) (xy 12700 7620) (xy 15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "be842582-d652-4dbd-9dba-8eff376f5ba5") (type "poly") (start -2540 -7620) (end -15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy -7620 7620) (xy -12700 -7620) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "3cefc177-bad9-46a3-813f-ed3e11ab895c") (type "segment") (start -15240 12700) (end 10160 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "08b71d01-4089-4722-85fc-3b634dffcc6b") (type "poly") (start 10160 -17780) (end 10160 -17780)
+   (pts (xy 10160 -17780) (xy 4572 -16002) (xy 9398 -11938) (xy 10160 -17780)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (field (uuid "05b13b2a-3337-4a0a-919f-b799a31c118f") (value "R?") (at -25400 -26670) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "2fde84b3-5a58-4342-b96a-5c438fef6150") (value "RTD") (at -25400 21590) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "bcd005a1-1714-41a9-b883-7464fd5ea92d") (value "") (at -25400 39370) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "840601df-f051-4efc-939e-78b6f1e9314d") (value "") (at -25400 57150) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "e88ff251-e35f-46af-8782-8ec075dcc5e1") (value "SMT Resistor") (at -25400 74930) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

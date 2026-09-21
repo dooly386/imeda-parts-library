@@ -1,0 +1,50 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:Diode Zener Bidirectional")
+  (name "Diode Zener Bidirectional")
+  (type "normal")
+  (description "Bidirectional Zener Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "c8ff5c49-26d1-41f4-b1ea-26965457ea1a") (at 50800 0) (dir 0) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "0a78d4ef-9fef-4c35-9e86-5476c5b6cc93") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "e4a8623a-c4c4-4f87-8e53-3029db941ef1") (type "poly") (start 0 0) (end 0 0)
+   (pts (xy 0 0) (xy -20320 -15240) (xy -20320 15240) (xy 0 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "a2defb3e-fd09-4f7d-b0f8-c3ee35fdf329") (type "poly") (start 0 0) (end 0 0)
+   (pts (xy 0 0) (xy 20320 -15240) (xy 20320 15240) (xy 0 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "5ae5621e-fae0-4772-9d0e-d456ead6ccfb") (type "segment") (start 0 -15240) (end 0 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "ba4524b0-25c4-4b4c-af4e-7dec9853f143") (type "segment") (start 0 15240) (end -5080 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "2b3a9cbb-bfed-4258-983b-308c9b3efd0a") (type "segment") (start 0 -15240) (end 5080 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (field (uuid "2edc051c-4096-49e4-81a0-38499ec6b030") (value "D?") (at -20320 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 7) (altid 1))
+
+  (field (uuid "c32df575-4598-4355-9c7d-8b9cefb1c4ac") (value "Diode Zener Bidirectional") (at -20320 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "86bfa650-92f4-42b4-99cf-0bb0253a2313") (value "") (at -20320 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 9) (altid 1))
+
+  (field (uuid "9cd75d4b-6bf1-4799-a85a-26b69181dfc0") (value "") (at -20320 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "e937558e-99a6-406f-8150-fc4ba21285ab") (value "Bidirectional Zener Diode") (at -20320 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 11) (altid 1))
+ )
+)
+
+  )
+)

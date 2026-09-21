@@ -1,0 +1,544 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "MCU-ATSAM:MICROCHIP SAM9X60D5M-CU BGA233")
+  (name "MICROCHIP SAM9X60D5M-CU BGA233")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "MCU - ATSAM")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "9f6e2a73-b02c-44d7-a063-2ecbf1c26103") (at 254000 50800) (dir 0) (length 76200) (name "JTAGSEL") (number "N14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0) (unit 1))
+
+  (pin (uuid "186bd0b7-8fda-4299-a77a-ffe714a9646d") (at 254000 127000) (dir 0) (length 76200) (name "XOUT32") (number "T10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1) (unit 1))
+
+  (pin (uuid "deab71db-a8b6-4524-b820-cdbd7e1df2d4") (at 254000 152400) (dir 0) (length 76200) (name "XOUT") (number "U11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2) (unit 1))
+
+  (pin (uuid "bb431bc6-28ac-4b5a-8093-a8db9b812561") (at 254000 177800) (dir 0) (length 76200) (name "XIN32") (number "U10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3) (unit 1))
+
+  (pin (uuid "b8f11b59-2ef5-4c85-ba52-9b98ccb5904b") (at 254000 203200) (dir 0) (length 76200) (name "XIN") (number "T11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4) (unit 1))
+
+  (pin (uuid "2986a063-59d7-4527-b306-59b10d1e4e9e") (at 254000 0) (dir 0) (length 76200) (name "NRST") (number "P1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5) (unit 1))
+
+  (pin (uuid "da614ab7-6a99-42ce-9054-3371bcf4a8a9") (at -254000 0) (dir 2) (length 76200) (name "VDDQSPI") (number "C6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6) (unit 1))
+
+  (pin (uuid "02af2c4c-dd33-4661-94a1-61f1ce2e0569") (at -254000 25400) (dir 2) (length 76200) (name "VDDOUT25") (number "P11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7) (unit 1))
+
+  (pin (uuid "47abfb91-c87d-4e3f-a22d-f4b7ff8d8094") (at -254000 50800) (dir 2) (length 76200) (name "VDDNF") (number "M15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8) (unit 1))
+
+  (pin (uuid "88ba60c2-0c97-4529-9637-c6e03bba7c7b") (at -254000 76200) (dir 2) (length 76200) (name "VDDIOP1") (number "M3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9) (unit 1))
+
+  (pin (uuid "6532fe8a-6c34-46ff-a4d5-02719d4dd7a2") (at -254000 101600) (dir 2) (length 76200) (name "VDDIOP0") (number "K4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 10) (unit 1))
+
+  (pin (uuid "44e25640-82af-4254-82c8-9ec94d9d4f93") (at -254000 127000) (dir 2) (length 76200) (name "VDDIOP0") (number "L4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 11) (unit 1))
+
+  (pin (uuid "2c77a6af-d895-40ae-afea-0d4099975c20") (at -254000 152400) (dir 2) (length 76200) (name "VDDIOP0") (number "F5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 12) (unit 1))
+
+  (pin (uuid "620d2d57-5f9a-4b8e-8348-e6e051ba0d5c") (at -254000 177800) (dir 2) (length 76200) (name "VDDIOM") (number "D11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 13) (unit 1))
+
+  (pin (uuid "eea5164f-b1cc-4738-baeb-80d0fa90aa5a") (at -254000 203200) (dir 2) (length 76200) (name "VDDIOM") (number "E14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 14) (unit 1))
+
+  (pin (uuid "2ff1de16-f142-412b-8159-a23d04bb5dda") (at -254000 228600) (dir 2) (length 76200) (name "VDDIOM") (number "G14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 15) (unit 1))
+
+  (pin (uuid "c62615cf-cb25-452c-b65a-81eeadd9ee9e") (at -254000 254000) (dir 2) (length 76200) (name "VDDIN33") (number "R12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 16) (unit 1))
+
+  (pin (uuid "8fa96d94-1e4d-476f-bece-bf82817fef31") (at -254000 279400) (dir 2) (length 76200) (name "VDDIN33") (number "N11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 17) (unit 1))
+
+  (pin (uuid "8a73e7f5-ee5c-41a3-8aca-e34fae999d2b") (at -254000 304800) (dir 2) (length 76200) (name "VDDCORE") (number "G5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 18) (unit 1))
+
+  (pin (uuid "b038f188-ae20-46f7-b0f1-bce766ec9688") (at -254000 330200) (dir 2) (length 76200) (name "VDDCORE") (number "D6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 19) (unit 1))
+
+  (pin (uuid "5a46ac52-a5ac-464a-bc43-583dc128f958") (at -254000 355600) (dir 2) (length 76200) (name "VDDCORE") (number "L6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 20) (unit 1))
+
+  (pin (uuid "70f0d282-e999-40aa-931f-8f5c91ee721f") (at -254000 381000) (dir 2) (length 76200) (name "VDDCORE") (number "M7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 21) (unit 1))
+
+  (pin (uuid "6e049aef-1e06-4918-9aa3-0afcf132c4c2") (at -254000 406400) (dir 2) (length 76200) (name "VDDCORE") (number "D8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 22) (unit 1))
+
+  (pin (uuid "6b01c492-ff59-457f-a87a-9dbe424d27a6") (at -254000 431800) (dir 2) (length 76200) (name "VDDBU") (number "R6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 23) (unit 1))
+
+  (pin (uuid "ab338de3-e7df-4261-ba41-d8b37037fb43") (at -254000 508000) (dir 2) (length 76200) (name "VDDANA") (number "C2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 24) (unit 1))
+
+  (pin (uuid "8c94e28f-30dc-4955-b7a0-65d85fe14d4b") (at -254000 558800) (dir 2) (length 76200) (name "GNDIN33") (number "P7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 25) (unit 1))
+
+  (pin (uuid "50757051-9ebf-44ad-a254-edebaea98ef1") (at -254000 584200) (dir 2) (length 76200) (name "GNDIN33") (number "N7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 26) (unit 1))
+
+  (pin (uuid "ba250a57-5306-49c3-abc7-1e56cdd0c8ae") (at -254000 609600) (dir 2) (length 76200) (name "GND") (number "A1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 27) (unit 1))
+
+  (pin (uuid "d8d20145-7510-4715-81c0-dd092019c056") (at -254000 635000) (dir 2) (length 76200) (name "GND") (number "U1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 28) (unit 1))
+
+  (pin (uuid "7dd8e3b2-5f39-4eab-9638-87284023a6e8") (at -254000 660400) (dir 2) (length 76200) (name "GND") (number "B2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 29) (unit 1))
+
+  (pin (uuid "6d3dbc12-a7ee-44e3-aa6e-eba0ec75aad1") (at -254000 685800) (dir 2) (length 76200) (name "GND") (number "T2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 30) (unit 1))
+
+  (pin (uuid "ee847b0e-482a-4211-8101-f8c240b32ca8") (at -254000 711200) (dir 2) (length 76200) (name "GND") (number "F3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 31) (unit 1))
+
+  (pin (uuid "af9c510e-0000-48b0-b0ac-b9f5336f490e") (at -254000 736600) (dir 2) (length 76200) (name "GND") (number "J3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 32) (unit 1))
+
+  (pin (uuid "28b2c0e3-06e9-41e1-bd2a-b2191532fea8") (at -254000 762000) (dir 2) (length 76200) (name "GND") (number "R3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 33) (unit 1))
+
+  (pin (uuid "9d914495-2b5e-4404-8713-3e13df1495ba") (at -254000 787400) (dir 2) (length 76200) (name "GND") (number "D4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 34) (unit 1))
+
+  (pin (uuid "96f71414-844d-405c-b61b-325e265b8d4e") (at -254000 812800) (dir 2) (length 76200) (name "GND") (number "P4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 35) (unit 1))
+
+  (pin (uuid "647c62c5-a8e4-4df3-a8e8-ee84e1c85b6f") (at -254000 838200) (dir 2) (length 76200) (name "GND") (number "E5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 36) (unit 1))
+
+  (pin (uuid "418f27ef-fdc1-4ccc-af09-49a8a710f68d") (at -254000 863600) (dir 2) (length 76200) (name "GND") (number "L5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 37) (unit 1))
+
+  (pin (uuid "e0f80f4b-cd03-410d-ba26-202f9ee0468a") (at -254000 889000) (dir 2) (length 76200) (name "GND") (number "M5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 38) (unit 1))
+
+  (pin (uuid "505cd06b-3f10-4dc5-8d0f-96f66ed05478") (at -254000 914400) (dir 2) (length 76200) (name "GND") (number "N5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 39) (unit 1))
+
+  (pin (uuid "d5ffa01a-f197-4dd7-976a-1977df3e0075") (at -254000 939800) (dir 2) (length 76200) (name "GND") (number "E6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 40) (unit 1))
+
+  (pin (uuid "df0b9564-6937-46f2-9313-c709d57f52e3") (at -254000 965200) (dir 2) (length 76200) (name "GND") (number "F6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 41) (unit 1))
+
+  (pin (uuid "e2bdf83d-53dd-4c93-99ff-0490330aa0d8") (at -254000 990600) (dir 2) (length 76200) (name "GND") (number "G6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 42) (unit 1))
+
+  (pin (uuid "b3cd742c-de82-4c60-9527-5cf1702e464e") (at -254000 1016000) (dir 2) (length 76200) (name "GND") (number "M6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 43) (unit 1))
+
+  (pin (uuid "c352af82-2208-4927-bcb7-184c4066c667") (at -254000 1041400) (dir 2) (length 76200) (name "GND") (number "N6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 44) (unit 1))
+
+  (pin (uuid "75439de1-43d0-410c-8a91-406f1c07f076") (at -254000 1066800) (dir 2) (length 76200) (name "GND") (number "E7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 45) (unit 1))
+
+  (pin (uuid "ed5e2873-e25e-473c-86a4-7779b41c57f7") (at -254000 1092200) (dir 2) (length 76200) (name "GND") (number "F7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 46) (unit 1))
+
+  (pin (uuid "ab0d89f9-2836-4050-8d2a-69b86c055aa0") (at -254000 1117600) (dir 2) (length 76200) (name "GND") (number "H8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 47) (unit 1))
+
+  (pin (uuid "410b945e-cf9b-4475-b975-a75ff5b88b88") (at -254000 1143000) (dir 2) (length 76200) (name "GND") (number "J8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 48) (unit 1))
+
+  (pin (uuid "a1a7c5d6-4c1b-462d-a956-0fe251c77ee3") (at -254000 1168400) (dir 2) (length 76200) (name "GND") (number "K8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 49) (unit 1))
+
+  (pin (uuid "ee7aafc0-0844-4e90-8498-807ae891be9b") (at -254000 1193800) (dir 2) (length 76200) (name "GND") (number "C9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 50) (unit 1))
+
+  (pin (uuid "6bcf0e33-ea53-4a1f-a570-9ad603042467") (at -254000 1219200) (dir 2) (length 76200) (name "GND") (number "H9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 51) (unit 1))
+
+  (pin (uuid "9584a312-c857-4c65-adde-578c0b3afbdb") (at -254000 1244600) (dir 2) (length 76200) (name "GND") (number "J9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 52) (unit 1))
+
+  (pin (uuid "2781f2e5-349b-4175-8788-53b9520ec250") (at -254000 1270000) (dir 2) (length 76200) (name "GND") (number "K9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 53) (unit 1))
+
+  (pin (uuid "5ad7f12c-5187-422f-81f2-6cb31ba69473") (at -254000 1295400) (dir 2) (length 76200) (name "GND") (number "R9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 54) (unit 1))
+
+  (pin (uuid "d6e93047-b6e8-41a2-acf3-90efed96da35") (at -254000 1320800) (dir 2) (length 76200) (name "GND") (number "H10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 55) (unit 1))
+
+  (pin (uuid "53ca3e13-4863-4839-8884-c0b35bb4be87") (at -254000 1346200) (dir 2) (length 76200) (name "GND") (number "J10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 56) (unit 1))
+
+  (pin (uuid "1ad70cea-2b31-4fa5-b5c1-53d52c7171ac") (at -254000 1371600) (dir 2) (length 76200) (name "GND") (number "K10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 57) (unit 1))
+
+  (pin (uuid "c970af07-1464-4aa7-a390-a38b8ae8ae32") (at -254000 1397000) (dir 2) (length 76200) (name "GND") (number "P10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 58) (unit 1))
+
+  (pin (uuid "1fc7ee46-77c3-4704-83bd-48fc5a203fba") (at -254000 1422400) (dir 2) (length 76200) (name "GND") (number "M11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 59) (unit 1))
+
+  (pin (uuid "5df6f4c2-35dc-4680-b322-e0d214dd1e70") (at -254000 1447800) (dir 2) (length 76200) (name "GND") (number "R11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 60) (unit 1))
+
+  (pin (uuid "ffa1ab82-7e3d-4c7a-b717-25564810953f") (at -254000 1473200) (dir 2) (length 76200) (name "GND") (number "L12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 61) (unit 1))
+
+  (pin (uuid "c8402faf-90a0-41de-b9de-624a0df166b8") (at -254000 1498600) (dir 2) (length 76200) (name "GND") (number "M12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 62) (unit 1))
+
+  (pin (uuid "f2c0d97f-1bf8-4819-89b6-cb8de9b2b4b8") (at -254000 1524000) (dir 2) (length 76200) (name "GND") (number "N12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 63) (unit 1))
+
+  (pin (uuid "35b794dc-6576-4dd9-a6f8-749b15e4cd49") (at -254000 1549400) (dir 2) (length 76200) (name "GND") (number "A13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 64) (unit 1))
+
+  (pin (uuid "aca849c6-ae41-4c7b-8a8e-9461e900f61d") (at -254000 1574800) (dir 2) (length 76200) (name "GND") (number "B13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 65) (unit 1))
+
+  (pin (uuid "b071d950-64bf-4ee0-87cb-7dc238260fd5") (at -254000 1600200) (dir 2) (length 76200) (name "GND") (number "C13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 66) (unit 1))
+
+  (pin (uuid "3f40857b-fa8b-4317-9da1-e4a35735dd87") (at -254000 1625600) (dir 2) (length 76200) (name "GND") (number "L13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 67) (unit 1))
+
+  (pin (uuid "b13d6971-fd8a-43a7-b754-f494ec2d4b30") (at -254000 1651000) (dir 2) (length 76200) (name "GND") (number "M13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 68) (unit 1))
+
+  (pin (uuid "36ae16e3-f18e-4cf1-9186-c09b6f70fe36") (at -254000 1676400) (dir 2) (length 76200) (name "GND") (number "N13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 69) (unit 1))
+
+  (pin (uuid "4f6e7d6f-4283-4129-9b83-23da4c181eff") (at -254000 1701800) (dir 2) (length 76200) (name "GND") (number "B14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 70) (unit 1))
+
+  (pin (uuid "8e4f7485-ebcf-489e-8239-d556911b311f") (at -254000 1727200) (dir 2) (length 76200) (name "GND") (number "L14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 71) (unit 1))
+
+  (pin (uuid "2dde8de8-8c13-4c40-8924-881d74a450a2") (at -254000 1752600) (dir 2) (length 76200) (name "GND") (number "M14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 72) (unit 1))
+
+  (pin (uuid "e22e2796-f4d6-413b-aaa0-f1f885a4abf2") (at -254000 1778000) (dir 2) (length 76200) (name "GND") (number "P14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 73) (unit 1))
+
+  (pin (uuid "82874ed1-9758-4258-ac6f-320da015048b") (at -254000 1803400) (dir 2) (length 76200) (name "GND") (number "A15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 74) (unit 1))
+
+  (pin (uuid "45510be7-ee52-41c1-9b4d-963d1517d5bc") (at -254000 1828800) (dir 2) (length 76200) (name "GND") (number "J15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 75) (unit 1))
+
+  (pin (uuid "9b8f7ae2-6e8a-4ebe-b515-3a7c340c7372") (at -254000 1854200) (dir 2) (length 76200) (name "GND") (number "R15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 76) (unit 1))
+
+  (pin (uuid "8fd137a5-fcfa-44af-96c3-7ca6e510d58d") (at -254000 1879600) (dir 2) (length 76200) (name "GND") (number "U15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 77) (unit 1))
+
+  (pin (uuid "214a17b8-5410-40c2-aa49-bd813ea9e4f6") (at -254000 1905000) (dir 2) (length 76200) (name "GND") (number "R16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 78) (unit 1))
+
+  (pin (uuid "2526f658-decb-490f-af3d-f19ea42b0c46") (at -254000 1930400) (dir 2) (length 76200) (name "GND") (number "T16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 79) (unit 1))
+
+  (pin (uuid "8f795dc9-3843-4014-9ef6-673b9186548a") (at -254000 1955800) (dir 2) (length 76200) (name "GND") (number "U17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 80) (unit 1))
+
+  (pin (uuid "2eef2207-940e-4a49-aa24-cdebf49051e5") (at -254000 2032000) (dir 2) (length 76200) (name "GNDANA") (number "C3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 81) (unit 1))
+
+  (shape (uuid "fc266d2f-0820-4feb-beb6-e346649e9eed") (type "rectangle") (start -177800 2057400) (end 177800 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 82) (unit 1) (altid 1))
+
+  (pin (uuid "5f11ae56-4613-4b19-99d8-5d85a9a7373b") (at 228600 0) (dir 0) (length 76200) (name "ADVREFN") (number "C1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 83) (unit 2))
+
+  (pin (uuid "6b8939fb-ccbc-4f3a-bd08-441a710d979b") (at 228600 50800) (dir 0) (length 76200) (name "ADVREFP") (number "B1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 84) (unit 2))
+
+  (pin (uuid "0aa2aa09-1469-4cc3-9a27-04bda60f6077") (at 228600 101600) (dir 0) (length 76200) (name "DDR_CAL") (number "C8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 85) (unit 2))
+
+  (pin (uuid "fbc297c8-2125-4f58-81ca-3b4b7427ae5d") (at 228600 152400) (dir 0) (length 76200) (name "DDR_VREF") (number "A14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 86) (unit 2))
+
+  (pin (uuid "4414a81d-2abb-446f-9b26-1e5ca307bb63") (at 228600 203200) (dir 0) (length 76200) (name "DDRM_VDD") (number "D15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 87) (unit 2))
+
+  (pin (uuid "dea014a9-635e-4537-b159-9b7514692cb9") (at 228600 228600) (dir 0) (length 76200) (name "DDRM_VDD") (number "C16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 88) (unit 2))
+
+  (pin (uuid "aa11453e-26fc-4361-a237-1f87534a3f8c") (at 228600 254000) (dir 0) (length 76200) (name "DDRM_VDD") (number "B17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 89) (unit 2))
+
+  (pin (uuid "ec1dfa48-13bf-4205-92ee-21228a536fe6") (at 228600 279400) (dir 0) (length 76200) (name "DDRM_VDD") (number "E11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 90) (unit 2))
+
+  (pin (uuid "cc3ef978-27f3-4dfb-9b2b-b5404f768342") (at 228600 304800) (dir 0) (length 76200) (name "DDRM_VDD") (number "E12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 91) (unit 2))
+
+  (pin (uuid "db00ab78-911d-4884-a8e8-c1755be75d37") (at 228600 330200) (dir 0) (length 76200) (name "DDRM_VDD") (number "D13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 92) (unit 2))
+
+  (pin (uuid "b1344203-04a9-482f-aba0-3dc692326227") (at 228600 355600) (dir 0) (length 76200) (name "DDRM_VDD") (number "F13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 93) (unit 2))
+
+  (pin (uuid "860a868a-70d9-4f74-a431-054291416649") (at 228600 381000) (dir 0) (length 76200) (name "DDRM_VDD") (number "G13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 94) (unit 2))
+
+  (pin (uuid "c7416938-75cf-40ac-9fae-365de3904088") (at 228600 406400) (dir 0) (length 76200) (name "DDRM_VDD") (number "C14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 95) (unit 2))
+
+  (pin (uuid "e78fe125-cb10-4dc3-ba10-ce28882ee7bc") (at 228600 431800) (dir 0) (length 76200) (name "DDRM_VDD") (number "B15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 96) (unit 2))
+
+  (pin (uuid "74157f20-c5e2-4b99-9c73-4177b573a4ef") (at 228600 457200) (dir 0) (length 76200) (name "DDRM_VDD") (number "A16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 97) (unit 2))
+
+  (pin (uuid "904fb9a5-5ae1-4230-a46b-ececde48eb11") (at 228600 508000) (dir 0) (length 76200) (name "DDRM_VSS") (number "F15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 98) (unit 2))
+
+  (pin (uuid "daae4551-0bfa-4f94-89cd-0f47e90a75a1") (at 228600 533400) (dir 0) (length 76200) (name "DDRM_VSS") (number "F11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 99) (unit 2))
+
+  (pin (uuid "edb3568f-fd68-4eba-a594-2f9a17d740ae") (at 228600 558800) (dir 0) (length 76200) (name "DDRM_VSS") (number "C12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 100) (unit 2))
+
+  (pin (uuid "3c915bc0-14f2-43f5-9a3b-edcebb51b226") (at 228600 584200) (dir 0) (length 76200) (name "DDRM_VSS") (number "F12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 101) (unit 2))
+
+  (pin (uuid "5250df16-ecd0-40f2-a9ae-5b379cd38e1f") (at 228600 609600) (dir 0) (length 76200) (name "DDRM_VSS") (number "G12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 102) (unit 2))
+
+  (pin (uuid "68177f85-10a8-4e0f-a89a-6d7fda0f4b5f") (at 228600 635000) (dir 0) (length 76200) (name "DDRM_VSS") (number "E13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 103) (unit 2))
+
+  (pin (uuid "652d2ba7-dc30-431a-9459-57a07b47648b") (at 228600 660400) (dir 0) (length 76200) (name "DDRM_VSS") (number "D14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 104) (unit 2))
+
+  (pin (uuid "93e43fef-a14a-4262-bd28-c5e4ac4271f2") (at 228600 685800) (dir 0) (length 76200) (name "DDRM_VSS") (number "C15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 105) (unit 2))
+
+  (pin (uuid "c61bf86a-74ad-4cd5-8c6f-aa6cb62c9539") (at 228600 711200) (dir 0) (length 76200) (name "DDRM_VSS") (number "B16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 106) (unit 2))
+
+  (pin (uuid "79bdfc68-702d-483c-8603-2a6c39b06e6f") (at 228600 736600) (dir 0) (length 76200) (name "DDRM_VSS") (number "A17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 107) (unit 2))
+
+  (pin (uuid "812c0ae6-9aba-4eaa-a427-e8194d88ba8b") (at 228600 787400) (dir 0) (length 76200) (name "HHSDMA") (number "U16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 108) (unit 2))
+
+  (pin (uuid "6fb97709-190f-45bb-9f9d-f213400ef0e3") (at 228600 838200) (dir 0) (length 76200) (name "HHSDMB") (number "R17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 109) (unit 2))
+
+  (pin (uuid "c4c4d45f-e426-4814-b5f5-949968f77389") (at 228600 889000) (dir 0) (length 76200) (name "HHSDMC") (number "P15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 110) (unit 2))
+
+  (pin (uuid "6624f4c8-76a6-4a11-814d-1c67d4f9c42d") (at 228600 939800) (dir 0) (length 76200) (name "HHSDPA") (number "T15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 111) (unit 2))
+
+  (pin (uuid "fdffe6ab-87af-4e6c-953a-d1a3242eb74b") (at 228600 990600) (dir 0) (length 76200) (name "HHSDPB") (number "T17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 112) (unit 2))
+
+  (pin (uuid "831cc2ec-d379-4633-85d8-6650b2405785") (at 228600 1041400) (dir 0) (length 76200) (name "HHSDPC") (number "P16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 113) (unit 2))
+
+  (pin (uuid "4c8451e9-5067-4cad-a43a-0740a282121f") (at 228600 1092200) (dir 0) (length 76200) (name "RTCK") (number "N4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 114) (unit 2))
+
+  (pin (uuid "e05b1023-33d9-4b91-b5fd-fc6b77fb205a") (at 228600 1143000) (dir 0) (length 76200) (name "RTUNE") (number "P17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 115) (unit 2))
+
+  (pin (uuid "31b58394-2ac2-4844-a618-42c9e8d2a06c") (at 228600 1193800) (dir 0) (length 76200) (name "SHDN") (number "N17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 116) (unit 2))
+
+  (pin (uuid "d9b2a7f4-9a8a-41ce-b9cb-3a88b184344f") (at 228600 1244600) (dir 0) (length 76200) (name "TCK") (number "P12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 117) (unit 2))
+
+  (pin (uuid "57561d43-7fa3-4261-95b8-59fe99550ec6") (at 228600 1295400) (dir 0) (length 76200) (name "TDI") (number "L15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 118) (unit 2))
+
+  (pin (uuid "999276b9-3fd5-468a-bac6-1d0387e6d596") (at 228600 1346200) (dir 0) (length 76200) (name "TDO") (number "N15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 119) (unit 2))
+
+  (pin (uuid "e8b12960-815b-409a-a8e2-e0b13263fcb4") (at 228600 1397000) (dir 0) (length 76200) (name "TMS") (number "N16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 120) (unit 2))
+
+  (pin (uuid "3b16ba36-f637-438c-92bf-688530c0fd17") (at 228600 1447800) (dir 0) (length 76200) (name "WKUP0") (number "L16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 121) (unit 2))
+
+  (shape (uuid "d6920005-da57-4f74-9a2e-9ae91bd2dc09") (type "rectangle") (start -25400 1473200) (end 152400 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 122) (unit 2) (altid 1))
+
+  (pin (uuid "df9757ab-521b-433c-aa11-aac9d5763934") (at 508000 0) (dir 0) (length 76200) (name "PA0/FLEXCOM0_IO0/FLEXCOM4_IO4/FLEXCOM5_IO4/PIOA_P0") (number "L2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 123) (unit
+    3))
+
+  (pin (uuid "fd1f001f-6e38-48b9-b69f-a96ab4066093") (at 508000 25400) (dir 0) (length 76200) (name "PA1/FLEXCOM0_IO1/FLEXCOM4_IO5/PIOA_P1") (number "L3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 124) (unit 3))
+
+  (pin (uuid "11e7b12c-a1fc-4989-8965-3da9a6eccfd7") (at 508000 50800) (dir 0) (length 76200) (name "PA2/EMAC0_E0_TX0/FLEXCOM0_IO4/PIOA_P2/SDMMC1_DAT1") (number "K2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 125) (unit
+    3))
+
+  (pin (uuid "97f97377-7004-4721-973c-5187bd9e72c6") (at 508000 76200) (dir 0) (length 76200) (name "PA3/EMAC0_E0_TX1/FLEXCOM0_IO3/PIOA_P3/SDMMC1_DAT2") (number "K3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 126) (unit
+    3))
+
+  (pin (uuid "58aae067-a88a-45f1-b35e-a827406feb15") (at 508000 101600) (dir 0) (length 76200) (name "PA4/EMAC0_E0_TXER/FLEXCOM0_IO2/PIOA_P4/SDMMC1_DAT3") (number "L1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 127)
+   (unit 3))
+
+  (pin (uuid "3a5d7a9e-d990-4bb5-9eee-8abac2fbb49c") (at 508000 127000) (dir 0) (length 76200) (name "PA5/CAN1_CANTX1/FLEXCOM1_IO0/PIOA_P5") (number "N3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 128) (unit 3))
+
+  (pin (uuid "ab58eb02-853d-4d30-bc3b-9d043900db7d") (at 508000 152400) (dir 0) (length 76200) (name "PA6/CAN1_CANRX1/FLEXCOM1_IO1/PIOA_P6") (number "N1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 129) (unit 3))
+
+  (pin (uuid "73d8d6cd-280d-4ad7-bfc1-7098f0ed799c") (at 508000 177800) (dir 0) (length 76200) (name "PA7/FLEXCOM2_IO0/FLEXCOM4_IO4/FLEXCOM5_IO4/PIOA_P7") (number "P2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 130)
+   (unit 3))
+
+  (pin (uuid "c6fee5ec-f845-48f5-a160-1c78a8a0677d") (at 508000 203200) (dir 0) (length 76200) (name "PA8/FLEXCOM2_IO1/FLEXCOM4_IO5/FLEXCOM5_IO3/PIOA_P8") (number "P3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 131)
+   (unit 3))
+
+  (pin (uuid "95748ede-2c9b-423e-9eed-4c719f196387") (at 508000 228600) (dir 0) (length 76200) (name "PA9/CAN0_CANRX0/DBGU_DRXD/PIOA_P9") (number "N2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 132) (unit 3))
+
+  (pin (uuid "bd6246b4-5f18-49c1-b1fa-e8c0641d345b") (at 508000 254000) (dir 0) (length 76200) (name "PA10/CAN0_CANTX0/DBGU_DTXD/PIOA_P10") (number "M4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 133) (unit 3))
+
+  (pin (uuid "634615ad-aaf7-4ad9-b9b2-d3791275fb77") (at 508000 279400) (dir 0) (length 76200) (name "PA11/FLEXCOM4_IO1/PIOA_P11/SDMMC1_DAT0") (number "G3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 134) (unit 3))
+
+  (pin (uuid "6154beb6-d37c-46c1-96a8-74df20c69ab4") (at 508000 304800) (dir 0) (length 76200) (name "PA12/FLEXCOM4_IO0/PIOA_P12/SDMMC1_CMD") (number "G4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 135) (unit 3))
+
+  (pin (uuid "490f88ed-392e-46f2-aa73-f94770b9b10c") (at 508000 330200) (dir 0) (length 76200) (name "PA13/FLEXCOM4_IO2/PIOA_P13/SDMMC1_CK") (number "G1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 136) (unit 3))
+
+  (pin (uuid "af2d5602-852e-4076-870f-c21a9d872a1c") (at 508000 355600) (dir 0) (length 76200) (name "PA14/FLEXCOM4_IO3/PIOA_P14") (number "G2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 137) (unit 3))
+
+  (pin (uuid "0e008f71-d72e-4e47-a6ed-d0056106b90b") (at 508000 381000) (dir 0) (length 76200) (name "PA15/PIOA_P15/SDMMC0_DAT0") (number "K1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 138) (unit 3))
+
+  (pin (uuid "d1b14464-ca44-4291-88f7-a8556a3834c9") (at 508000 406400) (dir 0) (length 76200) (name "PA16/PIOA_P16/SDMMC0_CMD") (number "J2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 139) (unit 3))
+
+  (pin (uuid "1fec9a1c-b63c-4e91-8c75-51641f3b1d71") (at 508000 431800) (dir 0) (length 76200) (name "PA17/PIOA_P17/SDMMC0_CK") (number "H4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 140) (unit 3))
+
+  (pin (uuid "1b13dcee-7834-4c95-a38f-a640306488c4") (at 508000 457200) (dir 0) (length 76200) (name "PA18/PIOA_P18/SDMMC0_DAT1") (number "H3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 141) (unit 3))
+
+  (pin (uuid "af5763a5-af69-4731-b106-7be5f902da81") (at 508000 482600) (dir 0) (length 76200) (name "PA19/PIOA_P19/SDMMC0_DAT2") (number "J1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 142) (unit 3))
+
+  (pin (uuid "e97da0eb-6e76-4da0-a7b4-81df8c8202d8") (at 508000 508000) (dir 0) (length 76200) (name "PA20/PIOA_P20/SDMMC0_DAT3") (number "J4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 143) (unit 3))
+
+  (pin (uuid "a49d407f-9afd-4343-9ec6-07bc91a8ce85") (at 508000 533400) (dir 0) (length 76200) (name "PA21/FLEXCOM5_IO1/PIOA_P21/TC0_TIOA0") (number "B11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 144) (unit 3))
+
+  (pin (uuid "41257383-e656-4a71-8072-2ed1f5ade539") (at 508000 558800) (dir 0) (length 76200) (name "PA22/FLEXCOM5_IO0/PIOA_P22/TC0_TIOA1") (number "A10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 145) (unit 3))
+
+  (pin (uuid "c0fc3882-7114-49f5-91b0-b97d027a5281") (at 508000 584200) (dir 0) (length 76200) (name "PA23/FLEXCOM5_IO2/PIOA_P23/TC0_TIOA2") (number "C11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 146) (unit 3))
+
+  (pin (uuid "ff529f33-0445-444f-be58-82af91e631b9") (at 508000 609600) (dir 0) (length 76200) (name "PA24/CLASSD_L0/PIOA_P24/SSC_TK/TC0_TCLK0") (number "B10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 147) (unit 3))
+
+  (pin (uuid "34a48dc8-43b2-4a0b-896e-2327d9e1ca26") (at 508000 635000) (dir 0) (length 76200) (name "PA25/CLASSD_L1/PIOA_P25/SSC_TF/TC0_TCLK1") (number "A9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 148) (unit 3))
+
+  (pin (uuid "77e9b292-d4f4-4a46-97c0-5b4fc855a7a6") (at 508000 660400) (dir 0) (length 76200) (name "PA26/CLASSD_L2/PIOA_P26/SSC_TD/TC0_TCLK2") (number "D10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 149) (unit 3))
+
+  (pin (uuid "e6931285-e67b-4320-a90f-3cfd6c2a7715") (at 508000 685800) (dir 0) (length 76200) (name "PA27/CLASSD_L3/PIOA_P27/SSC_RD/TC0_TIOB0") (number "D12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 150) (unit 3))
+
+  (pin (uuid "c4a0019b-b24e-4d6e-8d50-0b7f523f0102") (at 508000 711200) (dir 0) (length 76200) (name "PA28/PIOA_P28/SSC_RK/TC0_TIOB1") (number "A11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 151) (unit 3))
+
+  (pin (uuid "49a53380-9e2a-4889-84b1-82eaae7e3f34") (at 508000 736600) (dir 0) (length 76200) (name "PA29/FLEXCOM2_IO7/PIOA_P29/SSC_RF/TC0_TIOB2") (number "C10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 152) (unit
+    3))
+
+  (pin (uuid "86cc5566-8458-413f-9f9d-ff5d790d6f19") (at 508000 762000) (dir 0) (length 76200) (name "PA30/EMAC0_E0_MDC/FLEXCOM5_IO6/FLEXCOM6_IO0/PIOA_P30") (number "H1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 153)
+   (unit 3))
+
+  (pin (uuid "7170d00d-c54c-49cc-a549-c337ad1150b6") (at 508000 787400) (dir 0) (length 76200) (name "PA31/EMAC0_E0_TXEN/FLEXCOM5_IO5/FLEXCOM6_IO1/PIOA_P31") (number "H2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 154)
+   (unit 3))
+
+  (shape (uuid "9587014d-39c3-4753-ba8c-dc839873c240") (type "rectangle") (start -330200 812800) (end 431800 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 155) (unit 3) (altid 1))
+
+  (pin (uuid "96ab3b11-c7ac-4040-99e2-e527ab99974f") (at 482600 0) (dir 0) (length 76200) (name "PB0/EMAC0_E0_RX0/FLEXCOM2_IO4/PIOB_P32") (number "B3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 156) (unit 4))
+
+  (pin (uuid "cf0d11a4-bf8d-437f-9386-cb4a8b1881de") (at 482600 25400) (dir 0) (length 76200) (name "PB1/EMAC0_E0_RX1/FLEXCOM2_IO3/PIOB_P33") (number "D1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 157) (unit 4))
+
+  (pin (uuid "6cac14a7-5e0d-4edd-b67b-019d4210c012") (at 482600 50800) (dir 0) (length 76200) (name "PB2/EMAC0_E0_RXER/FLEXCOM2_IO2/PIOB_P34") (number "A3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 158) (unit 4))
+
+  (pin (uuid "e1e33da8-d368-40d1-8479-4a572940a0b4") (at 482600 76200) (dir 0) (length 76200) (name "PB3/EMAC0_E0_RXDV/FLEXCOM4_IO6/PIOB_P35") (number "D2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 159) (unit 4))
+
+  (pin (uuid "8eecdd40-50dd-420a-b616-ab551d926e73") (at 482600 101600) (dir 0) (length 76200) (name "PB4/EMAC0_E0_TXCK/FLEXCOM8_IO0/PIOB_P36") (number "E3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 160) (unit 4))
+
+  (pin (uuid "b3e76f4a-e73c-47d3-aeed-2b91daf40836") (at 482600 127000) (dir 0) (length 76200) (name "PB5/EMAC0_E0_MDIO/FLEXCOM8_IO1/PIOB_P37") (number "E1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 161) (unit 4))
+
+  (pin (uuid "cdf8db7d-5c79-4c70-a31f-e2ed494ed4c5") (at 482600 152400) (dir 0) (length 76200) (name "PB6/ADC_AD7/EMAC0_E0_MDC/FLEXCOM0_IO7/PIOB_P38") (number "D3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 162) (unit
+    4))
+
+  (pin (uuid "983cd334-8e3c-4ec8-89ad-7653dbf320a8") (at 482600 177800) (dir 0) (length 76200) (name "PB7/ADC_AD8/EMAC0_E0_TXEN/PIOB_P39") (number "F4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 163) (unit 4))
+
+  (pin (uuid "650ca2eb-60f9-4a87-bb2c-fe4d0c411c54") (at 482600 203200) (dir 0) (length 76200) (name "PB8/ADC_AD9/EMAC0_E0_TXER/PIOB_P40") (number "D5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 164) (unit 4))
+
+  (pin (uuid "121277d7-955d-40cb-96cd-1d336086fc06") (at 482600 228600) (dir 0) (length 76200) (name "PB9/ADC_AD10/EMAC0_E0_TX0/PIOB_P41/PMC_PCK1") (number "B4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 165) (unit 4))
+
+  (pin (uuid "e9835acf-ad95-4044-8431-94a2cfb05bba") (at 482600 254000) (dir 0) (length 76200) (name "PB10/ADC_AD11/EMAC0_E0_TX1/PIOB_P42/PMC_PCK0") (number "B5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 166) (unit
+    4))
+
+  (pin (uuid "5377b3a5-dc60-4f49-958c-9cd5f2e70b6f") (at 482600 279400) (dir 0) (length 76200) (name "PB11/ADC_AD0/EMAC0_E0_TX2/PIOB_P43/PWM_0") (number "C5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 167) (unit 4))
+
+  (pin (uuid "50e8d015-967f-4e6a-a220-26a628aec5a9") (at 482600 304800) (dir 0) (length 76200) (name "PB12/ADC_AD1/EMAC0_E0_TX3/PIOB_P44/PWM_1") (number "A2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 168) (unit 4))
+
+  (pin (uuid "4a12308d-af05-4e0d-b974-407f66bf26f9") (at 482600 330200) (dir 0) (length 76200) (name "PB13/ADC_AD2/EMAC0_E0_RX2/PIOB_P45/PWM_2") (number "A5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 169) (unit 4))
+
+  (pin (uuid "845157d6-a93f-4736-a63e-a6207affba7c") (at 482600 355600) (dir 0) (length 76200) (name "PB14/ADC_AD3/EMAC0_E0_RX3/PIOB_P46/PWM_3") (number "E4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 170) (unit 4))
+
+  (pin (uuid "69ee93ac-c8c1-41f5-b302-7216794b559d") (at 482600 381000) (dir 0) (length 76200) (name "PB15/ADC_AD4/EMAC0_E0_RXCK/PIOB_P47") (number "C4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 171) (unit 4))
+
+  (pin (uuid "a7bd58f9-7b1a-4922-9c91-a01b1daf3d24") (at 482600 406400) (dir 0) (length 76200) (name "PB16/ADC_AD5/EMAC0_E0_CRS/PIOB_P48") (number "E2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 172) (unit 4))
+
+  (pin (uuid "987a3e7c-b022-4cba-932c-bb80e311aa96") (at 482600 431800) (dir 0) (length 76200) (name "PB17/ADC_AD6/EMAC0_E0_COL/PIOB_P49") (number "A4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 173) (unit 4))
+
+  (pin (uuid "16d1d22f-4179-4d80-86f8-5d0c6d30c93f") (at 482600 457200) (dir 0) (length 76200) (name "PB18/ADC_ADTRG/AIC_IRQ/PIOB_P50") (number "D7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 174) (unit 4))
+
+  (pin (uuid "1ef873f5-f4e1-409c-9215-a79ab99e145d") (at 482600 482600) (dir 0) (length 76200) (name "PB19/FLEXCOM11_IO0/I2SMCC_CK/PIOB_P51/QSPI_QSCK") (number "A7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 175) (unit
+    4))
+
+  (pin (uuid "44b00b73-b2dd-4b95-bc6e-c6be70dec1bb") (at 482600 508000) (dir 0) (length 76200) (name "PB20/FLEXCOM11_IO1/I2SMCC_WS/PIOB_P52/QSPI_QCS") (number "D9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 176) (unit
+    4))
+
+  (pin (uuid "ba6705f9-8e65-490d-bea6-71e1205bc5fd") (at 482600 533400) (dir 0) (length 76200) (name "PB21/FLEXCOM12_IO0/I2SMCC_DIN0/PIOB_P53/QSPI_QIO0") (number "A8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 177) (unit
+    4))
+
+  (pin (uuid "3aa883c3-d801-4403-a415-08517eff162a") (at 482600 558800) (dir 0) (length 76200) (name "PB22/FLEXCOM12_IO1/I2SMCC_DOUT0/PIOB_P54/QSPI_QIO1") (number "B8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 178)
+   (unit 4))
+
+  (pin (uuid "9d1882b2-72f8-455e-8454-379a248f0ccb") (at 482600 584200) (dir 0) (length 76200) (name "PB23/I2SMCC_MCK/PIOB_P55/QSPI_QIO2") (number "C7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 179) (unit 4))
+
+  (pin (uuid "151d43ad-d34b-457e-9386-3d3efcefcb90") (at 482600 609600) (dir 0) (length 76200) (name "PB24/PIOB_P56/QSPI_QIO3") (number "B9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 180) (unit 4))
+
+  (pin (uuid "45670550-3967-4a02-9989-cfce135c8753") (at 482600 635000) (dir 0) (length 76200) (name "PB25/\\ICE_NTRST\\/PIOB_P57/\\RSTC_NRST_OUT\\") (number "B7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 181) (unit
+    4))
+
+  (shape (uuid "526254ed-37cd-45c5-91d7-895729f67a59") (type "rectangle") (start -279400 660400) (end 406400 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 182) (unit 4) (altid 1))
+
+  (pin (uuid "3f662cb1-2cae-40d8-ac68-ee4b19c5f398") (at 533400 0) (dir 0) (length 76200) (name "PC0/FLEXCOM7_IO0/ISI_D0/LCDC_LCDDAT0/PIOC_P58") (number "U8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 183) (unit 5))
+
+  (pin (uuid "31671b59-62b4-43fc-b1ad-2ac30e4e052b") (at 533400 25400) (dir 0) (length 76200) (name "PC1/FLEXCOM7_IO1/ISI_D1/LCDC_LCDDAT1/PIOC_P59") (number "U3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 184) (unit
+    5))
+
+  (pin (uuid "1af4d481-ee68-44f1-86a9-7505831acfbb") (at 533400 50800) (dir 0) (length 76200) (name "PC2/ISI_D2/LCDC_LCDDAT2/PIOC_P60/TC1_TIOA3") (number "T4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 185) (unit 5))
+
+  (pin (uuid "25ae6cf5-82bd-4400-9ba9-78894392d0ce") (at 533400 76200) (dir 0) (length 76200) (name "PC3/ISI_D3/LCDC_LCDDAT3/PIOC_P61/TC1_TIOB3") (number "T1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 186) (unit 5))
+
+  (pin (uuid "2d234407-48a1-418c-8edf-15a522ba2427") (at 533400 101600) (dir 0) (length 76200) (name "PC4/ISI_D4/LCDC_LCDDAT4/PIOC_P62/TC1_TCLK3") (number "R5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 187) (unit 5))
+
+  (pin (uuid "eb5fdbf3-c007-4247-bd09-7123e8d1efdb") (at 533400 127000) (dir 0) (length 76200) (name "PC5/ISI_D5/LCDC_LCDDAT5/PIOC_P63/TC1_TIOA4") (number "U4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 188) (unit 5))
+
+  (pin (uuid "f3216a35-c5cf-4332-a53d-de04f70af5b8") (at 533400 152400) (dir 0) (length 76200) (name "PC6/ISI_D6/LCDC_LCDDAT6/PIOC_P64/TC1_TIOB4") (number "T7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 189) (unit 5))
+
+  (pin (uuid "3088bf4d-9054-4883-b450-a73f3f2b43ee") (at 533400 177800) (dir 0) (length 76200) (name "PC7/ISI_D7/LCDC_LCDDAT7/PIOC_P65/TC1_TCLK4") (number "R2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 190) (unit 5))
+
+  (pin (uuid "cf2bd2dc-1db7-44c6-a332-11a8761e9830") (at 533400 203200) (dir 0) (length 76200) (name "PC8/FLEXCOM9_IO0/ISI_D8/LCDC_LCDDAT8/PIOC_P66") (number "U7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 191) (unit
+    5))
+
+  (pin (uuid "1d99ea25-f5b5-4d29-ab77-da63a1351cba") (at 533400 228600) (dir 0) (length 76200) (name "PC9/FLEXCOM9_IO1/ISI_D9/LCDC_LCDDAT9/PIOC_P67") (number "R1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 192) (unit
+    5))
+
+  (pin (uuid "7aa032ad-f878-4f0e-9cfd-b6aa25ee3b7b") (at 533400 254000) (dir 0) (length 76200) (name "PC10/ISI_D10/LCDC_LCDDAT10/PIOC_P68/PWM_0") (number "T8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 193) (unit 5))
+
+  (pin (uuid "86583bcb-076c-443c-a8f7-e0ddac234ed6") (at 533400 279400) (dir 0) (length 76200) (name "PC11/ISI_D11/LCDC_LCDDAT11/PIOC_P69/PWM_1") (number "T3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 194) (unit 5))
+
+  (pin (uuid "a600efa9-c23d-4494-a38b-6204f0ae3b1f") (at 533400 304800) (dir 0) (length 76200) (name "PC12/ISI_PCK/LCDC_LCDDAT12/PIOC_P70/TC1_TIOA5") (number "T5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 195) (unit
+    5))
+
+  (pin (uuid "865253db-ced3-47ee-9e5c-d90803b93bca") (at 533400 330200) (dir 0) (length 76200) (name "PC13/ISI_VSYNC/LCDC_LCDDAT13/PIOC_P71/TC1_TIOB5") (number "R4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 196) (unit
+    5))
+
+  (pin (uuid "ee61a617-db70-4d67-974d-3ca42f4b357f") (at 533400 355600) (dir 0) (length 76200) (name "PC14/ISI_HSYNC/LCDC_LCDDAT14/PIOC_P72/TC1_TCLK5") (number "U2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 197) (unit
+    5))
+
+  (pin (uuid "3fdf7e1a-ac41-4dcb-bc76-8e64640c10e1") (at 533400 381000) (dir 0) (length 76200) (name "PC15/ISI_MCK/LCDC_LCDDAT15/PIOC_P73/PMC_PCK0") (number "U5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 198) (unit
+    5))
+
+  (pin (uuid "4232630a-cb59-47ad-ab74-53422cd867f8") (at 533400 406400) (dir 0) (length 76200) (name "PC16/EMAC1_E1_RXER/FLEXCOM10_IO0/LCDC_LCDDAT16/PIOC_P74") (number "R10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder
+    199) (unit 5))
+
+  (pin (uuid "1f560eb7-221c-4690-81d3-5751e78d4f8f") (at 533400 431800) (dir 0) (length 76200) (name "PC17/FLEXCOM1_IO7/FLEXCOM10_IO1/LCDC_LCDDAT17/PIOC_P75") (number "R8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 200)
+   (unit 5))
+
+  (pin (uuid "0db14545-e0bf-495d-bd49-1bc10bdc3110") (at 533400 457200) (dir 0) (length 76200) (name "PC18/EMAC1_E1_TX0/LCDC_LCDDAT18/PIOC_P76/PWM_0") (number "R7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 201) (unit
+    5))
+
+  (pin (uuid "4461e22a-f058-4cca-8956-d6751f26d4cf") (at 533400 482600) (dir 0) (length 76200) (name "PC19/EMAC1_E1_TX1/LCDC_LCDDAT19/PIOC_P77/PWM_1") (number "P6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 202) (unit
+    5))
+
+  (pin (uuid "e7258853-40d9-47d3-8528-b9e35148ee84") (at 533400 508000) (dir 0) (length 76200) (name "PC20/EMAC1_E1_RX0/LCDC_LCDDAT20/PIOC_P78/PWM_2") (number "T14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 203) (unit
+    5))
+
+  (pin (uuid "d9f7515e-053e-4a35-b4c2-2c1c41ad5c8c") (at 533400 533400) (dir 0) (length 76200) (name "PC21/EMAC1_E1_RX1/LCDC_LCDDAT21/PIOC_P79/PWM_3") (number "P8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 204) (unit
+    5))
+
+  (pin (uuid "2d6d2fa6-65df-469f-ad16-21d400bdc146") (at 533400 558800) (dir 0) (length 76200) (name "PC22/FLEXCOM3_IO0/LCDC_LCDDAT22/PIOC_P80") (number "R14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 205) (unit 5))
+
+  (pin (uuid "ce123bec-1fb5-42b0-ac8d-1e789f6f8206") (at 533400 584200) (dir 0) (length 76200) (name "PC23/FLEXCOM3_IO1/LCDC_LCDDAT23/PIOC_P81") (number "T9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 206) (unit 5))
+
+  (pin (uuid "77476f7e-a54c-4938-b357-9f194f8472e9") (at 533400 609600) (dir 0) (length 76200) (name "PC24/FLEXCOM3_IO4/LCDC_LCDDISP/PIOC_P82") (number "U14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 207) (unit 5))
+
+  (pin (uuid "64b7b662-b625-41f4-beac-5b20c91fa39c") (at 533400 635000) (dir 0) (length 76200) (name "PC25/FLEXCOM3_IO3/PIOC_P83") (number "P5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 208) (unit 5))
+
+  (pin (uuid "cff105bc-7a98-4846-b557-94c5f72d5e3d") (at 533400 660400) (dir 0) (length 76200) (name "PC26/FLEXCOM3_IO2/LCDC_LCDPWM/PIOC_P84") (number "R13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 209) (unit 5))
+
+  (pin (uuid "23f1f0c0-c22e-48e9-a376-fa77e9dca108") (at 533400 685800) (dir 0) (length 76200) (name "PC27/EMAC1_E1_TXEN/FLEXCOM1_IO4/LCDC_LCDVSYNC/PIOC_P85") (number "U9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 210)
+   (unit 5))
+
+  (pin (uuid "8189ad4b-f3ee-4e6e-a837-730adfd61101") (at 533400 711200) (dir 0) (length 76200) (name "PC28/EMAC1_E1_CRSDV/FLEXCOM1_IO3/LCDC_LCDHSYNC/PIOC_P86") (number "P13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder
+    211) (unit 5))
+
+  (pin (uuid "a57e8608-372a-4dac-bcb3-1f88f275bcf7") (at 533400 736600) (dir 0) (length 76200) (name "PC29/EMAC1_E1_TXCK/FLEXCOM1_IO2/LCDC_LCDDEN/PIOC_P87") (number "P9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 212)
+   (unit 5))
+
+  (pin (uuid "1ed4eba2-6bf6-4beb-ba2d-b11addf21e98") (at 533400 762000) (dir 0) (length 76200) (name "PC30/EMAC1_E1_MDC/FLEXCOM3_IO7/LCDC_LCDPCK/PIOC_P88") (number "T13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 213)
+   (unit 5))
+
+  (pin (uuid "8ec8e906-725b-4a18-8899-e9e403f3e2d3") (at 533400 787400) (dir 0) (length 76200) (name "PC31/AIC_FIQ/EMAC1_E1_MDIO/PIOC_P89/PMC_PCK1") (number "U13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 214) (unit
+    5))
+
+  (shape (uuid "9afe70c0-bac9-4655-a878-e7ad0da64fd2") (type "rectangle") (start -330200 812800) (end 457200 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 215) (unit 5) (altid 1))
+
+  (pin (uuid "a71dc1dc-0980-4d8b-b48d-d4c7f298a213") (at 355600 0) (dir 0) (length 76200) (name "PD0/\\EBI_NANDOE\\/PIOD_P90") (number "L17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 216) (unit 6))
+
+  (pin (uuid "e49a6906-9e92-4436-9f95-1823a7283a23") (at 355600 25400) (dir 0) (length 76200) (name "PD1/\\EBI_NANDWE\\/PIOD_P91") (number "H15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 217) (unit 6))
+
+  (pin (uuid "26b913da-56bf-4863-b3e0-84cef86104a3") (at 355600 50800) (dir 0) (length 76200) (name "PD2/EBI_A21/\\EBI_NANDALE\\/PIOD_P92") (number "K17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 218) (unit 6))
+
+  (pin (uuid "f5df4486-987a-4c34-b930-9dc3c972b51d") (at 355600 76200) (dir 0) (length 76200) (name "PD3/EBI_A22/\\EBI_NANDCLE\\/PIOD_P93") (number "J16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 219) (unit 6))
+
+  (pin (uuid "6aba4175-8ddb-4245-a1f2-2071a899e9b8") (at 355600 101600) (dir 0) (length 76200) (name "PD4/\\EBI_NCS3\\/\\EBI_NANDCS\\/PIOD_P94") (number "J17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 220) (unit 6))
+
+  (pin (uuid "b5b6eec7-4cba-4a8b-971d-5abdd0d57285") (at 355600 127000) (dir 0) (length 76200) (name "PD5/\\EBI_NWAIT\\/PIOD_P95") (number "K14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 221) (unit 6))
+
+  (pin (uuid "77aa01a8-3855-45f5-a5b8-387e2d35f77f") (at 355600 152400) (dir 0) (length 76200) (name "PD6/EBI_D16/PIOD_P96") (number "C17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 222) (unit 6))
+
+  (pin (uuid "c7ae51f6-8237-45cd-a813-85beff53f042") (at 355600 177800) (dir 0) (length 76200) (name "PD7/EBI_D17/PIOD_P97") (number "K16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 223) (unit 6))
+
+  (pin (uuid "8eca0627-9414-4943-bb05-d350788597ff") (at 355600 203200) (dir 0) (length 76200) (name "PD8/EBI_D18/PIOD_P98") (number "D16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 224) (unit 6))
+
+  (pin (uuid "d5c8fa31-24b2-49db-9a25-8bfaa4ceaa85") (at 355600 228600) (dir 0) (length 76200) (name "PD9/EBI_D19/PIOD_P99") (number "J14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 225) (unit 6))
+
+  (pin (uuid "579c886a-05de-45ae-b8dc-49381e579b42") (at 355600 254000) (dir 0) (length 76200) (name "PD10/EBI_D20/PIOD_P100") (number "E17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 226) (unit 6))
+
+  (pin (uuid "d64cb9ea-3e51-4c65-b574-3dbf6116ac82") (at 355600 279400) (dir 0) (length 76200) (name "PD11/EBI_D21/PIOD_P101") (number "E15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 227) (unit 6))
+
+  (pin (uuid "14b4be22-2d45-4e2d-a9d9-f079e04891d9") (at 355600 304800) (dir 0) (length 76200) (name "PD12/EBI_D22/PIOD_P102") (number "E16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 228) (unit 6))
+
+  (pin (uuid "6022d017-7052-4f7e-a375-9bdb16bf8209") (at 355600 330200) (dir 0) (length 76200) (name "PD13/EBI_D23/PIOD_P103") (number "D17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 229) (unit 6))
+
+  (pin (uuid "a8c935e9-0dfd-472b-9b91-af4c66a03b69") (at 355600 355600) (dir 0) (length 76200) (name "PD14/EBI_D24/PIOD_P104") (number "F14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 230) (unit 6))
+
+  (pin (uuid "adcae03c-7c09-4cac-a5b4-a97dbdc0f7fc") (at 355600 381000) (dir 0) (length 76200) (name "PD15/EBI_A20/EBI_D25/PIOD_P105") (number "H14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 231) (unit 6))
+
+  (pin (uuid "4c2294dd-3dce-4bc4-8f21-9d21b1485aa3") (at 355600 406400) (dir 0) (length 76200) (name "PD16/EBI_A23/EBI_D26/PIOD_P106") (number "H16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 232) (unit 6))
+
+  (pin (uuid "86d160a2-93e6-4d9c-8d38-17d44cec973a") (at 355600 431800) (dir 0) (length 76200) (name "PD17/EBI_A24/EBI_D27/PIOD_P107") (number "H17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 233) (unit 6))
+
+  (pin (uuid "aa4c002c-2983-43f5-83d4-61bbe572eb8d") (at 355600 457200) (dir 0) (length 76200) (name "PD18/EBI_A25/EBI_D28/PIOD_P108") (number "G15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 234) (unit 6))
+
+  (pin (uuid "39cc8284-c8bc-4e93-b8d1-4343ff349d11") (at 355600 482600) (dir 0) (length 76200) (name "PD19/EBI_D29/\\EBI_NCS2\\/PIOD_P109") (number "G16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 235) (unit 6))
+
+  (pin (uuid "46324bab-9d44-48bb-8a11-98a9f05219a9") (at 355600 508000) (dir 0) (length 76200) (name "PD20/EBI_D30/\\EBI_NCS4\\/PIOD_P110") (number "K15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 236) (unit 6))
+
+  (pin (uuid "e47e2e41-2fcc-4aae-aeaf-e63701587f05") (at 355600 533400) (dir 0) (length 76200) (name "PD21/EBI_D31/\\EBI_NCS5\\/PIOD_P111") (number "G17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 237) (unit 6))
+
+  (shape (uuid "c6d8dabf-10e7-406b-b182-2fb4feab2963") (type "rectangle") (start -177800 558800) (end 279400 -25400) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 238) (unit 6) (altid 1))
+
+  (field (uuid "b61df0ad-e141-44f8-bbaf-dd5c4ac5b176") (value "IC?") (at -330200 -34290) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 239) (altid 1))
+
+  (field (uuid "b549d3d1-f08d-4073-8e08-876f1e0f66d9") (value "MICROCHIP SAM9X60D5M-CU BGA233") (at -330200 2066290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 240) (altid 1))
+
+  (field (uuid "34eedf65-6998-4ed6-a2b8-6ff53adbcd5f") (value "") (at -330200 2084070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 241) (altid 1))
+
+  (field (uuid "ce81b331-7c86-445a-a0c5-5a6557d4f91c") (value "") (at -330200 2101850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 242) (altid 1))
+
+  (field (uuid "ea0e6c8e-3529-4d6b-b47b-9693bf991fbe") (value "") (at -330200 2119630) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 243) (altid 1))
+ )
+)
+
+  )
+)

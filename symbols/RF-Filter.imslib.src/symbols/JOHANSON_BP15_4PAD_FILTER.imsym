@@ -1,0 +1,58 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "RF-Filter:JOHANSON BP15 4PAD FILTER")
+  (name "JOHANSON BP15 4PAD FILTER")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "RF - Filter")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "4570c85a-fa9b-4bd0-9f03-41d1c9909517") (at -127000 50800) (dir 2) (length 76200) (name "GND") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "baa9fcd5-24b9-406b-b3c0-cdbae784da51") (at -127000 76200) (dir 2) (length 76200) (name "GND") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "b17a32ee-2cd0-46fe-8611-60cd4d7e5e7b") (at -127000 0) (dir 2) (length 76200) (name "IN") (number "4") (elec 0) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "0e67d8ac-3b29-4f6d-b609-1614a6310433") (at 127000 0) (dir 0) (length 76200) (name "OUT") (number "2") (elec 1) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "1b85f9f3-f86c-4f8e-b677-244d516a25fc") (type "rectangle") (start -50800 101600) (end 50800 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "a0bbd904-40c6-4cb1-b3a0-2928f09bb1d1") (type "segment") (start -10160 -20320) (end 0 -30480) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "7c623162-9a81-45fa-88ff-85fb1ce92dab") (type "segment") (start -12700 15240) (end -2540 5080) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "fd32ec71-9fcd-401a-ad95-fb664961bce0") (type "bezier") (start -38100 -27940) (end -2540 -20320) (ctrl1 -25400 -53340) (ctrl2 -7620 -27940) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "8fb86573-e522-4f83-b67d-f7008998ba4b") (type "bezier") (start 33020 -12700) (end -2540 -20320) (ctrl1 20320 12700) (ctrl2 2540 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "32876dd2-e52e-400a-bad5-9019e8e8375a") (type "bezier") (start -35560 -7620) (end 0 0) (ctrl1 -22860 -33020) (ctrl2 -5080 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "859cc2c6-df30-4755-b85f-aacc978d3e80") (type "bezier") (start 35560 7620) (end 0 0) (ctrl1 22860 33020) (ctrl2 5080 7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "b407fea6-7c7d-41d6-875e-bb12132a8659") (type "bezier") (start -35560 12700) (end 0 20320) (ctrl1 -22860 -12700) (ctrl2 -5080 12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "691c996a-b446-4f0c-addf-ec2295a32072") (type "bezier") (start 35560 27940) (end 0 20320) (ctrl1 22860 53340) (ctrl2 5080 27940) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (field (uuid "59a126e0-e0d4-4b39-80e7-bb1481c560ce") (value "IC?") (at -50800 -59690) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "96cb51b5-da8c-4c7d-a933-aca1a74580f1") (value "JOHANSON BP15 4PAD FILTER") (at -50800 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 14) (altid 1))
+
+  (field (uuid "8a9c602d-a819-4b38-a334-d54febb4c716") (value "") (at -50800 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "d4dbf46e-37c9-435d-b923-c3cb9feb74f0") (value "") (at -50800 146050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 16) (altid 1))
+
+  (field (uuid "109dcf7e-8b0e-47c2-99db-7d8fffbca4c3") (value "") (at -50800 163830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 17) (altid 1))
+ )
+)
+
+  )
+)

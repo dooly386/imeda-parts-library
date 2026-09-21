@@ -1,0 +1,48 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:Inductor")
+  (name "Inductor")
+  (type "normal")
+  (description "SMT Inductor")
+  (footprint "")
+  (datasheet "")
+  (reference "L?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "a4a8b387-6738-4971-90d8-dfd60f450d5e") (at 50800 0) (dir 0) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "152b10ca-f3ae-4297-8dc2-cadee9e0443f") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "902ffc10-164f-4973-9d80-77d017ddf59e") (type "ellipticalarc") (start -12700 6350) (end 0 -6350) (ctrl1 0 0) (ctrl2 -12700 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 2) (altid 1))
+
+  (shape (uuid "14685d68-618a-422d-9013-cacc524edead") (type "ellipticalarc") (start -25400 6350) (end -12700 -6350) (ctrl1 -12700 0) (ctrl2 -25400 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "80d4694a-9774-466d-a15e-58e64e13ab42") (type "ellipticalarc") (start 12700 6350) (end 25400 -6350) (ctrl1 25400 0) (ctrl2 12700 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "b29f2b58-6f67-494a-b773-6c8dc5eb89a0") (type "ellipticalarc") (start 0 6350) (end 12700 -6350) (ctrl1 12700 0) (ctrl2 0 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "29f9d509-c32d-46ae-84f1-dc38cfb4295a") (type "segment") (start 25400 -12700) (end -25400 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "9545d733-e139-4e33-b0ba-ff435fa4bd67") (type "segment") (start 25400 -20320) (end -25400 -20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (field (uuid "b9d5277a-af44-42f2-991d-f607556554b1") (value "L?") (at -25400 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "dbc915af-5147-443b-af9c-94ff390bf89d") (value "Inductor") (at -25400 8890) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "2630f290-66dd-4226-8600-a4ee57f994e5") (value "") (at -25400 26670) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "66909730-a140-4a38-ba8d-824e022df8c7") (value "") (at -25400 44450) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "2c94b481-fc0e-4a4f-b83a-694697d7a1e7") (value "SMT Inductor") (at -25400 62230) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

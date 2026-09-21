@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Passives:TDK VARISTOR 1210")
+  (name "TDK VARISTOR 1210")
+  (type "smd")
+  (description "Varistor, 2-Leads, Body 3.20x2.50mm, TDK, B72530T0300K062")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "TDK VARISTOR 1210"
+    (side front)
+    (library "Passives")
+    (desc "Varistor, 2-Leads, Body 3.20x2.50mm, TDK, B72530T0300K062")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.86) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "36371137-25a8-43b0-a8b4-ac5e51dcb5fc")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.86) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "0dd3c4ce-c8c7-4aa4-a74f-b38a67c59523")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "320b2cae-ad26-4ac9-a7c3-dc5d9ec3cb05")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f473a080-bcda-4d98-805d-c0d8df9e2ced")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6fffca79-5072-4c78-9020-8d9379d533f8")
+   )
+  )
+  (drawings
+   (line -0.700001 1.25 0.700001 1.25
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "ffb589ab-3812-4a0c-907b-c6d5273f00ec")
+   )
+   (line -0.700001 -1.25 0.700001 -1.25
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "a4cb1394-4a33-4e15-80be-7be7aa355f91")
+   )
+   (line -0.299999 0 0.299999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "b1f9ea1d-c202-4f0c-a113-0800e0464ad1")
+   )
+   (line 0 0.299999 0 -0.299999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "c1b89381-f525-4e95-a07b-fffbf4686354")
+   )
+   (line -2.55 1.675 -2.55 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "fa2bcd01-9d18-4f5b-bac1-be5de940e9d9")
+   )
+   (line -2.55 1.675 2.55 1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "527b7cec-0bd7-4241-b981-dee44aa5f3f1")
+   )
+   (line 2.55 1.7 2.55 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "8a9f6763-a338-492f-bb1f-2e89ab341752")
+   )
+   (line -2.55 -1.7 2.55 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "e5ca9bb9-1fdf-430e-9750-f3acd0cecb63")
+   )
+   (line -1.60012 1.24981 1.59988 1.24981
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "9132e74a-34c8-403f-8728-f9bf23279243")
+   )
+   (line 1.59988 1.24981 1.59988 -1.2502
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "8b57a178-bd35-4991-b35d-8da63c9c9c9f")
+   )
+   (line -1.60012 -1.2502 1.59988 -1.2502
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "4f8f5174-ed92-4f83-9d04-5ea939fe3065")
+   )
+   (line -1.60012 1.24981 -1.60012 -1.2502
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "438e507b-971a-44f0-87e6-b813dba6bada")
+   )
+  )
+  (pads
+   (pad "1" (at -1.65 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 2.8 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "8acc18b5-4238-4d8e-9f02-c94c35e7ae0c"))
+   (pad "2" (at 1.65 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 2.8 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "cf911746-6601-49b4-b8b8-96e5d2cc1612"))
+  )
+  )
+)
+
+  )
+)

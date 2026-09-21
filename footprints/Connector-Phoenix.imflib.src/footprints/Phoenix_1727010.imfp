@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-Phoenix:Phoenix 1727010")
+  (name "Phoenix 1727010")
+  (type "tht")
+  (description "Wire to Board Terminal Block Horizontal with Board Through Hole, 2 Position,3.81 mm Pitch, 7.62x7.3 mm Body")
+  (keywords "")
+  (padmap_json "{\"2\":\"\",\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Phoenix 1727010"
+    (side front)
+    (library "Connector-Phoenix")
+    (desc "Wire to Board Terminal Block Horizontal with Board Through Hole, 2 Position,3.81 mm Pitch, 7.62x7.3 mm Body")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0.025 -5.01) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "c1275bff-30b8-4f05-9fe9-4b90dc471c84")
+   )
+   (field "{Value}" (value "{Value}") (at 0.025 5.01) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "1526d70e-01a5-41da-9cf2-1ee248823788")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b26b7da0-02ac-4f79-9f2b-675976fa191b")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "11e830fe-3b87-4209-a7d1-d4055fcc8c86")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "27af8027-9c8d-4149-9fff-ecec7e5e749d")
+   )
+  )
+  (drawings
+   (line -3.80995 3.65003 -3.80995 -3.65005
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "c2008912-7c23-4810-b888-366e9e2e00ea")
+   )
+   (line -3.80995 3.65003 3.81005 3.65003
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "fceddb37-954f-4515-9348-569d51185186")
+   )
+   (line 3.81005 3.65003 3.81005 -3.65005
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "b55d29e5-e4a3-4d9b-a70a-54ce7d7a1e25")
+   )
+   (line -3.80995 -3.65005 3.81005 -3.65005
+    (stroke (width 0.1) (type "solid")) (layer "FAB_FR") (uuid "45b70e26-8747-451f-8001-1c8079630bbb")
+   )
+   (line -3.80995 3.65003 -3.80995 -3.65005
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "9870fdae-5c7c-4a72-a371-2588dc0d1ece")
+   )
+   (line -3.80995 3.65003 3.81005 3.65003
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "6ce52fce-f3c0-4c74-85d0-a0f49eee6086")
+   )
+   (line 3.81005 3.65003 3.81005 -3.65005
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "fdcfb44c-af1a-4f44-857b-71ce5d95fb75")
+   )
+   (line -3.80995 -3.65005 3.81005 -3.65005
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "8af34ec4-e37b-4712-9be8-a465606c6653")
+   )
+   (line -4 3.85 -4 -3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "5c4b28e8-ddd2-41e4-9003-c7e5a62b9bff")
+   )
+   (line -4 3.85 4.05 3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6bf6d0fe-af73-4549-80c3-196ee58e2e4f")
+   )
+   (line 4.05 3.85 4.05 -3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6e917f89-05a1-4e94-979d-9c01a64d93b3")
+   )
+   (line -4 -3.85 4.05 -3.85
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "21ff1c21-dd00-442a-a7b2-194c53bb3e19")
+   )
+  )
+  (pads
+   (pad "2" (at 1.905 0) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "b1c19ba9-b544-48ca-9319-ba2c5f944e8d"))
+   (pad "1" (at -1.905 0) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.7 1.7) (shape circle) (offset 0 0) (drshape circle) (drsize 1.1 1.1) (padlayermode keep) (uuid "6af948b1-91f7-42ae-b805-2320285c4887"))
+  )
+  )
+)
+
+  )
+)

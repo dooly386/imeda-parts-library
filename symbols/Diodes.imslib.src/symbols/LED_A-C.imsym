@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:LED A-C")
+  (name "LED A-C")
+  (type "normal")
+  (description "Chip LED")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "68d23400-8575-4eb1-bb1c-5e99b9d2b09c") (at 50800 0) (dir 0) (length 40640) (name "C") (number "C") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "dde4cb53-c2c7-4b8b-a951-c6948d444420") (at -50800 0) (dir 2) (length 40640) (name "A") (number "A") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "804a2db1-9340-4a57-bef0-0ba4ea7f496e") (type "poly") (start 10160 0) (end 10160 0)
+   (pts (xy 10160 0) (xy -10160 -15240) (xy -10160 15240) (xy 10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "68300968-1cff-441d-9a9f-06b9f552d999") (type "poly") (start 27940 -40640) (end 27940 -40640)
+   (pts (xy 27940 -40640) (xy 17780 -35560) (xy 22860 -30480) (xy 27940 -40640)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "d340402a-c82b-4a26-9d22-cfc364571f5b") (type "poly") (start 38100 -30480) (end 38100 -30480)
+   (pts (xy 38100 -30480) (xy 27940 -25400) (xy 33020 -20320) (xy 38100 -30480)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "aa60f3cd-4502-405f-a3e3-28f180ead753") (type "segment") (start 10160 -15240) (end 10160 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "88b67406-9d15-4ffe-806b-aab740f4e435") (type "segment") (start 10160 -22860) (end 22860 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "782d658a-89c5-4ea7-8c58-5a60041d62d2") (type "segment") (start 20320 -12700) (end 35560 -27940) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (field (uuid "c2754a21-4e7e-4746-adb0-03e3c4f91381") (value "D?") (at -10160 -49530) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 8) (altid 1))
+
+  (field (uuid "905c873b-7b5c-44eb-82c0-dc35c6cc067c") (value "LED A-C") (at -10160 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "45bce51e-3f6a-4055-935a-c0b58a74e655") (value "") (at -10160 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 10) (altid 1))
+
+  (field (uuid "25a0e533-3419-4f4d-a454-ba61dc2c48c6") (value "") (at -10160 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "d667b0be-c6d6-48b1-8179-215bfcfcfb00") (value "Chip LED") (at -10160 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 12) (altid 1))
+ )
+)
+
+  )
+)

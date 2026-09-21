@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Power-Switchmode:TI TPS5401")
+  (name "TI TPS5401")
+  (type "normal")
+  (description "Buck Step Down Regulator with 3.5 to 42 V Input and 0.8 to 39 V Output")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Power - Switchmode")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "6dac0f20-e21a-499b-a5d4-5a68f37cfe0f") (at 203200 -101600) (dir 0) (length 76200) (name "BOOT") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "5fc4566a-c395-4042-b1ff-cba4f6a57a41") (at -203200 -101600) (dir 2) (length 76200) (name "VIN") (number "2") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "34bccfdf-91a5-4056-b145-23e51e95e637") (at -203200 -76200) (dir 2) (length 76200) (name "EN") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "b9f86871-aa38-4de9-9842-6f4f792cb1d7") (at -203200 -25400) (dir 2) (length 76200) (name "SS/TR") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "9e56398b-73e6-43e6-9d82-78702bc9850f") (at -203200 0) (dir 2) (length 76200) (name "RT/CLK") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "3d49af59-c238-43b5-af96-18d919cdc6c8") (at 203200 101600) (dir 0) (length 76200) (name "PWRGD") (number "6") (elec 9) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "bbdc6b57-2c1f-4707-9167-89787de00eb8") (at 203200 25400) (dir 0) (length 76200) (name "VSENSE") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "6345e1fb-2732-468a-b626-5a077a646039") (at -203200 25400) (dir 2) (length 76200) (name "COMP") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "57cc612a-ac34-4867-97fe-830409f9851a") (at -203200 101600) (dir 2) (length 76200) (name "GND") (number "9") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "135e4bec-e7ca-4a5f-9e69-a466b75963a6") (at 203200 -50800) (dir 0) (length 76200) (name "PH") (number "10") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (pin (uuid "040a6d5d-ac4c-444c-a2ff-0072edb26ffb") (at -203200 76200) (dir 2) (length 76200) (name "GND") (number "11") (elec 7) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 10))
+
+  (shape (uuid "e590bfec-cb13-465b-b124-cec576cbb26e") (type "rectangle") (start -127000 127000) (end 127000 -127000) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 11) (altid 1))
+
+  (field (uuid "80468538-90df-43af-9c8f-bd5c37e28eb9") (value "IC?") (at -127000 -135890) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "fece7b49-9f6f-442b-92dc-37dee78620d7") (value "TI TPS5401") (at -127000 135890) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "2bed914f-0731-497a-8dc6-97fba25146d5") (value "") (at -127000 153670) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "3f2afb69-8ff7-4a52-adf3-21a36f91075e") (value "") (at -127000 171450) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "e10bc113-6344-44ad-9a2b-a9955917d0a0") (value "Buck Step Down Regulator with 3.5 to 42 V Input and 0.8 to 39 V Output") (at -127000 189230) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 16) (altid 1))
+ )
+)
+
+  )
+)

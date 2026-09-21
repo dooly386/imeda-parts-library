@@ -1,0 +1,95 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Leadless-DFN:SILICON LABS DFN-6 3x3MM")
+  (name "SILICON LABS DFN-6 3x3MM")
+  (type "smd")
+  (description "Temperature Sensor Digital - Local -40°C ~ 125°C, 6 Leads, Body 3x3mm, Package 6-VFDFN Exposed Pad")
+  (keywords "")
+  (padmap_json "{\"4\":\"\",\"5\":\"\",\"6\":\"\",\"1\":\"\",\"2\":\"\",\"3\":\"\",\"7\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "SILICON LABS DFN-6 3x3MM"
+    (side front)
+    (library "Leadless-DFN")
+    (desc "Temperature Sensor Digital - Local -40°C ~ 125°C, 6 Leads, Body 3x3mm, Package 6-VFDFN Exposed Pad")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.935) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "0b5c652e-3420-4399-bc76-455b97498d92")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.86) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d89e1804-ae8c-49e6-9e43-22c815e0eb54")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ea91cfb8-bf7d-4351-b90f-0c8d4431a2df")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "8e273a9e-2201-47d4-85f6-25f321eb640d")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "678ccc52-f8c5-459a-8613-0dde3c59ead2")
+   )
+  )
+  (drawings
+   (line -1.5 1.5 1.5 1.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "add4b22a-5518-4348-99d4-4acd64ff9c41")
+   )
+   (line -1.5 -1.5 1.5 -1.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "c5e2091c-2c79-4e97-849c-7d61bd51625f")
+   )
+   (line 1.5 1.5 1.5 -1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "15496aef-4b3a-4639-ad67-71aff187809f")
+   )
+   (line -1.5 1.5 1.5 1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "f52f9b54-194d-4b5e-8a1a-1bde212b2c08")
+   )
+   (line -1.5 1.5 -1.5 -1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "0a5c7c4b-bc5b-4739-8188-3bf47d5799b8")
+   )
+   (line -1.5 -1.5 1.5 -1.5
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "96278fbf-1289-46e3-97a0-9e6ea09e4665")
+   )
+   (line 0 0.499999 0 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "22fc927c-3f61-45d5-a3f3-a62b7f094630")
+   )
+   (line -0.499999 0 0 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "a93d53d5-dc04-4d83-a0a4-20649a8fd295")
+   )
+   (line 0 0 0 -0.499999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "32e64e7e-94fe-429e-b636-fe23349db5ad")
+   )
+   (line 0 0 0.499999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "350c5b72-edbc-44f9-9d29-b6de8d435bf2")
+   )
+   (line -2.075 1.7 -2.075 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "f7d0715c-69d1-46eb-bbe1-57c511674bf8")
+   )
+   (line -2.075 1.7 2.075 1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "be136604-4a47-4b21-8074-de7e5ed4e5d4")
+   )
+   (line 2.075 1.7 2.075 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "5f07d80a-b0c7-4514-88e4-c75ba4733139")
+   )
+   (line -2.075 -1.7 2.075 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "66775d20-521f-457c-95b4-4775f04a5430")
+   )
+   (circle -1.8 -1.6 -1.7 -1.6
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "23f88136-a44a-4e91-937a-a75e3a908269")
+   )
+   (circle -1 -0.900001 -0.787865 -0.900001
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "cbce7863-55b3-4d81-9fa9-41ec4c41807c")
+   )
+  )
+  (pads
+   (pad "4" (at 1.45 1) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 0.850001 0.449999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "ec7f678c-7ceb-42ea-8351-efd8d231a878"))
+   (pad "5" (at 1.45 -3e-06) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 0.850001 0.449999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "faf4ae1a-7637-42e4-bb56-98ef4e7251e8"))
+   (pad "6" (at 1.45 -1) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 0.850001 0.449999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "d86c89af-2964-4da9-b3fe-5c1a3e02302d"))
+   (pad "1" (at -1.45 -1) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 0.850001 0.449999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "59e5c6b2-fdf5-4333-b9b5-21b8a2d93dd8"))
+   (pad "2" (at -1.45 -3e-06) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 0.850001 0.449999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "dfd20119-864b-4429-8462-15a3ac03c4b4"))
+   (pad "3" (at -1.45 1) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 0.850001 0.449999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "f4a2d25f-691e-4c49-a7a9-d66aede97103"))
+   (pad "7" (at 0 0) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 1.6 2.5) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "7437a19a-e492-46aa-b88b-d95613919f1c"))
+  )
+  )
+)
+
+  )
+)

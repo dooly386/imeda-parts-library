@@ -1,0 +1,46 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:COMCHIP CPDH3V3UP-HF")
+  (name "COMCHIP CPDH3V3UP-HF")
+  (type "normal")
+  (description "Rectifier Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "070a9f34-9848-490f-b180-58af9e479403") (at 50800 0) (dir 0) (length 40640) (name "K") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "168213d2-503f-45f7-87b2-8df876e96d5a") (at -50800 0) (dir 2) (length 40640) (name "A") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "72381a2b-b19e-4183-97af-144c1f9677ec") (type "poly") (start 10160 0) (end 10160 0)
+   (pts (xy 10160 0) (xy -10160 -15240) (xy -10160 15240) (xy 10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "adb7fcbc-dc78-4a76-926d-53a75881c7b1") (type "segment") (start 10160 -15240) (end 10160 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "1f363998-5974-400c-8a6a-ee20f5e2fe8c") (type "segment") (start 10160 -15240) (end 5080 -20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "8852a808-2407-415b-b228-bf3b1455b117") (type "segment") (start 10160 15240) (end 15240 20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (field (uuid "78c79309-815e-4e42-88d5-9f0129575568") (value "D?") (at -10160 -29210) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 6) (altid 1))
+
+  (field (uuid "30b8ce4a-e07a-4f2f-880f-a5cbc2b6b60e") (value "COMCHIP CPDH3V3UP-HF") (at -10160 29210) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 7) (altid 1))
+
+  (field (uuid "d5a60495-8a24-4c98-847f-7b73c25947ab") (value "") (at -10160 46990) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 8) (altid 1))
+
+  (field (uuid "d0f6519b-b5a5-402b-8842-6a5d4cbebf27") (value "") (at -10160 64770) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 9) (altid 1))
+
+  (field (uuid "0ca67f95-619c-41b5-9f80-7e48f5da37b5") (value "Rectifier Diode") (at -10160 82550) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 10) (altid 1))
+ )
+)
+
+  )
+)

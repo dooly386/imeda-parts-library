@@ -1,0 +1,69 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Microphone:CUI Devices CMA-4544PF-W")
+  (name "CUI Devices CMA-4544PF-W")
+  (type "tht")
+  (description "Analog Microphone 9.7mm Dia")
+  (keywords "")
+  (padmap_json "{\"OUT\":\"\",\"G\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "CUI Devices CMA-4544PF-W"
+    (side front)
+    (library "Microphone")
+    (desc "Analog Microphone 9.7mm Dia")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -6.26) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d4454b2d-5942-41f3-8010-5315fbb1371e")
+   )
+   (field "{Value}" (value "{Value}") (at 0 6.26) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "5d2217c9-46a7-4e2d-a147-b4774493a036")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "154e8bb9-85b8-4adf-8280-ae45bf3b7186")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6d3fda11-c285-467d-bfe0-40e1bcb13ac1")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "c0559845-84ba-4631-9cf6-bcd43187cb0d")
+   )
+  )
+  (drawings
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "4a7c89ec-d371-47f8-b032-e5705b8fb4a2")
+   )
+   (line -0.499999 0 0.499999 0
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "9b916df8-3f9e-4093-a594-d59439034549")
+   )
+   (line -5.1 5.1 5.1 5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "aed104ed-4f6c-41d8-990c-4837c8e26b1f")
+   )
+   (line -5.1 5.1 -5.1 -5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "bf1d1004-af6e-465e-ade6-d095ade1cdb0")
+   )
+   (line 5.1 5.1 5.1 -5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "8ce1c488-d398-40ae-907c-05f0a0ac0514")
+   )
+   (line -5.1 -5.1 5.1 -5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "935d267a-3d78-4fa3-82c8-fb486218ae84")
+   )
+   (circle 0 0 4.85 0
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "19edcdca-fe16-4a45-ad8e-d778f843eef8")
+   )
+   (circle 2 -2.5 2.1 -2.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "9f3b0ae2-a048-404b-a5d0-62b851211e89")
+   )
+   (circle 0 0 4.85 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "8e959a51-438b-4f36-883c-03b692536195")
+   )
+  )
+  (pads
+   (pad "OUT" (at 2 1.27) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.8 1.8) (shape circle) (offset 0 0) (drshape circle) (drsize 0.900001 0.900001) (padlayermode keep) (uuid "062dfccb-c458-4f33-bcb3-c911e94eae2a"))
+   (pad "G" (at 2 -1.27) (type pth) (padmode 0) (angle 90) (layer "CU_FR") (size 1.8 1.8) (shape circle) (offset 0 0) (drshape circle) (drsize 0.900001 0.900001) (padlayermode keep) (uuid "cd7adf6e-4084-482d-a035-0d65fb9a45e7"))
+  )
+  )
+)
+
+  )
+)

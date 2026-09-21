@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Fuse:FUSE 1206_3216 0.9MM")
+  (name "FUSE 1206_3216 0.9MM")
+  (type "smd")
+  (description "Chip Fuse 200mA 125V AC 125V DC, 2-Leads, Body 3.18x1.52mm, IPC Medium Density")
+  (keywords "")
+  (padmap_json "{\"2\":\"\",\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "FUSE 1206_3216 0.9MM"
+    (side front)
+    (library "Fuse")
+    (desc "Chip Fuse 200mA 125V AC 125V DC, 2-Leads, Body 3.18x1.52mm, IPC Medium Density")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.26) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f052fe20-3d3b-4e45-a857-9e1e514a1510")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.26) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "0481da75-a300-45b7-a3b7-309b5062abb5")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "68123ab3-9ab7-4a06-bcc9-41bd280865c7")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "1527da12-af52-4bfa-85eb-e8b1e04767f9")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "8830fc7f-390f-4b9a-a616-8b4a857e08ac")
+   )
+  )
+  (drawings
+   (line -0.460002 0.762 0.459999 0.762
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "334df7d1-1184-45f1-a4d1-35dfbc281816")
+   )
+   (line -0.460002 -0.762 0.459999 -0.762
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "ea671a83-fccb-4039-a393-69d2392ddd7a")
+   )
+   (line 0 0.500002 0 -0.499999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "117ddaa0-af87-47a5-bb28-b4667b916090")
+   )
+   (line -0.500002 0 0.499999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "c30f502b-09d4-49ce-b579-c2d907dc1aec")
+   )
+   (line -2 1.1 2 1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "e63fa711-5ca2-4973-9e66-5b1096b1c334")
+   )
+   (line -2 -1.1 2 -1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "ef90abfe-b248-4926-ac3a-95a6212e0b9c")
+   )
+   (line 2 1.1 2 -1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "0c0965d5-852e-447e-a721-c1f3364a28e0")
+   )
+   (line -2 1.1 -2 -1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "d577120c-1f60-4990-a099-58f15fbfff9f")
+   )
+   (line -1.5875 0.762 1.5875 0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "4a99c4ac-86ba-48bc-a62f-4b163a4654eb")
+   )
+   (line -1.5875 -0.762 1.5875 -0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "1818097a-9c25-4b5b-8946-bb7f06f7f0c0")
+   )
+   (line 1.5875 0.762 1.5875 -0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "b025a622-2150-4925-a64a-cc7778c71b6d")
+   )
+   (line -1.5875 0.762 -1.5875 -0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "efa5b7e4-7b63-4696-b6cd-9869693ae8d3")
+   )
+  )
+  (pads
+   (pad "2" (at 1.25 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.8 1) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "364e9ca6-60fe-485f-a825-47c4fec7dcfc"))
+   (pad "1" (at -1.25 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.8 1) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "884576d1-544e-45aa-ac0f-18f0fd613693"))
+  )
+  )
+)
+
+  )
+)

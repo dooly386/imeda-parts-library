@@ -1,0 +1,48 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:Resistor")
+  (name "Resistor")
+  (type "normal")
+  (description "SMT Resistor")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "a055f4b1-86ee-4fff-9f96-b7e9a24d02c3") (at 50800 0) (dir 0) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "54b205e6-577d-420d-a440-370e58869792") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "182e83ea-8a0a-4c39-9ef3-894f96396e2d") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 2) (altid 1))
+
+  (shape (uuid "a51c8312-bfc4-47e0-afd9-6e84496f9e6f") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "f734a6c4-7cfb-453c-b8de-754451ef623b") (type "poly") (start -2540 -7620) (end 15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy 2540 7620) (xy 7620 -7620) (xy 12700 7620) (xy 15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "27c1c0c6-9002-427b-b004-735f20a37f00") (type "poly") (start -2540 -7620) (end -15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy -7620 7620) (xy -12700 -7620) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (field (uuid "29cf8144-8eb3-4d0c-b9c0-b1a15a7b1122") (value "R?") (at -25400 -16510) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 6) (altid 1))
+
+  (field (uuid "dd1d03e2-12f7-423f-9990-7d171de3b791") (value "Resistor") (at -25400 16510) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 7) (altid 1))
+
+  (field (uuid "65941ac6-37e4-45d4-a740-f55671e3bee5") (value "") (at -25400 34290) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 8) (altid 1))
+
+  (field (uuid "6f2657d1-2ad1-46cd-bd73-63abc7aaf4f5") (value "") (at -25400 52070) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 9) (altid 1))
+
+  (field (uuid "91163b63-6a2e-4e1f-80b2-7fca0806422a") (value "SMT Resistor") (at -25400 69850) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 10) (altid 1))
+ )
+)
+
+  )
+)

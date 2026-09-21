@@ -1,0 +1,84 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Ethernet:SMSC LAN8720")
+  (name "SMSC LAN8720")
+  (type "normal")
+  (description "Small Footprint RMII 10/100 Ethernet  Transceiver with HP Auto-MDIX Support")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "Ethernet")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "85bed7d6-f3e1-4d75-865c-3c278da8e1da") (at -254000 -279400) (dir 2) (length 76200) (name "VDD2A") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "1db4ff82-9af2-4d28-99ad-f7abb9b87269") (at 254000 -127000) (dir 0) (length 76200) (name "LED2\\/INTSEL\\") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "f174d02e-83b9-4b12-9ff2-980f0a3d94e8") (at 254000 -152400) (dir 0) (length 76200) (name "LED1/\\REGOFF\\") (number "3") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "fdbb1637-672e-4a02-af87-e8c3063a63ab") (at -254000 152400) (dir 2) (length 76200) (name "XTAL2") (number "4") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "2964f1e7-e0c0-4c68-bb54-55d892b72abd") (at -254000 127000) (dir 2) (length 76200) (name "XTAL1/CLKIN") (number "5") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "afacf4f8-4dff-428a-9911-00d2bbde09d6") (at -254000 -177800) (dir 2) (length 76200) (name "VDDCR") (number "6") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "a66434c9-ac61-4e67-a9eb-5ca0bd8262a3") (at 254000 50800) (dir 0) (length 76200) (name "RXD1/\\MODE1\\") (number "7") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (pin (uuid "469b1077-0752-4997-854c-ec4048f1e531") (at 254000 25400) (dir 0) (length 76200) (name "RXD0/\\MODE0\\") (number "8") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 7))
+
+  (pin (uuid "52470dc4-135c-45f1-91fa-4b5da2c0ca18") (at -254000 -228600) (dir 2) (length 76200) (name "VDDIO") (number "9") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 8))
+
+  (pin (uuid "cc9d2035-9761-4698-96cb-9d954425859d") (at 254000 101600) (dir 0) (length 76200) (name "RXER/\\PHYAD0\\") (number "10") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 9))
+
+  (pin (uuid "c42dc89e-8da5-426a-bd96-3146bcc29120") (at 254000 76200) (dir 0) (length 76200) (name "CRS_DV/\\MODE2\\") (number "11") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 10))
+
+  (pin (uuid "71e8fe9e-f429-4c42-ab2d-4136a5e44931") (at 254000 152400) (dir 0) (length 76200) (name "MDIO") (number "12") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 11))
+
+  (pin (uuid "6360da83-b52b-4109-b04b-f211fdaa92f8") (at 254000 177800) (dir 0) (length 76200) (name "MDC") (number "13") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 12))
+
+  (pin (uuid "53400ba0-29af-446c-82a5-da0578ac9d28") (at 254000 203200) (dir 0) (length 76200) (name "\\INT\\/REFCLK0") (number "14") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 13))
+
+  (pin (uuid "97a314d2-da15-4202-9f27-c57980f7c7f3") (at -254000 -101600) (dir 2) (length 76200) (name "\\RST\\") (number "15") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 14))
+
+  (pin (uuid "0e05a0c8-636f-4663-b017-9ec0d446fe44") (at 254000 0) (dir 0) (length 76200) (name "TXEN") (number "16") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 15))
+
+  (pin (uuid "cfca9ea1-1c44-4648-ac1a-e3aab2527cf3") (at 254000 -50800) (dir 0) (length 76200) (name "TXD0") (number "17") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 16))
+
+  (pin (uuid "d75b0609-e12a-44d6-b522-d45c14304ac7") (at 254000 -25400) (dir 0) (length 76200) (name "TXD1") (number "18") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 17))
+
+  (pin (uuid "ad57ae6c-29f6-4d8d-b97b-b6e584472a98") (at -254000 -304800) (dir 2) (length 76200) (name "VDD1A") (number "19") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 18))
+
+  (pin (uuid "a33c1d8e-f220-4795-b4f4-d18810ade706") (at 254000 -228600) (dir 0) (length 76200) (name "TXN") (number "20") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 19))
+
+  (pin (uuid "30504b8e-f92b-4cc3-8a93-ac5f613d68bb") (at 254000 -203200) (dir 0) (length 76200) (name "TXP") (number "21") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 20))
+
+  (pin (uuid "47d59ad7-2cf1-4a57-8e5d-dce71765a8a1") (at 254000 -304800) (dir 0) (length 76200) (name "RXN") (number "22") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 21))
+
+  (pin (uuid "4ff44cb4-fbca-470b-aca8-769016241254") (at 254000 -279400) (dir 0) (length 76200) (name "RXP") (number "23") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 22))
+
+  (pin (uuid "6801d1a9-8d59-4ea5-9946-7c22671276e6") (at -254000 -50800) (dir 2) (length 76200) (name "RBIAS") (number "24") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 23))
+
+  (pin (uuid "5069fa1f-bde9-49db-8168-4e011102fcbf") (at -254000 203200) (dir 2) (length 76200) (name "GND") (number "25") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 24))
+
+  (shape (uuid "81050937-fe77-4fbd-8ce6-574f5fff01ac") (type "rectangle") (start -177800 228600) (end 177800 -330200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 25) (altid 1))
+
+  (field (uuid "393f5048-c201-4c29-82b2-954446526cc5") (value "IC?") (at -177800 -339090) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 26) (altid 1))
+
+  (field (uuid "9f3821e4-ae7b-40e4-a028-906b958f6659") (value "SMSC LAN8720") (at -177800 237490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 27) (altid 1))
+
+  (field (uuid "44484017-62e3-4870-98e0-476a152ca4a2") (value "") (at -177800 255270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 28) (altid 1))
+
+  (field (uuid "39628944-97d0-494c-a809-956bbad28be3") (value "") (at -177800 273050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 29) (altid 1))
+
+  (field (uuid "f65e0a8e-e973-47a6-be0c-f542ee2733e8") (value "Small Footprint RMII 10/100 Ethernet  Transceiver with HP Auto-MDIX Support") (at -177800 290830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 30) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,46 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:Diode Zener")
+  (name "Diode Zener")
+  (type "normal")
+  (description "Zener Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "ceb03ca4-88d6-4540-9a55-2f7605278fe5") (at 50800 0) (dir 0) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "5345aa0e-ee9c-4eff-a7f0-92a7eb8c4ec7") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "692ae676-7487-451a-affb-157c4ac63252") (type "poly") (start 10160 0) (end 10160 0)
+   (pts (xy 10160 0) (xy -10160 -15240) (xy -10160 15240) (xy 10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "d34d7daa-8cdd-4b7f-b779-14067959795e") (type "segment") (start 10160 -15240) (end 10160 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "c520eb0a-38b9-482b-8a9b-ddb1962db9a1") (type "segment") (start 10160 15240) (end 5080 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "78079e4d-018c-4533-ac91-9de0ec30b095") (type "segment") (start 10160 -15240) (end 15240 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (field (uuid "047485e5-7875-4b0e-b597-fa7ea9fee5d6") (value "D?") (at -10160 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 6) (altid 1))
+
+  (field (uuid "35887ff0-2b5a-474c-93ce-31b0bceccf2b") (value "Diode Zener") (at -10160 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 7) (altid 1))
+
+  (field (uuid "848f845e-3b89-4146-90b4-e70b625532d7") (value "") (at -10160 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 8) (altid 1))
+
+  (field (uuid "8345ce2c-fcb2-45e5-ab30-94b174a96a42") (value "") (at -10160 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 9) (altid 1))
+
+  (field (uuid "c19e8c07-4a47-49da-9c0d-67812f4d7caf") (value "Zener Diode") (at -10160 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 10) (altid 1))
+ )
+)
+
+  )
+)

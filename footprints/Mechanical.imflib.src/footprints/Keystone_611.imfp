@@ -1,0 +1,80 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Mechanical:Keystone 611")
+  (name "Keystone 611")
+  (type "tht")
+  (description "")
+  (keywords "")
+  (padmap_json "{\"1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Keystone 611"
+    (side front)
+    (library "Mechanical")
+    (desc "")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at -1 -6.235) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "cd21fe4f-6494-4080-b468-562f68143652")
+   )
+   (field "{Value}" (value "{Value}") (at -1 6.235) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "95c7b939-4878-4084-852f-a7164607f6f2")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "df80fc4c-227a-4bee-82e3-c82f07d09d9a")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "4613f21d-1382-49cf-bca7-6c216d551060")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "97a2cb8e-ff00-4a26-b5a7-7ee55ed05eed")
+   )
+  )
+  (drawings
+   (line -6.40186 -3.95988 4.31816 -3.95988
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "f72bb0f5-ea3d-46ac-810c-836ae88c0e34")
+   )
+   (line 4.31816 3.96004 4.31816 -3.95988
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "14fcdbdc-2f29-4da6-84c2-a9c11a13824b")
+   )
+   (line -6.40186 3.96004 4.31816 3.96004
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "5e3acb15-d351-43aa-97c5-dd54c093e0a6")
+   )
+   (line -6.40186 3.96004 -6.40186 -3.95988
+    (stroke (width 0.2) (type "solid")) (layer "FAB_FR") (uuid "c44ac6ce-e598-42aa-819b-8753a5c00354")
+   )
+   (line -6.35 3.937 -6.35 -3.937
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "8cc95877-aa0f-483a-a41e-21a951c87627")
+   )
+   (line -6.35 -3.937 -4.699 -3.937
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "dac0c8f3-2bab-44e3-bf6a-5257dcbfd6e8")
+   )
+   (line -6.35 3.937 -4.699 3.937
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "dca6f2ed-eeae-4307-a13b-ac02e2801544")
+   )
+   (line -7.5 5 -7.5 -5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "96889270-fb25-4c69-86a6-b9371a487205")
+   )
+   (line -7.5 -5 5.5 -5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "76fee6f2-8568-4103-a5ca-ff705142a2c8")
+   )
+   (line 5.5 5 5.5 -5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "072846c5-09a7-440e-b96f-66827c8c2906")
+   )
+   (line -7.5 5 5.5 5
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "637bac80-46c6-4331-858b-d63efae84091")
+   )
+   (line 0 1 0 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "e89288d5-9351-4d43-b03d-5ab3aab71537")
+   )
+   (line -1 0 1 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "a09324d6-10b7-4765-858e-ea32811f7658")
+   )
+  )
+  (pads
+   (pad "1" (at 0 0) (type pth) (padmode 0) (angle 90) (layer "CU_FR") (size 7.92 8.74) (shape rect) (offset 0 0) (drshape circle) (drsize 3.43 3.43) (padlayermode keep) (uuid "a28c3ca8-4697-4098-9ef7-6495b03ebac9"))
+  )
+  )
+)
+
+  )
+)

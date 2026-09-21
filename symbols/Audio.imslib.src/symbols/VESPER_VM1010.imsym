@@ -1,0 +1,54 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Audio:VESPER VM1010")
+  (name "VESPER VM1010")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "MK?")
+  (keywords "Audio")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "dbd1559e-7fde-449a-ae2a-aff73979b96f") (at -127000 -50800) (dir 2) (length 76200) (name "VDD") (number "VDD") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "11dd54a8-faac-4f58-ab9f-259bc33c18e6") (at -127000 76200) (dir 2) (length 76200) (name "GND") (number "G") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "c81d8857-899a-4896-a70b-84f639580d00") (at 203200 -25400) (dir 0) (length 76200) (name "OUT") (number "OUT") (elec 1) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "2ef9931e-e051-40ed-b2a6-1862da4a9613") (at -127000 0) (dir 2) (length 76200) (name "GA1") (number "GA1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (pin (uuid "68cdee2c-faed-40ce-8cf2-3202ace5b289") (at -127000 25400) (dir 2) (length 76200) (name "GA2") (number "GA2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 4))
+
+  (pin (uuid "85862e35-6a28-4de8-9329-446892150f02") (at 203200 76200) (dir 0) (length 76200) (name "DOUT") (number "DOUT") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 5))
+
+  (pin (uuid "9a77addc-fe04-413d-9f59-d328c675b6c5") (at 203200 50800) (dir 0) (length 76200) (name "MODE") (number "MODE") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 6))
+
+  (shape (uuid "16b95859-afbc-4c5b-b957-d7c4618b19a5") (type "rectangle") (start -50800 101600) (end 127000 -76200) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "897b03b7-9b88-4f79-8857-db2ec52ad789") (type "circle") (start 76200 -25400) (end 101600 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "065d3bb8-89f7-49ec-9dba-ef656dc8a6e9") (type "segment") (start 50800 -50800) (end 50800 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "bc2d903f-02ec-4477-8e66-6b91b1c3a403") (type "segment") (start 127000 -25400) (end 101600 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "91eca44a-f96a-402c-9847-1ab6aded3332") (value "MK?") (at -50800 -85090) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "1bcc2132-7f08-4fb0-8c44-5fe2a669c5bc") (value "VESPER VM1010") (at -50800 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "90a5e91d-cca9-4966-9768-59e714106106") (value "") (at -50800 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "d2fcf8cc-1a7e-4b2a-b52c-8f098053ca05") (value "") (at -50800 146050) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "a536d382-2a1e-4157-9f3a-09c978f6baf1") (value "") (at -50800 163830) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)

@@ -1,0 +1,86 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "FET-N-CH:ON SEMI MOSFET N-CH DFN-5")
+  (name "ON SEMI MOSFET N-CH DFN-5")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "IC?")
+  (keywords "FET - N-CH")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "2d57bf1e-7912-4967-9acd-0a186dbdfee7") (at -76200 25400) (dir 2) (length 40640) (name "G") (number "G") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "53edd96c-b273-4e10-a507-bb71b0e50d48") (at 0 76200) (dir 3) (length 50800) (name "S") (number "S") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "e118dac6-cc02-4113-81db-8a73644cad9b") (at 0 -76200) (dir 1) (length 50800) (name "D") (number "D") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "fca3aa2d-03d8-4b89-882a-8bd545659547") (type "arc") (start 44274 23618) (mid -43926 -24260) (end 43568 24896) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (shape (uuid "1b4ce3a9-c758-4ca7-a6e3-0b31210e2ba6") (type "poly") (start -20320 0) (end -20320 0)
+   (pts (xy -20320 0) (xy -10160 -5080) (xy -10160 5080) (xy -20320 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "de91ef5f-fcce-47ce-ba15-341c635dd6e2") (type "poly") (start 12700 10160) (end 12700 10160)
+   (pts (xy 12700 10160) (xy 38100 10160) (xy 25400 -10160) (xy 12700 10160)) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "e7ff26cd-eb36-4ffa-9816-b2493f7071fa") (type "segment") (start -35560 25400) (end -35560 -17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "c7f05487-dd14-4418-8565-60c5d510ef98") (type "segment") (start -25400 25400) (end 0 25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "318560fc-2782-49ca-a557-7b731ee2533c") (type "poly") (start -25400 0) (end 0 25400) (closed "no")
+   (pts (xy -25400 0) (xy 0 0) (xy 0 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "f2df760a-7d10-4548-bf1e-3b1255b1a7f9") (type "segment") (start -25400 -25400) (end 0 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "e2df5785-986d-492f-b5dc-2eb16779f8f3") (type "segment") (start 25400 25400) (end 25400 -25400) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "270f6c17-f3b3-49bc-a14e-8b988b6d2460") (type "segment") (start 25400 -10160) (end 12700 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "323d4833-30cf-4059-b80c-72eec4096949") (type "poly") (start 25400 -10160) (end 25400 10160) (closed "no")
+   (pts (xy 25400 -10160) (xy 12700 10160) (xy 25400 10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1)
+  )
+
+  (shape (uuid "23f499f9-4b3c-4bc9-b2e3-1d00b8286ddc") (type "segment") (start 25400 -10160) (end 38100 -10160) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 13) (altid 1))
+
+  (shape (uuid "7b455508-a1cb-497b-9c8a-a61918d3b5ec") (type "poly") (start 25400 -10160) (end 25400 10160) (closed "no")
+   (pts (xy 25400 -10160) (xy 38100 10160) (xy 25400 10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 14) (altid 1)
+  )
+
+  (shape (uuid "8f662f63-340d-4150-bf86-7b800e289a3b") (type "segment") (start -25400 33020) (end -25400 17780) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 15) (altid 1))
+
+  (shape (uuid "8b58e274-336c-4156-9a4d-c1d38f8b4230") (type "segment") (start -25400 7620) (end -25400 -7620) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 16) (altid 1))
+
+  (shape (uuid "abfc7dcc-9653-4a7c-bd4a-bd21e2164146") (type "segment") (start -25400 -17780) (end -25400 -33020) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 17) (altid 1))
+
+  (shape (uuid "f437599d-5b9b-4e67-8109-97fd1e61f0d1") (type "segment") (start 0 35560) (end 25400 35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 18) (altid 1))
+
+  (shape (uuid "37212e5a-7d66-44b6-b4e6-b05651300325") (type "segment") (start 25400 25400) (end 25400 35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 19) (altid 1))
+
+  (shape (uuid "83dd2d7c-7ea1-42ba-8174-a4cbea03addf") (type "segment") (start 0 -35560) (end 25400 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 20) (altid 1))
+
+  (shape (uuid "bb2cfc59-6d81-466e-8035-24fcd0dad628") (type "segment") (start 25400 -25400) (end 25400 -35560) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 21) (altid 1))
+
+  (field (uuid "4d7bce2e-563f-4f62-b5b7-572527c91c04") (value "IC?") (at 50182 -50184) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 22) (altid 1))
+
+  (field (uuid "d2aea376-925f-4a0b-84e2-20fb39c35add") (value "ON SEMI MOSFET N-CH DFN-5") (at 50182 -32404) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 23) (altid 1))
+
+  (field (uuid "ae4ec12e-de71-4080-9939-8c487c682e02") (value "") (at 50182 -14624) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 24) (altid 1))
+
+  (field (uuid "062d5297-bbf6-4f58-a388-e2c55b8f21fb") (value "") (at 50182 3156) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 25) (altid 1))
+
+  (field (uuid "2bc7b765-5aee-489d-818d-5ea2712f4264") (value "") (at 50182 20936) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 26) (altid 1))
+ )
+)
+
+  )
+)

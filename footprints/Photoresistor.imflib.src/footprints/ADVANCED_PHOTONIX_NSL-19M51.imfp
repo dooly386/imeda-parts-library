@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Photoresistor:ADVANCED PHOTONIX NSL-19M51")
+  (name "ADVANCED PHOTONIX NSL-19M51")
+  (type "tht")
+  (description "4mm Photoresistor")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "ADVANCED PHOTONIX NSL-19M51"
+    (side front)
+    (library "Photoresistor")
+    (desc "4mm Photoresistor")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -3.06) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6688a41f-f377-47cf-b11c-9c1453ba1284")
+   )
+   (field "{Value}" (value "{Value}") (at 0 3.06) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ab90f37a-f368-448b-8c7e-f9827eb61b36")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "944a1ac2-09e4-4be7-a10e-28865bd1b8ee")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "9ea85ddd-81f6-4db4-bab0-009cbcc93282")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ad9fe29f-f7f1-499e-8c8b-d420cdc2dc87")
+   )
+  )
+  (drawings
+   (line 2.4 1.9 2.4 -1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6a1b6c8f-6409-4fc8-9820-e77cc2900135")
+   )
+   (line -2.4 -1.9 2.4 -1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "4c4f4456-be42-43fa-9c66-485246c56d30")
+   )
+   (line -2.4 1.9 2.4 1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "43373991-9873-4be5-880d-0664b9874b90")
+   )
+   (line -2.4 1.9 -2.4 -1.9
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "f5c74482-3baf-443b-a52b-623545cbd765")
+   )
+   (line 0 1 0 -1
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "68afebfb-127a-4f0a-8eac-ead911eb5ac1")
+   )
+   (line -1 0 1 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "5cb9294d-f31c-435e-9bff-7799eeb86ab1")
+   )
+   (line -1.38286 1.58041 1.38286 1.58041
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "e6669279-24e0-4122-a21c-0ff9a9efaa56")
+   )
+   (line -1.38286 -1.58041 1.38286 -1.58041
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "663ec55c-3eca-4645-b8ed-38d8d32d3ff5")
+   )
+   (arc 0 0 -1.38286 -1.58041 -1.71563 -1.21104
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "20db63c9-548d-4da0-9a68-931dd3a5f3ae")
+   )
+   (arc 0 0 1.71563 -1.21104 1.38286 -1.58041
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "fd8c116c-90e9-43a5-b9fd-d04111c0fe87")
+   )
+   (arc 0 0 1.38286 1.58041 1.71563 1.21104
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "cb1db7b0-7402-4299-b090-bcf9c96871b2")
+   )
+   (arc 0 0 -1.71563 1.21104 -1.38286 1.58041
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "54469250-da4a-4bb4-9c00-638c49461c91")
+   )
+  )
+  (pads
+   (pad "1" (at -1.25 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.5 2) (shape oval) (offset 0 0) (drshape circle) (drsize 0.800001 0.800001) (padlayermode keep) (uuid "8479f3d2-d247-4441-8f5d-25696659e56e"))
+   (pad "2" (at 1.25 0) (type pth) (padmode 0) (angle 180) (layer "CU_FR") (size 1.5 2) (shape oval) (offset 0 0) (drshape circle) (drsize 0.800001 0.800001) (padlayermode keep) (uuid "dbd82398-7147-41ee-b9fc-a703c1054579"))
+  )
+  )
+)
+
+  )
+)

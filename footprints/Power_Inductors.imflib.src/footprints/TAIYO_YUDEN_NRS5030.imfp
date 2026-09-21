@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Power_Inductors:TAIYO YUDEN NRS5030")
+  (name "TAIYO YUDEN NRS5030")
+  (type "smd")
+  (description "Inductor, 2-Leads,Taiyo Yuden, NRS5030T4R7MMGJV")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "TAIYO YUDEN NRS5030"
+    (side front)
+    (library "Power_Inductors")
+    (desc "Inductor, 2-Leads,Taiyo Yuden, NRS5030T4R7MMGJV")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -3.86) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "8cbf10a9-7a74-4e13-9104-2b74eebb9fb3")
+   )
+   (field "{Value}" (value "{Value}") (at 0 3.86) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b87012ed-c8db-4d2a-868a-1a188c840b72")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "20ab791b-5711-4ce1-b312-4cf048628e74")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "286164b0-5ce8-493d-a5c6-2ab8a3998eec")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "3e2fbb63-f1f4-41e2-a28c-42cd1e1135af")
+   )
+  )
+  (drawings
+   (line -1.375 -2.475 1.375 -2.475
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "0488a3d0-059a-46d7-8306-35a2dbd17d12")
+   )
+   (line -1.575 -2.275 -1.375 -2.475
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "4a9ef683-31e7-4208-ac30-42c2ae391788")
+   )
+   (line 1.375 -2.475 1.5875 -2.2625
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "28190d81-89c7-4c4a-8ed1-03555cc1ffe6")
+   )
+   (line -1.575 2.275 -1.35 2.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "fa28ddc4-cd50-435c-b77c-ea71d5c86e68")
+   )
+   (line 1.35 2.5 1.58125 2.26875
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "82d4e79a-b8e9-4130-8cb9-a97ff5bc6013")
+   )
+   (line -1.35 2.5 1.35 2.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "af21e2dd-1e9a-401a-96de-52c346b31491")
+   )
+   (line -0.299999 0 0.299999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "e54252f0-d1ba-45b1-8265-c1543f88e185")
+   )
+   (line 0 0.299999 0 -0.299999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "b0fd7ccf-f548-4879-94a7-54a9dd633c8d")
+   )
+   (line -2.8 2.7 -2.8 -2.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "e24cb660-1f6c-461a-8f7f-068c876d3af2")
+   )
+   (line -2.8 2.7 2.8 2.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "31097682-c993-4b2e-98b2-655b5356f01e")
+   )
+   (line 2.8 2.7 2.8 -2.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "9a797b10-7ad0-4c69-9ac5-dd7d9ab7ca8b")
+   )
+   (line -2.8 -2.7 2.8 -2.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "f6532199-95fe-4b94-b9a8-6f54a1679dde")
+   )
+  )
+  (pads
+   (pad "1" (at -1.8 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 4 1.5) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "c1f8d701-4e33-44e6-8f4d-ebb7e4230250"))
+   (pad "2" (at 1.8 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 4 1.5) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "001b79fe-7335-44d4-b344-4c33e8684c6e"))
+  )
+  )
+)
+
+  )
+)

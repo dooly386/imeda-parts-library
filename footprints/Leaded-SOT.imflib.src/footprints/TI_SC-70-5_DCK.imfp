@@ -1,0 +1,102 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Leaded-SOT:TI SC-70-5 DCK")
+  (name "TI SC-70-5 DCK")
+  (type "smd")
+  (description "Temperature Sensor Analog - Local -50°C ~ 150°C 13.6mV, 5 Leads, Body 2.1x2mm, Pitch 0.65mm, Package SOT-353")
+  (keywords "")
+  (padmap_json "{\"3\":\"\",\"2\":\"\",\"1\":\"\",\"5\":\"\",\"4\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "TI SC-70-5 DCK"
+    (side front)
+    (library "Leaded-SOT")
+    (desc "Temperature Sensor Analog - Local -50°C ~ 150°C 13.6mV, 5 Leads, Body 2.1x2mm, Pitch 0.65mm, Package SOT-353")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at -0.0875 -2.86) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "483496ba-433f-438c-950a-7ec3ba9a2a73")
+   )
+   (field "{Value}" (value "{Value}") (at -0.0875 2.86) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "5f14f5eb-9ad3-4895-834b-9994adaaf081")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "da5ca4ff-5636-4a79-8eae-ba6d8414c38e")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b7b30935-a770-441c-b3a5-97d7a08c1008")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "fd99cac5-3fac-4351-9639-1ba28877a792")
+   )
+  )
+  (drawings
+   (line -1 0 -0.600001 0.399999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "49ce7081-bf47-4262-9cd6-1b093c2bc011")
+   )
+   (line -1 0.399999 -0.600001 0.399999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "459f3536-cc4e-4e40-9c70-b84938a6ed0d")
+   )
+   (line -1 0.599999 -1 -0.599999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "0ced9e15-5e83-40f4-8fbd-1259cd4d3716")
+   )
+   (line 1 0.599999 1 -0.599999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "df83d227-9e59-4292-bc60-2f9111a61e4b")
+   )
+   (line -1 0.625 -1 -0.625
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "fd0949bc-8032-4d65-9ea0-786b98ad05ea")
+   )
+   (line -1 0.625 1 0.625
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "46c86b55-aeb6-42d4-8d36-fd64560dfb7e")
+   )
+   (line 1 0.625 1 -0.625
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "2f7df17f-0292-4c87-a636-c6a3c481d63b")
+   )
+   (line -1 -0.625 1 -0.625
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "cfe26841-cdf6-406f-9823-447d83a5f8a4")
+   )
+   (line -1.2 1.7 -1.2 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "880537ca-054e-47f6-b04b-21667126b44d")
+   )
+   (line -1.2 -1.7 1.2 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "d5496892-d52e-4f66-a64c-a78283fa0936")
+   )
+   (line 1.2 1.7 1.2 -1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "0584bb60-f512-46d6-99c3-af56846f78ab")
+   )
+   (line -1.2 1.7 1.2 1.7
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "0ce48e9c-155f-4888-9c63-a4d228c1be49")
+   )
+   (line 0 0 0 -0.499999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "9d06c0d2-b304-4c9b-99c4-64925551241c")
+   )
+   (line -0.499999 0 0 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "7f2237c7-f5cb-4f23-a1e0-6cfef49fec97")
+   )
+   (line 0 0.499999 0 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "d470f929-11d1-4281-9770-dc83ed3f94f0")
+   )
+   (line 0 0 0.499999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "82aa6a62-1cdd-4465-a45e-22a8030907b3")
+   )
+   (circle -1.2 1 -1.1 1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "25ddeaa5-5a2f-44c6-8be3-52fbec67cbb4")
+   )
+   (circle -0.599999 0.2 -0.399997 0.2
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "bf0f15fb-c556-492c-b647-ef72e29424cd")
+   )
+   (poly (npts 4 -1 0.399999 -0.600001 0.399999 -1 0 -1 0.399999)
+    (stroke (width 0) (type "solid")) (filled) (layer "SILK_FR") (uuid "9bbd8fad-4aa1-4c50-8351-63b951a49e54")
+   )
+  )
+  (pads
+   (pad "3" (at 0.650001 1.1) (type smd) (padmode 0) (angle 270) (layer "CU_FR") (size 0.900001 0.399999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "c1ee14b9-b72f-4692-bc4e-1152247f26c7"))
+   (pad "2" (at -3e-06 1.1) (type smd) (padmode 0) (angle 270) (layer "CU_FR") (size 0.900001 0.399999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "55ea926f-62d8-44b7-90ee-f94365f9002f"))
+   (pad "1" (at -0.650001 1.1) (type smd) (padmode 0) (angle 270) (layer "CU_FR") (size 0.900001 0.399999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "4dd9210a-aa1c-4c93-be8c-11621835dd3e"))
+   (pad "5" (at -0.650001 -1.1) (type smd) (padmode 0) (angle 270) (layer "CU_FR") (size 0.900001 0.399999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "dfa80c86-7f3c-4709-a3d9-43a20a4e2b43"))
+   (pad "4" (at 0.650001 -1.1) (type smd) (padmode 0) (angle 270) (layer "CU_FR") (size 0.900001 0.399999) (shape oval) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "f2edc8e9-bc4f-45d4-88a3-2643cf27cb42"))
+  )
+  )
+)
+
+  )
+)

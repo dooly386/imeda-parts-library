@@ -1,0 +1,115 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Photodiodes:VISHAY VEMD2000X01")
+  (name "VISHAY VEMD2000X01")
+  (type "other")
+  (description "Silicon PIN Photodiode bottom mount")
+  (keywords "")
+  (padmap_json "{\"2\":\"\",\"1\":\"\",\"M1\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "VISHAY VEMD2000X01"
+    (side front)
+    (library "Photodiodes")
+    (desc "Silicon PIN Photodiode bottom mount")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.46) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "fafe3970-a451-401d-b382-f464bbdc5bbf")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.46) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "09799e50-e227-4f11-aee2-3bbaca3c8ba1")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "4e22d71e-fee8-4e67-80eb-47a4520ada94")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "967656e8-f4b8-450b-a779-752c871cc767")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "04bb6b12-bec2-4a49-9e9e-4e13aadee3a6")
+   )
+  )
+  (drawings
+   (line 3.6 1.3 3.6 -1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "1b33d27a-69b8-4e84-8380-ad9f75ea64bc")
+   )
+   (line -3.6 1.3 3.6 1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "fbb19ca6-348c-4dcd-8751-7df858478c65")
+   )
+   (line -3.6 -1.3 3.6 -1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "14def1c9-f405-4f3c-b543-a390f8880c1b")
+   )
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "890d0313-0eb5-4c56-9ca1-16ec766532be")
+   )
+   (line -0.499999 0 0.500002 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "aef1fb8d-414d-4c75-b765-96e55c218f26")
+   )
+   (line -3.6 1.3 -3.6 -1.3
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "d93d3c86-caed-4ad9-a430-073651b8578e")
+   )
+   (line -1.1 -1.1 1.1 -1.1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "e1334927-fa84-4cc6-ac2c-7d8a2778ca67")
+   )
+   (line -1.1 1.1 1.1 1.1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "f8c87732-26b5-43bc-99f3-34c69384ad87")
+   )
+   (line -1.1 1.1 -1.1 -1.1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "ef527cab-ba01-484b-aafd-e06af2ff64dc")
+   )
+   (line 1.1 1.1 1.1 -1.1
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "dab5a5de-70e9-43b2-8ae8-25a039f0e300")
+   )
+   (line -1.1 1.1 -1.1 0.700001
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "8b880df3-01a9-4daf-a457-7a02e11cb950")
+   )
+   (line -1.1 1.1 -0.700001 1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "efa94a79-cfa0-4067-a58d-6c0d586d59aa")
+   )
+   (line 1.1 1.1 1.1 0.700001
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "f9de78c3-0e43-452d-99de-f8fce68c55d1")
+   )
+   (line 0.700001 1.1 1.1 1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "88ef06f4-97e2-4e23-8943-6b999144017b")
+   )
+   (line 0.700001 -1.1 1.1 -1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "a6b1d4a0-0209-4360-9173-ade1efec48ee")
+   )
+   (line 1.1 -0.700001 1.1 -1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "0a831e99-b22e-4b08-85b2-9c3c81b319e3")
+   )
+   (line -1.1 -0.700001 -1.1 -1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "7962f36c-8da0-44a1-a60f-1b6d7922abe5")
+   )
+   (line -1.1 -1.1 -0.700001 -1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "2bc6ae86-92e2-4c56-85dd-6404d0665535")
+   )
+   (line -1.1 -0.700001 -0.700001 -1.1
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5dc3870c-29ba-4687-9dff-70531fa39f03")
+   )
+   (line 1.3 -0.299999 1.4 -0.299999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "4b889467-45ff-4ab9-b480-dcf451b4c6b8")
+   )
+   (line 1.3 0.299999 1.4 0.299999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "1e4d919b-c5c3-452d-a285-34fd69d701ed")
+   )
+   (line -1.4 0.299999 -1.3 0.299999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "eaac2fc7-a4d5-4dd1-b366-a22b8cec3d70")
+   )
+   (line -1.4 -0.299999 -1.3 -0.299999
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "2d98ce78-9360-45dc-95de-121258a13577")
+   )
+   (poly (npts 4 -1.1 -0.700001 -1.1 -1.1 -0.700001 -1.1 -1.1 -0.700001)
+    (stroke (width 0) (type "solid")) (filled) (layer "SILK_FR") (uuid "26aa9ba0-7dfa-4980-b093-b4c7d7343b78")
+   )
+  )
+  (pads
+   (pad "2" (at 2.5 0) (type smd) (padmode 0) (layer "CU_FR") (size 1.7 0.750001) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "a0aa7bc4-4ceb-420f-8f4e-b208134b8151"))
+   (pad "1" (at -2.5 0) (type smd) (padmode 0) (layer "CU_FR") (size 1.7 0.750001) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "7183f9cb-54ea-4f0f-b094-18a3f85e7f19"))
+   (pad "M1" (at 0 0) (type npth) (padmode 0) (layer "CU_FR") (size 2 2) (shape circle) (offset 0 0) (drshape circle) (drsize 2.3 2.3) (padlayermode keep) (uuid "d4df0819-0f4a-423e-be54-a1cf8a3dd32d"))
+  )
+  )
+)
+
+  )
+)

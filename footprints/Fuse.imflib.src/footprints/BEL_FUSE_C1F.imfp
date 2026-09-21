@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Fuse:BEL FUSE C1F")
+  (name "BEL FUSE C1F")
+  (type "smd")
+  (description "Chip Fuse")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "BEL FUSE C1F"
+    (side front)
+    (library "Fuse")
+    (desc "Chip Fuse")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.26) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ac816f31-c354-48bf-b02b-43d2ba7a72c2")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.26) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "febddda7-159f-40f2-bf1a-6b873bc1b928")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "61f5af76-7ddc-4ab4-90c0-95cb1c2330c2")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "385c62e3-e8ed-4ff2-a210-639858a4105d")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "490e7197-7e18-4a5d-9ff6-b75c6215f2fb")
+   )
+  )
+  (drawings
+   (line -0.460002 -0.762 0.459999 -0.762
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "98c06748-143e-4168-8987-3d8a70ca2cb6")
+   )
+   (line -0.460002 0.762 0.459999 0.762
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "104dbe84-c17e-4462-923b-72d62505d97e")
+   )
+   (line -2.2 1.1 -2.2 -1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "c988b406-22f0-4b2c-b334-2c3406dd0cab")
+   )
+   (line 2.2 1.1 2.2 -1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "c87c9c3a-eba2-48a9-acb7-5821bcfce8a7")
+   )
+   (line -2.2 -1.1 2.2 -1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "53f7a6df-22e2-4235-ba44-731b1a16915f")
+   )
+   (line -2.2 1.1 2.2 1.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "3eb4fbff-4766-44a6-a8a2-3038db066189")
+   )
+   (line -0.500002 0 0.499999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "aff4f3d5-4802-49d5-8ca0-ccc0e6312517")
+   )
+   (line 0 0.500002 0 -0.499999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "e75aae1b-18d6-4e0c-b70f-26e8610c7ba6")
+   )
+   (line -1.5875 0.762 -1.5875 -0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "5e98e0f9-18a0-4a0f-a37d-e063d23cd1a8")
+   )
+   (line 1.5875 0.762 1.5875 -0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "320a22e3-7c92-46cd-9716-61c9cdf61291")
+   )
+   (line -1.5875 -0.762 1.5875 -0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "3549f7aa-63e7-40a4-bdd0-e593c154e1b5")
+   )
+   (line -1.5875 0.762 1.5875 0.762
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "d31b918d-4d94-4e6e-8c91-662392b63f33")
+   )
+  )
+  (pads
+   (pad "1" (at -1.33 0) (type smd) (padmode 0) (layer "CU_FR") (size 1.14 1.78) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "3efe3262-4e6f-47d2-a4a8-fb812c1a53ef"))
+   (pad "2" (at 1.33 0) (type smd) (padmode 0) (layer "CU_FR") (size 1.14 1.78) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "54a3271d-abc5-479c-b9c9-8c37ad1a4b8a"))
+  )
+  )
+)
+
+  )
+)

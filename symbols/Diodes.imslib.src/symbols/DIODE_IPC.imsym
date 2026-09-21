@@ -1,0 +1,42 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:DIODE IPC")
+  (name "DIODE IPC")
+  (type "normal")
+  (description "Rectifier Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "9d786111-bc86-47c0-ac0b-36b3da1410ce") (at 50800 0) (dir 0) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "67c471a1-70af-477c-939e-ec605d5164fc") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "c580994a-ab0f-407c-9da9-b5ca85fbd8a0") (type "poly") (start -10160 0) (end -10160 0)
+   (pts (xy -10160 0) (xy 10160 15240) (xy 10160 -15240) (xy -10160 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "190fbe70-f2b6-4ab1-ad50-307e40a0fef5") (type "segment") (start -10160 15240) (end -10160 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 3) (altid 1))
+
+  (field (uuid "9a7e4683-5855-4340-9c75-af3c25f0b9d6") (value "D?") (at -10160 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 4) (altid 1))
+
+  (field (uuid "b5512f85-02b1-4741-8036-6f30bfd54e47") (value "DIODE IPC") (at -10160 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 5) (altid 1))
+
+  (field (uuid "66254f27-3c9b-46e4-bba9-506edb6713cb") (value "") (at -10160 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 6) (altid 1))
+
+  (field (uuid "7e28bcb2-381b-40d5-9e38-b4ba47911c9b") (value "") (at -10160 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 7) (altid 1))
+
+  (field (uuid "ff2107e0-10db-4fdb-9b26-a6209b4f26ac") (value "Rectifier Diode") (at -10160 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 8) (altid 1))
+ )
+)
+
+  )
+)

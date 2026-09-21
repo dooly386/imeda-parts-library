@@ -1,0 +1,62 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes-TVS:MCC SOD323 BIDIR TVS")
+  (name "MCC SOD323 BIDIR TVS")
+  (type "normal")
+  (description "TVS Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes - TVS")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "c33f34e3-eb31-4458-96a0-1c29b3edbd79") (at 50800 0) (dir 0) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "549ec65b-089c-488b-9ee4-63edf88b7275") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "1d4a0a3c-8bb8-4983-b858-7a9b9d3c41c5") (type "poly") (start 25400 0) (end 25400 0)
+   (pts (xy 25400 0) (xy 5080 -15240) (xy 5080 15240) (xy 25400 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "a25c0fb0-1a19-4e78-801e-a0463187a8de") (type "poly") (start -25400 0) (end -25400 0)
+   (pts (xy -25400 0) (xy -5080 -15240) (xy -5080 15240) (xy -25400 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "0c23f713-1c5d-4274-a508-1f9d4916df4f") (type "segment") (start -25400 15240) (end -25400 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "bed1d6cf-f813-46d5-aecb-6e0006e2969b") (type "segment") (start -25400 -15240) (end -20320 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "e3126040-0c91-4297-bb48-91578266e878") (type "segment") (start -25400 15240) (end -30480 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "f74944c5-efd7-42c9-9b06-138b3ef205f9") (type "segment") (start -25400 -15240) (end -20320 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "b97c87e9-1fb3-4ce0-90ee-9f1ffd425a02") (type "segment") (start 25400 15240) (end 25400 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "930923c8-53b9-4e5b-9c48-089203487d7d") (type "segment") (start 25400 -15240) (end 30480 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "653a6497-c692-4f7f-8c04-4f2e523beb46") (type "segment") (start 25400 15240) (end 20320 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "9d903698-3e28-4cff-8413-2815d5f73d9c") (type "segment") (start 25400 -15240) (end 30480 -15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (shape (uuid "35893e47-455e-46d0-b47e-9e49ded9e468") (type "segment") (start 12700 0) (end -12700 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 12) (altid 1))
+
+  (field (uuid "1f1b54a3-9030-4bd0-90b6-d98a66c04888") (value "D?") (at -30480 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "f1851154-50ac-4b74-a874-7707b603ef1a") (value "MCC SOD323 BIDIR TVS") (at -30480 24130) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 14) (altid 1))
+
+  (field (uuid "4baf94f4-ecc6-4601-8cd0-ac179e10ce79") (value "") (at -30480 41910) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "243e7433-3d9f-43e7-acf0-8bda1785ff89") (value "") (at -30480 59690) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 16) (altid 1))
+
+  (field (uuid "ef968298-d39c-4f0c-a331-2750ab4d2ff8") (value "TVS Diode") (at -30480 77470) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 17) (altid 1))
+ )
+)
+
+  )
+)

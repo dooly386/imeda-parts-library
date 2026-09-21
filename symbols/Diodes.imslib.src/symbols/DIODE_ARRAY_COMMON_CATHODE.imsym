@@ -1,0 +1,58 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:DIODE ARRAY COMMON CATHODE")
+  (name "DIODE ARRAY COMMON CATHODE")
+  (type "normal")
+  (description "Rectifier Diode")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "d1aca6c4-c72b-4c64-809a-33a5aa61cec4") (at 50800 25400) (dir 0) (length 25400) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "25fe2cdd-f510-4451-8f7e-e8d5fe8f19d0") (at -50800 0) (dir 2) (length 40640) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "a1cb66d3-0ad2-469a-a4c5-f14793148e26") (at -50800 50800) (dir 2) (length 40640) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "7836e81c-7521-4b94-b7bd-52894b4a15e6") (type "poly") (start 5080 0) (end 5080 0)
+   (pts (xy 5080 0) (xy -15240 -15240) (xy -15240 15240) (xy 5080 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "4e258ac3-b845-4806-8c47-f84028b172c0") (type "poly") (start 5080 50800) (end 5080 50800)
+   (pts (xy 5080 50800) (xy -15240 35560) (xy -15240 66040) (xy 5080 50800)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "6982b57e-f134-48de-bd1e-6376c0c2c4a0") (type "poly") (start 0 50800) (end 25400 25400) (closed "no")
+   (pts (xy 0 50800) (xy 25400 50800) (xy 25400 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1)
+  )
+
+  (shape (uuid "52f2c9d6-b154-4ed2-877b-e03317fff23c") (type "poly") (start 0 0) (end 25400 25400) (closed "no")
+   (pts (xy 0 0) (xy 25400 0) (xy 25400 25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "678fe0f2-14e4-4b75-ab59-95997773d6b3") (type "segment") (start 5080 -15240) (end 5080 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "27149330-8193-4292-81a1-7c5ad72a8155") (type "segment") (start 5080 35560) (end 5080 66040) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (field (uuid "80bc282d-c199-493d-ac14-2ed8a7c23660") (value "D?") (at -15240 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 9) (altid 1))
+
+  (field (uuid "b93ac40a-e566-434a-8cdf-c1f705ffa258") (value "DIODE ARRAY COMMON CATHODE") (at -15240 74930) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 10) (altid 1))
+
+  (field (uuid "84d48d16-ac4c-44a6-abeb-b43005343fb7") (value "") (at -15240 92710) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 11) (altid 1))
+
+  (field (uuid "41b3faf5-c9ee-438c-97c4-58fee54c1fe5") (value "") (at -15240 110490) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 12) (altid 1))
+
+  (field (uuid "b6ececfc-7637-49dc-8d7c-7af4fd2e9fad") (value "Rectifier Diode") (at -15240 128270) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 13) (altid 1))
+ )
+)
+
+  )
+)

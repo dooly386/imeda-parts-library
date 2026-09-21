@@ -1,0 +1,69 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Microphone:Mallory PMOF-9745P-39UQ")
+  (name "Mallory PMOF-9745P-39UQ")
+  (type "tht")
+  (description "MIC MAG ANLG OMNI -39DB 9.7MM D")
+  (keywords "")
+  (padmap_json "{\"OUT\":\"\",\"G\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "Mallory PMOF-9745P-39UQ"
+    (side front)
+    (library "Microphone")
+    (desc "MIC MAG ANLG OMNI -39DB 9.7MM D")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -6.26) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "db73ffbf-856a-4de8-9d5c-2a3ce6dcbc51")
+   )
+   (field "{Value}" (value "{Value}") (at 0 6.26) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d290c4a5-56df-415b-989f-04eebcedb02d")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "33448d6a-2e03-4f49-bf36-3f0ed5f6ff24")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "2eb1ccc0-b7f6-4ca5-a669-a5f4b7b37e6f")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "c2ef2f4f-5309-4ea8-85d3-ada2907a5adf")
+   )
+  )
+  (drawings
+   (line 0 0.499999 0 -0.499999
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "0a93a7bd-3a91-4d1c-965c-d744df676857")
+   )
+   (line -0.499999 0 0.499999 0
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "8d46936d-d3d9-4028-adc7-133a4af95407")
+   )
+   (line -5.1 -5.1 5.1 -5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "6b7662b4-c55b-4a58-ae20-f86e098438ff")
+   )
+   (line 5.1 5.1 5.1 -5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "ecb7bb9b-f86b-42b1-ba43-5497b2d01009")
+   )
+   (line -5.1 5.1 -5.1 -5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "854a3d0d-77b2-464e-a345-0558c06c982e")
+   )
+   (line -5.1 5.1 5.1 5.1
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "210c30d7-83eb-47c8-9b4d-49c25d4e5294")
+   )
+   (circle 0 0 4.85 0
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "18cd356b-824c-4be8-a87c-b0edb12e81a0")
+   )
+   (circle -2 -2.5 -1.9 -2.5
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "31421d68-8b3d-4042-948d-2e089739f724")
+   )
+   (circle 0 0 4.85 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "38f84622-a57a-413e-9199-4255b00ca80a")
+   )
+  )
+  (pads
+   (pad "OUT" (at -2 -1.27) (type pth) (padmode 0) (angle 90) (layer "CU_FR") (size 1.8 1.8) (shape circle) (offset 0 0) (drshape circle) (drsize 0.900001 0.900001) (padlayermode keep) (uuid "d3400888-e988-46bd-afe3-546d1ed5daea"))
+   (pad "G" (at -2 1.27) (type pth) (padmode 0) (angle 270) (layer "CU_FR") (size 1.8 1.8) (shape circle) (offset 0 0) (drshape circle) (drsize 0.900001 0.900001) (padlayermode keep) (uuid "f261140f-56af-4292-bda1-70469ec1a469"))
+  )
+  )
+)
+
+  )
+)

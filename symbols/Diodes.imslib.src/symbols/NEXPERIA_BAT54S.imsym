@@ -1,0 +1,68 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Diodes:NEXPERIA BAT54S")
+  (name "NEXPERIA BAT54S")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "D?")
+  (keywords "Diodes")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "87b9c803-764a-421a-9b30-2ba755e8e375") (at -127000 0) (dir 2) (length 76200) (name "A1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "802d6c1c-4061-4ae1-8a0f-29f7f0fb0a42") (at 127000 0) (dir 0) (length 76200) (name "K2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "232471f6-b3f9-473c-ab6f-9c596f40af70") (at 0 76200) (dir 3) (length 76200) (name "K1A2") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (shape (uuid "72e3801b-30d1-49af-90be-6e9639d60fe9") (type "poly") (start -15240 0) (end -15240 0)
+   (pts (xy -15240 0) (xy -35560 -15240) (xy -35560 15240) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "e8a1e7ee-1678-43ca-8646-4801886d4186") (type "poly") (start 30480 0) (end 30480 0)
+   (pts (xy 30480 0) (xy 10160 -15240) (xy 10160 15240) (xy 30480 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "23cc185f-3f93-4487-a812-1bda5e35f3cb") (type "segment") (start -15240 -15240) (end -15240 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "c260901b-b115-4ee9-b187-9155805b3515") (type "poly") (start -15240 -15240) (end -7620 -10160) (closed "no")
+   (pts (xy -15240 -15240) (xy -7620 -15240) (xy -7620 -10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1)
+  )
+
+  (shape (uuid "0e59bdbd-01ae-4d85-9ca8-f77808e28fc3") (type "poly") (start -15240 15240) (end -22860 10160) (closed "no")
+   (pts (xy -15240 15240) (xy -22860 15240) (xy -22860 10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "ef9f54b0-e7ad-41f1-b4fe-ddef21982a2d") (type "segment") (start 30480 -15240) (end 30480 15240) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1))
+
+  (shape (uuid "f14ba80a-b96d-4212-97d5-aecab250cdbe") (type "poly") (start 30480 -15240) (end 38100 -10160) (closed "no")
+   (pts (xy 30480 -15240) (xy 38100 -15240) (xy 38100 -10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1)
+  )
+
+  (shape (uuid "a978b320-9122-457a-aef6-09d99a40b662") (type "poly") (start 30480 15240) (end 22860 10160) (closed "no")
+   (pts (xy 30480 15240) (xy 22860 15240) (xy 22860 10160)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1)
+  )
+
+  (shape (uuid "ea89d68c-01e1-42a8-8eaf-9041d1514519") (type "segment") (start -50800 0) (end 50800 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (field (uuid "7603ed25-8027-4315-9817-51af13ba6975") (value "D?") (at -50800 -24130) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "521441c4-3f41-492b-ada2-174963732cb9") (value "NEXPERIA BAT54S") (at -50800 85090) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "05c761c2-b7d3-45a4-b376-61629314717f") (value "") (at -50800 102870) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "14181775-36c7-4f36-a386-d2470a8463fc") (value "") (at -50800 120650) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "f818b27f-2524-43b5-9b4a-b3ca0a73c247") (value "") (at -50800 138430) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 16) (altid 1))
+ )
+)
+
+  )
+)

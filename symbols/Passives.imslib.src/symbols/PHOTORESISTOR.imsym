@@ -1,0 +1,66 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:PHOTORESISTOR")
+  (name "PHOTORESISTOR")
+  (type "normal")
+  (description "SMT Resistor")
+  (footprint "")
+  (datasheet "")
+  (reference "R?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "51a93327-f2e7-4113-8cf4-2b0454f7bb8b") (at 50800 0) (dir 0) (length 25400) (name "2") (number "2") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "732af05b-3a6e-4983-a43a-e6ead24ff500") (at -50800 0) (dir 2) (length 25400) (name "1") (number "1") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (shape (uuid "3f853af1-9506-410b-9bb0-e7222d5c2cd0") (type "poly") (start -12700 -15240) (end -12700 -15240)
+   (pts (xy -12700 -15240) (xy -22860 -20320) (xy -17780 -25400) (xy -12700 -15240)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 2) (altid 1)
+  )
+
+  (shape (uuid "9105b3c4-93dd-4f4a-9388-39787ddb397a") (type "poly") (start -2540 -25400) (end -2540 -25400)
+   (pts (xy -2540 -25400) (xy -12700 -30480) (xy -7620 -35560) (xy -2540 -25400)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 3) (altid 1)
+  )
+
+  (shape (uuid "a331904b-bd56-4475-a581-2cf54a731b29") (type "poly") (start 20320 -22860) (end 20320 -22860)
+   (pts (xy 20320 -22860) (xy 15240 -12700) (xy 10160 -17780) (xy 20320 -22860)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1)
+  )
+
+  (shape (uuid "6d8c6e79-165d-4e9f-b89b-f4c16e7229ae") (type "segment") (start -25400 0) (end -15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "352955bf-6d05-4a31-a542-fcac2d4ef492") (type "segment") (start 25400 0) (end 15240 0) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "9ea3f4e6-e9fd-4766-866b-5edc0e16b00b") (type "poly") (start -2540 -7620) (end 15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy 2540 7620) (xy 7620 -7620) (xy 12700 7620) (xy 15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1)
+  )
+
+  (shape (uuid "a2bc59b7-0b2a-4ec6-8f8d-705b198f1c18") (type "poly") (start -2540 -7620) (end -15240 0) (closed "no")
+   (pts (xy -2540 -7620) (xy -7620 7620) (xy -12700 -7620) (xy -15240 0)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "0e209d73-bd5c-4bd7-8a77-7677d9ceb27d") (type "segment") (start -30480 -33020) (end -17780 -20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "ba35fd10-44c8-4680-a1a5-75963f18eadb") (type "segment") (start -20320 -43180) (end -5080 -27940) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (shape (uuid "9e84bf71-c077-40f5-aefc-b675a89a6a03") (type "segment") (start -15240 12700) (end 17780 -20320) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 11) (altid 1))
+
+  (field (uuid "96417a5e-c1a0-455f-870f-9656696bd7ed") (value "R?") (at -30480 -52070) (size 12700 12700) (halign -1) (valign 1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "72d62e48-da13-43d1-a572-cfb24ce85c89") (value "PHOTORESISTOR") (at -30480 21590) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 13) (altid 1))
+
+  (field (uuid "05e2d9df-9f6d-4b5d-8c99-f52148cdf57f") (value "") (at -30480 39370) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "80be5b99-e0b8-4a61-be19-715165bbcbfd") (value "") (at -30480 57150) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 15) (altid 1))
+
+  (field (uuid "e82a36cd-a962-4a39-a296-802b0bcf0d27") (value "SMT Resistor") (at -30480 74930) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 16) (altid 1))
+ )
+)
+
+  )
+)

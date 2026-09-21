@@ -1,0 +1,89 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-JST:JST SM06B-PASS-TB")
+  (name "JST SM06B-PASS-TB")
+  (type "other")
+  (description "JST PA Series 2mm pitch, side entry connector")
+  (keywords "")
+  (padmap_json "{\"6\":\"\",\"3\":\"\",\"M\":\"\",\"1\":\"\",\"2\":\"\",\"M\":\"\",\"4\":\"\",\"5\":\"\",\"M\":\"\",\"M\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "JST SM06B-PASS-TB"
+    (side front)
+    (library "Connector-JST")
+    (desc "JST PA Series 2mm pitch, side entry connector")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -6.188) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "638c6100-84b1-4248-9640-84d308b30b09")
+   )
+   (field "{Value}" (value "{Value}") (at 0 7.842) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6a6160ab-3d57-4da4-afda-ed2af12c4de5")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "1ead3113-36e3-40c0-bcc9-8564ae26e291")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "6140fa57-3222-400a-a12a-86b9e44261f1")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "9fb7cdd3-30a4-4d74-972d-59d2485240eb")
+   )
+  )
+  (drawings
+   (line 7.953 -2.41 7.953 -4.315
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "6c41f834-0c0a-4ad8-8ecf-b3a03b835f9e")
+   )
+   (line -7.921 -4.315 7.953 -4.315
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "e9937c77-8262-44ab-982e-3e3af4d83974")
+   )
+   (line -7.921 -2.41 -7.921 -4.315
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5c97366d-a8fc-4b55-8789-02100badc956")
+   )
+   (line -8 4.325 -8 2.575
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "318e7985-576d-4ea4-beb0-c0c5c3e74aa8")
+   )
+   (line 8 4.325 8 2.575
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "36fea92d-4ac0-4c0c-a581-f8a07d0c2224")
+   )
+   (line 5.905 4.325 8 4.325
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "79c13237-89c3-48f0-9cd1-bddf93c274ef")
+   )
+   (line -8 4.325 -5.905 4.325
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "04ff8bd3-1547-48f5-9f4a-7b03f5ee1a99")
+   )
+   (line 0 2.9 0 1.63
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "ce030e69-093d-41b5-8fd7-a9ee6f7bbfaf")
+   )
+   (line -0.635 2.265 0.635 2.265
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "e1879a2c-8e1e-4b8b-b9e9-621ed430fdeb")
+   )
+   (line -8.699 6.607 8.699 6.607
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "d30be53e-8441-4866-aa03-6df00f321d2a")
+   )
+   (line 8.699 6.607 8.699 -4.953
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "4da3051e-8986-4a22-883e-6000caf36e0b")
+   )
+   (line -8.699 -4.953 8.699 -4.953
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "34dbb4cb-4ad8-4821-a09b-8938984ed5a4")
+   )
+   (line -8.699 6.607 -8.699 -4.953
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "eacf5c2a-8916-4e06-860f-5e36e884b673")
+   )
+  )
+  (pads
+   (pad "6" (at 5 4.575) (type smd) (padmode 0) (layer "CU_FR") (size 1 2.9) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "441b0277-09c0-4904-8720-88e553d6079e"))
+   (pad "3" (at -1 4.575) (type smd) (padmode 0) (layer "CU_FR") (size 1 2.9) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "f78c71c8-8b36-4611-b1af-21c4e55d57ef"))
+   (pad "M" (at -7.2 0.124998) (type smd) (padmode 0) (angle 180) (layer "CU_FR") (size 1.8 3.8) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "3d68edf2-8921-4a59-b396-9620839db6a8"))
+   (pad "1" (at -5 4.575) (type smd) (padmode 0) (layer "CU_FR") (size 1 2.9) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "73b03bc4-c1da-4df3-87af-5ba5ffcea9f9"))
+   (pad "2" (at -3 4.575) (type smd) (padmode 0) (layer "CU_FR") (size 1 2.9) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "2a81ece1-93b5-4cc0-b958-ef1b395d56f9"))
+   (pad "M" (at 7.2 0.124998) (type smd) (padmode 0) (layer "CU_FR") (size 1.8 3.8) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "b05af80c-d0b7-4a28-bf87-859e08f44820"))
+   (pad "4" (at 1 4.575) (type smd) (padmode 0) (layer "CU_FR") (size 1 2.9) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "6bd3fe09-33f2-4bbf-b6be-7c3a9cbe51f6"))
+   (pad "5" (at 3 4.575) (type smd) (padmode 0) (layer "CU_FR") (size 1 2.9) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "fb109027-21fa-46d5-bf1e-ed52b8b5ad28"))
+   (pad "M" (at 7.2 3.375) (type npth) (padmode 0) (angle 90) (layer "CU_FR") (size 0.800001 0.800001) (shape circle) (offset 0 0) (drshape circle) (drsize 0.800001 0.800001) (padlayermode keep) (uuid "8c637af6-decd-4582-8e99-0ab40a9ad9a9"))
+   (pad "M" (at -7.2 3.375) (type npth) (padmode 0) (angle 180) (layer "CU_FR") (size 1 0.800001) (shape oval) (offset 0 0) (drshape oblong) (drsize 0.800001 1) (padlayermode keep) (uuid "013532fa-8063-4bcc-8266-a21aa50dee31"))
+  )
+  )
+)
+
+  )
+)

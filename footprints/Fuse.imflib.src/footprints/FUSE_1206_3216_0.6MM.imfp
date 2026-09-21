@@ -1,0 +1,78 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Fuse:FUSE 1206_3216 0.6MM")
+  (name "FUSE 1206_3216 0.6MM")
+  (type "smd")
+  (description "Chip Fuse 1.5A AC 63V DC, 2-Leads, Body 3.10x1.55mm, IPC Medium Densitym")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "FUSE 1206_3216 0.6MM"
+    (side front)
+    (library "Fuse")
+    (desc "Chip Fuse 1.5A AC 63V DC, 2-Leads, Body 3.10x1.55mm, IPC Medium Densitym")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -2.185) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "5e505430-24a3-4531-af3c-7c5dc2fee6fb")
+   )
+   (field "{Value}" (value "{Value}") (at 0 2.185) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ef8cc228-1b23-4734-928f-52b7ca885fe3")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "0577cc54-8b20-459a-98f4-aa2fe61596db")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "93bb7030-ca2c-4aa4-8806-540b68b902e9")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ab4b4594-d21c-470c-96d1-f159e110a036")
+   )
+  )
+  (drawings
+   (line -0.800001 -0.725 0.800001 -0.725
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "011b667f-3626-4da8-89b7-f81190731db1")
+   )
+   (line -0.800001 0.725 0.800001 0.725
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "6346b9da-def8-44b6-9534-efd261544ccf")
+   )
+   (line -2.55 1.025 -2.55 -1.025
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "f297322a-2d39-4afc-992e-85bd4f0d2cd9")
+   )
+   (line 2.55 1.025 2.55 -1.025
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "afcc8fac-9dbb-41d7-a1b9-750cde47e573")
+   )
+   (line -2.55 -1.025 2.55 -1.025
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "9a44e876-c7b1-481a-afba-b09cc5f9ab5b")
+   )
+   (line -2.55 1.025 2.55 1.025
+    (stroke (width 0.05) (type "solid")) (layer "USER_13") (uuid "aa453586-705e-451b-9279-53ed082b6864")
+   )
+   (line -0.500002 0 0.499999 0
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "1010d227-462a-427d-b047-92969a2b345e")
+   )
+   (line 0 0.500002 0 -0.499999
+    (stroke (width 0.1) (type "solid")) (layer "USER_13") (uuid "0485a19b-9361-47fa-b3fd-f3da4aa40b96")
+   )
+   (line -1.55 0.775 -1.55 -0.775
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "473344e1-2abf-4126-9071-dfd1a96867a8")
+   )
+   (line 1.55 0.775 1.55 -0.775
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "95cda1ac-1bee-4ad6-bcab-d9eddf5a0a1b")
+   )
+   (line -1.55 -0.775 1.55 -0.775
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "02290546-e6e8-4b77-bde7-0c263651c85c")
+   )
+   (line -1.55 0.775 1.55 0.775
+    (stroke (width 0.1) (type "solid")) (layer "USER_11") (uuid "c4699553-5a55-4318-abe8-4c11c54edbb3")
+   )
+  )
+  (pads
+   (pad "1" (at -1.725 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.65 1.25) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "8b3aea97-9e41-4943-acfa-10859fa86e98"))
+   (pad "2" (at 1.725 0) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.65 1.25) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "e5c5d27c-d314-460a-ab4b-087022c8c084"))
+  )
+  )
+)
+
+  )
+)

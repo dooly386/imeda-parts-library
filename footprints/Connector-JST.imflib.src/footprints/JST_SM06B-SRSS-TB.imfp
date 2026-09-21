@@ -1,0 +1,81 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-JST:JST SM06B-SRSS-TB")
+  (name "JST SM06B-SRSS-TB")
+  (type "smd")
+  (description "1.0mm pitch/Disconnectable Crimp style connector")
+  (keywords "")
+  (padmap_json "{\"4\":\"\",\"M\":\"\",\"1\":\"\",\"2\":\"\",\"M\":\"\",\"3\":\"\",\"5\":\"\",\"6\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "JST SM06B-SRSS-TB"
+    (side front)
+    (library "Connector-JST")
+    (desc "1.0mm pitch/Disconnectable Crimp style connector")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -4.537) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d4ef7933-70e9-402e-aa71-77a9c74d0fba")
+   )
+   (field "{Value}" (value "{Value}") (at 0 4.664) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "15d3cdbe-d467-4b64-97af-9a8265b39126")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "eb73b99a-9955-4da7-9543-1b19d223f6e2")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "67edb566-f7ef-48c1-beb7-965608458652")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b506b172-9bcc-4397-9e75-d7d3885a97b8")
+   )
+  )
+  (drawings
+   (line -4.032 2.413 -3.27 2.413
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "d20842b1-80c7-4d62-93a8-a8cdb9065369")
+   )
+   (line -4.032 2.413 -4.032 -0.508
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "19f7645a-fbff-4aa5-9e34-75f747f13c0c")
+   )
+   (line -2.762 -2.54 2.794 -2.54
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "95687c58-931e-4afd-9e5b-9a9d6bd24a9d")
+   )
+   (line 4.032 2.413 4.032 -0.508
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5e53ca3f-a8d2-434a-ab8b-0d8c41feafa9")
+   )
+   (line 3.27 2.413 4.032 2.413
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "02bc129e-7176-4332-b841-64c29c720a65")
+   )
+   (line -0.635 0 0.635 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "5f065f53-575c-4734-9e32-f9fa896050a3")
+   )
+   (line 0 0.635 0 -0.635
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "d0cd7745-0345-4228-b975-c20f0e29ce07")
+   )
+   (line -5.048 3.429 -5.048 -3.302
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "79f1266d-e501-4b6c-9a3f-786d40f70cba")
+   )
+   (line -5.048 -3.302 5.048 -3.302
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "86caff27-48fa-4b30-bc25-56bbb7c0690e")
+   )
+   (line 5.048 3.429 5.048 -3.302
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "831a289d-e6d6-462f-a5cc-30a477455574")
+   )
+   (line -5.048 3.429 5.048 3.429
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "532e79c3-e7a2-4006-873b-e0b87edac0e7")
+   )
+  )
+  (pads
+   (pad "4" (at 0.499999 2.032) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.55 0.599999) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "be7f1a17-4f2d-480c-83bf-6884be00bde7"))
+   (pad "M" (at -3.8 -1.843) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.8 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "9416f6c2-b096-4aac-83ce-601a6b992861"))
+   (pad "1" (at -2.5 2.032) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.55 0.599999) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "01858f46-004d-4e40-997c-1df4da7ae884"))
+   (pad "2" (at -1.5 2.032) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.55 0.599999) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "aa4a348b-6bd7-432c-adea-35e46355f5e8"))
+   (pad "M" (at 3.8 -1.843) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.8 1.2) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "0f02630a-ee22-4ca9-9100-9166a8525a44"))
+   (pad "3" (at -0.499999 2.032) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.55 0.599999) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "3d6622fd-869c-4e5f-85bf-9310a81699cb"))
+   (pad "5" (at 1.5 2.032) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.55 0.599999) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "894c23c6-4e98-458e-be7a-93dff481fd9f"))
+   (pad "6" (at 2.5 2.032) (type smd) (padmode 0) (angle 90) (layer "CU_FR") (size 1.55 0.599999) (shape rect) (offset 0 0) (drshape circle) (drsize 0 0) (padlayermode keep) (uuid "7433812b-033b-40b3-a9e2-9e08c0743a74"))
+  )
+  )
+)
+
+  )
+)

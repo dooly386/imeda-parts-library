@@ -1,0 +1,75 @@
+(imeda_footprint
+  (version 1)
+  (uniqid "Connector-FCI:FCI 06-381-2PIN")
+  (name "FCI 06-381-2PIN")
+  (type "tht")
+  (description "FCI Pluggable Terminal Block")
+  (keywords "")
+  (padmap_json "{\"1\":\"\",\"2\":\"\"}")
+  (body
+(imeda_fp (version 20240301) (generator "imeda")
+  (fplib "FCI 06-381-2PIN"
+    (side front)
+    (library "Connector-FCI")
+    (desc "FCI Pluggable Terminal Block")
+  (fields
+   (field "{Reference}" (value "{Reference}") (at 0 -6.315) (fieldid 0) (visible true) (keepupright true) (layer "SILK_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "ced6ab7a-0b0b-4e48-bf24-3f15efac8165")
+   )
+   (field "{Value}" (value "{Value}") (at 0 6.442) (fieldid 1) (visible true) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "b9fb3aac-63b4-4030-9f72-82f3c985f0a2")
+   )
+   (field "{Footprint}" (value "{Footprint}") (at 0 0) (fieldid 2) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "43de16f4-b092-4640-bc62-8a193c15cc46")
+   )
+   (field "{Datasheet}" (value "{Datasheet}") (at 0 0) (fieldid 3) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "f5febc1b-ac8a-4e95-8447-58caa5d28a6d")
+   )
+   (field "{Description}" (value "{Description}") (at 0 0) (fieldid 4) (visible false) (keepupright true) (layer "FAB_FR")
+    (font (name "Default") (size 1.27 1.27) (linespacing 1) (bold false) (italic false) (underline false) (justify 0 0) (mirror false) (thickness 0)) (uuid "d25f739c-4688-46fb-a0d2-fb234d6322ce")
+   )
+  )
+  (drawings
+   (line 4.318 4.699 4.318 -4.572
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "ea5ccad0-0a27-4c14-9b18-691f4a5e6141")
+   )
+   (line -4.318 4.699 4.318 4.699
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "4b2c0511-7ed7-4371-9ad8-4f2b96f35068")
+   )
+   (line -4.318 4.699 -4.318 -4.572
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "5d067f4c-b253-4a94-8e8a-b3e6ab884850")
+   )
+   (line -4.318 -4.572 4.318 -4.572
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "125361fc-8693-4820-aa05-8bf2258f9466")
+   )
+   (line -0.635 0 0.635 0
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "d81726c4-bcd4-4625-bf92-d21c9e14d73c")
+   )
+   (line 0 0.635 0 -0.635
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "3820b0a6-43c4-401f-9caf-de90f973f1eb")
+   )
+   (line 4.826 5.207 4.826 -5.08
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "a014d8c4-0f41-443b-b125-f1f2f6e8426c")
+   )
+   (line -4.826 5.207 4.826 5.207
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "29e00fdb-3450-4762-a321-e81de6dc79c8")
+   )
+   (line -4.826 -5.08 4.826 -5.08
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "260468dd-1cec-4caf-ade4-14baf5e28e0c")
+   )
+   (line -4.826 5.207 -4.826 -5.08
+    (stroke (width 0.2) (type "solid")) (layer "USER_13") (uuid "ffb23217-102b-411e-bdfb-881d189a2146")
+   )
+   (circle -1.905 3.302 -0.512161 3.302
+    (stroke (width 0.2) (type "solid")) (layer "SILK_FR") (uuid "cb02e876-8e30-4ae7-a0bc-87414f72f296")
+   )
+  )
+  (pads
+   (pad "1" (at -1.905 3.302) (type pth) (padmode 0) (layer "CU_FR") (size 2.25 2.25) (shape circle) (offset 0 0) (drshape circle) (drsize 1.4 1.4) (padlayermode keep) (uuid "a0e8e696-af48-442b-99d7-cc8a64bd4956"))
+   (pad "2" (at 1.905 3.302) (type pth) (padmode 0) (layer "CU_FR") (size 2.25 2.25) (shape circle) (offset 0 0) (drshape circle) (drsize 1.4 1.4) (padlayermode keep) (uuid "f3053824-4e2c-4aea-9106-ad306140f439"))
+  )
+  )
+)
+
+  )
+)

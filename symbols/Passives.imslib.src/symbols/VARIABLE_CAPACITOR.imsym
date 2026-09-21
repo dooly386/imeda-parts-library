@@ -1,0 +1,56 @@
+(imeda_symbol
+  (version 1)
+  (uniqid "Passives:VARIABLE CAPACITOR")
+  (name "VARIABLE CAPACITOR")
+  (type "normal")
+  (description "")
+  (footprint "")
+  (datasheet "")
+  (reference "C?")
+  (keywords "Passives")
+  (body
+(imeda_sym
+  (version 1)
+  (generator "imedanew")
+ (units iu)
+ (symbol (showpinnames true) (showpinnumbers true) (pinnameoffset 10160) (pindecoinside 0) (pindecooutside 0))
+ (symbol_type "normal")
+ (items
+  (pin (uuid "60f6840a-71d5-41e4-851c-63a535d840d3") (at -177800 25400) (dir 2) (length 76200) (name "GND") (number "1") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 0))
+
+  (pin (uuid "5fefc222-8683-4a05-8404-9b91a3f53cf1") (at -177800 -25400) (dir 2) (length 76200) (name "V_tune") (number "2") (elec 4) (shape 0) (visible true) (name_visible true) (number_visible true) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 1))
+
+  (pin (uuid "56fb50c5-765c-47ab-98a8-00c6f2925214") (at 0 -76200) (dir 1) (length 50800) (name "3") (number "3") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 2))
+
+  (pin (uuid "af83b58b-4354-4624-bca8-17c3af89cb1d") (at 0 76200) (dir 3) (length 50800) (name "4") (number "4") (elec 4) (shape 0) (visible true) (name_visible false) (number_visible false) (name_size 12700) (number_size 12700) (width 2540) (color "[LIB_PIN]") (name_color "[LIB_PIN_NAME]") (number_color "[LIB_PIN_NUMBER]") (layer 13) (zorder 3))
+
+  (shape (uuid "e49f8586-e65b-4822-ab17-7d1223d5399b") (type "rectangle") (start -101600 50800) (end 50800 -50800) (width 0) (style 0) (color "[PART_BODY_STROKE]") (fill "color") (fillcolor "[PART_BODY_FILL]") (layer 48) (zorder 4) (altid 1))
+
+  (shape (uuid "e2d25c81-7c1d-4b4e-87e0-04f408f4a45f") (type "segment") (start 0 25400) (end 0 6350) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 5) (altid 1))
+
+  (shape (uuid "5b156615-77de-4f3e-b1bb-08166d19b575") (type "segment") (start 0 -25400) (end 0 -6350) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 6) (altid 1))
+
+  (shape (uuid "9934addd-d3c1-4e37-84c1-0af3e6fa4691") (type "segment") (start -22860 -6350) (end 22860 -6350) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 7) (altid 1))
+
+  (shape (uuid "4d24acd4-97ca-4cbf-96f1-094f9a4d4266") (type "poly") (start -20320 20320) (end 12700 -20320) (closed "no")
+   (pts (xy -20320 20320) (xy 20320 -20320) (xy 12700 -20320)) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 8) (altid 1)
+  )
+
+  (shape (uuid "d789fa2b-d7c9-4968-93bc-af73cb098206") (type "segment") (start 20320 -20320) (end 20320 -12700) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 9) (altid 1))
+
+  (shape (uuid "f9453e21-05d9-4eb8-8276-4cc32633e9b2") (type "segment") (start -22860 6350) (end 22860 6350) (width 254) (style 0) (color "[PART_BODY_STROKE]") (fill "no_fill") (layer 48) (zorder 10) (altid 1))
+
+  (field (uuid "73cd640c-d458-4f60-a70e-3d9a0ecf853a") (value "C?") (at 50800 -50800) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[REFERENCE_FIELD]") (layer 48) (name "Reference") (fieldid 0) (visible true) (zorder 11) (altid 1))
+
+  (field (uuid "f8d85f5b-2bfa-4aa0-a3d1-9c6bc006571b") (value "VARIABLE CAPACITOR") (at 50800 -33020) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[VALUE_FIELD]") (layer 48) (name "Value") (fieldid 1) (visible true) (zorder 12) (altid 1))
+
+  (field (uuid "a9463b49-47a6-4589-9ca0-2ecc25f292a2") (value "") (at 50800 -15240) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[FOOTPRINT_FIELD]") (layer 48) (name "Footprint") (fieldid 2) (visible false) (zorder 13) (altid 1))
+
+  (field (uuid "72641bc5-1c6f-49ff-a15e-9bdfd041cc13") (value "") (at 50800 2540) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DATASHEET_FIELD]") (layer 48) (name "Datasheet") (fieldid 3) (visible false) (zorder 14) (altid 1))
+
+  (field (uuid "eb7cef12-3b38-4349-9d6e-24464db6509b") (value "") (at 50800 20320) (size 12700 12700) (halign -1) (valign -1) (angle 0) (bold false) (italic false) (underline false) (color "[DESCRIPTION_FIELD]") (layer 48) (name "Description") (fieldid 4) (visible false) (zorder 15) (altid 1))
+ )
+)
+
+  )
+)
